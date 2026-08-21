@@ -1,0 +1,12 @@
+{
+  "Name": "Chess",
+  "Groups": [
+    {
+      "Key": "games",
+      "Label": "對局狀態（games/<idx>.json）",
+      "MatchPrefixes": [ "games/" ],
+      "Message": "chore(chess): sync game state (auto)",
+      "DefaultOn": true
+    }
+  ]
+}
