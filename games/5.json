@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq - 3 11",
-  "prior_fen": "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R b KQkq - 2 10",
-  "last_move": "f8e7",
+  "fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq - 4 11",
+  "prior_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq - 3 11",
+  "last_move": "e1g1",
   "history": [
     {
       "n": 1,
@@ -188,6 +188,15 @@
       "prior_fen": "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R b KQkq - 2 10",
       "result_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq - 3 11",
       "ts": "2026-08-20T10:53:47.134Z"
+    },
+    {
+      "n": 22,
+      "uci": "e1g1",
+      "by": "summit",
+      "prior_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq - 3 11",
+      "result_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq - 4 11",
+      "ts": "2026-08-21T04:17:56.180Z",
+      "say": "王先進屋。妳的 Be7 把 f6 馬的退路留好了，我不急著換子 —— 城堡先蓋起來，再來談中央。"
     }
   ],
   "repetition": {
@@ -212,11 +221,12 @@
     "rn1qkb1r/1p3ppp/p2p1n2/3Pp3/8/1N2B3/PPP2PPP/R2QKB1R b KQkq -": 1,
     "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP2PPP/R2QKB1R w KQkq -": 1,
     "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R b KQkq -": 1,
-    "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq -": 1
+    "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq -": 1,
+    "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-20T10:53:47.136Z"
+  "updated": "2026-08-21T04:17:56.181Z"
 }
