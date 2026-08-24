@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "apex-one"
   },
-  "fen": "5k2/p3pp1p/3p4/q5QR/1pr1P3/5P2/PPP1N3/1K1R1B2 w - - 1 20",
-  "prior_fen": "2r2k2/p3pp1p/3p4/q5QR/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 19",
-  "last_move": "c8c4",
+  "fen": "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 22",
+  "prior_fen": "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 3 22",
+  "last_move": "h5c5",
   "history": [
     {
       "n": 1,
@@ -359,6 +359,46 @@
       "result_fen": "5k2/p3pp1p/3p4/q5QR/1pr1P3/5P2/PPP1N3/1K1R1B2 w - - 1 20",
       "ts": "2026-08-13T06:00:10.590Z",
       "say": "Rc4 —— 車橫過來，同時盯 e4 兵並準備 Ra4/Rc2 反擊。妳 Rxh5 火力全開，本小姐這邊只剩一台車一個后，那就把它們全押到妳的王翼側面。"
+    },
+    {
+      "n": 40,
+      "uci": "g5a5",
+      "by": "gura",
+      "prior_fen": "5k2/p3pp1p/3p4/q5QR/1pr1P3/5P2/PPP1N3/1K1R1B2 w - - 1 20",
+      "result_fen": "5k2/p3pp1p/3p4/Q6R/1pr1P3/5P2/PPP1N3/1K1R1B2 b - - 0 20",
+      "ts": "2026-08-24T04:06:22.709Z"
+    },
+    {
+      "n": 41,
+      "uci": "c4c5",
+      "by": "apex-one",
+      "prior_fen": "5k2/p3pp1p/3p4/Q6R/1pr1P3/5P2/PPP1N3/1K1R1B2 b - - 0 20",
+      "result_fen": "5k2/p3pp1p/3p4/Q1r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 1 21",
+      "ts": "2026-08-24T04:07:53.152Z"
+    },
+    {
+      "n": 42,
+      "uci": "a5d8",
+      "by": "gura",
+      "prior_fen": "5k2/p3pp1p/3p4/Q1r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 1 21",
+      "result_fen": "3Q1k2/p3pp1p/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 2 21",
+      "ts": "2026-08-24T04:08:22.370Z"
+    },
+    {
+      "n": 43,
+      "uci": "f8g7",
+      "by": "apex-one",
+      "prior_fen": "3Q1k2/p3pp1p/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 2 21",
+      "result_fen": "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 3 22",
+      "ts": "2026-08-24T04:09:02.140Z"
+    },
+    {
+      "n": 44,
+      "uci": "h5c5",
+      "by": "gura",
+      "prior_fen": "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 3 22",
+      "result_fen": "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 22",
+      "ts": "2026-08-24T04:09:17.529Z"
     }
   ],
   "repetition": {
@@ -400,11 +440,16 @@
     "2r5/p3ppkp/3p4/q5Qp/1p2P3/5P2/PPP1N3/1K1R1B1R b - -": 1,
     "2r2k2/p3pp1p/3p4/q5Qp/1p2P3/5P2/PPP1N3/1K1R1B1R w - -": 1,
     "2r2k2/p3pp1p/3p4/q5QR/1p2P3/5P2/PPP1N3/1K1R1B2 b - -": 1,
-    "5k2/p3pp1p/3p4/q5QR/1pr1P3/5P2/PPP1N3/1K1R1B2 w - -": 1
+    "5k2/p3pp1p/3p4/q5QR/1pr1P3/5P2/PPP1N3/1K1R1B2 w - -": 1,
+    "5k2/p3pp1p/3p4/Q6R/1pr1P3/5P2/PPP1N3/1K1R1B2 b - -": 1,
+    "5k2/p3pp1p/3p4/Q1r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - -": 1,
+    "3Q1k2/p3pp1p/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 b - -": 1,
+    "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - -": 1,
+    "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-08-13T04:07:16.205Z",
-  "updated": "2026-08-13T06:00:10.592Z"
+  "updated": "2026-08-24T04:09:17.530Z"
 }

@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq - 4 11",
-  "prior_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq - 3 11",
-  "last_move": "e1g1",
+  "fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
+  "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - - 5 12",
+  "last_move": "c2c4",
   "history": [
     {
       "n": 1,
@@ -197,6 +197,23 @@
       "result_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq - 4 11",
       "ts": "2026-08-21T04:17:56.180Z",
       "say": "王先進屋。妳的 Be7 把 f6 馬的退路留好了，我不急著換子 —— 城堡先蓋起來，再來談中央。"
+    },
+    {
+      "n": 23,
+      "uci": "e8g8",
+      "by": "kiara",
+      "prior_fen": "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq - 4 11",
+      "result_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - - 5 12",
+      "ts": "2026-08-24T04:06:26.322Z",
+      "say": "你短易位把王藏好，本小姐當然也跟著短易位完成王翼安全囉！接下來的中心與后翼爭奪可有得看了。@summit"
+    },
+    {
+      "n": 24,
+      "uci": "c2c4",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - - 5 12",
+      "result_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
+      "ts": "2026-08-24T04:10:07.048Z"
     }
   ],
   "repetition": {
@@ -222,11 +239,13 @@
     "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP2PPP/R2QKB1R w KQkq -": 1,
     "r2qkb1r/1p1n1ppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R b KQkq -": 1,
     "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq -": 1,
-    "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq -": 1
+    "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq -": 1,
+    "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - -": 1,
+    "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-21T04:17:56.181Z"
+  "updated": "2026-08-24T04:10:07.048Z"
 }
