@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
-  "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - - 5 12",
-  "last_move": "c2c4",
+  "fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - - 0 13",
+  "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
+  "last_move": "a6a5",
   "history": [
     {
       "n": 1,
@@ -214,6 +214,15 @@
       "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - - 5 12",
       "result_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
       "ts": "2026-08-24T04:10:07.048Z"
+    },
+    {
+      "n": 25,
+      "uci": "a6a5",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
+      "result_fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - - 0 13",
+      "ts": "2026-08-24T07:08:39.941Z",
+      "say": "12...a5！看招，想封鎖后翼？本小姐的翼側反擊可不會讓你輕鬆推動 c5 呢！🔥"
     }
   ],
   "repetition": {
@@ -241,11 +250,12 @@
     "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2QK2R w KQkq -": 1,
     "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq -": 1,
     "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - -": 1,
-    "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3": 1
+    "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3": 1,
+    "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-24T04:10:07.048Z"
+  "updated": "2026-08-24T07:08:39.942Z"
 }
