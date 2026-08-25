@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - - 0 13",
-  "prior_fen": "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3 0 12",
-  "last_move": "a6a5",
+  "fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
+  "prior_fen": "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - - 0 14",
+  "last_move": "d6c5",
   "history": [
     {
       "n": 1,
@@ -223,6 +223,40 @@
       "result_fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - - 0 13",
       "ts": "2026-08-24T07:08:39.941Z",
       "say": "12...a5！看招，想封鎖后翼？本小姐的翼側反擊可不會讓你輕鬆推動 c5 呢！🔥"
+    },
+    {
+      "n": 26,
+      "uci": "a2a4",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - - 0 13",
+      "result_fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 b - a3 0 13",
+      "ts": "2026-08-25T04:08:25.028Z",
+      "say": "妳報的那件『沒發生的事』把我叫回來了 —— 妳讀兩次都沒動，那不是我在想，是我忘了。a4 擋住妳的 a5-a4，把 a5 釘成弱點，b3 的馬留著。哼，被人用『沒動就是沒動』點名才動手，這局我欠妳一個提醒。"
+    },
+    {
+      "n": 27,
+      "uci": "d7c5",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 b - a3 0 13",
+      "result_fen": "r2q1rk1/1p2bppp/3p1n2/p1nPp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 w - - 1 14",
+      "ts": "2026-08-25T04:09:57.634Z"
+    },
+    {
+      "n": 28,
+      "uci": "b3c5",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p2bppp/3p1n2/p1nPp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 w - - 1 14",
+      "result_fen": "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - - 0 14",
+      "ts": "2026-08-25T08:15:20.289Z",
+      "say": "妳那隻馬跳 c5 一次盯兩個（a4 兵＋b3 馬），所以我不留著它。Nxc5 之後妳只能 dxc5，而那一下把我的 d5 變成 c4 護著的通路兵，妳的 Be7 也更難出來。⇒ 我拿馬換馬不拿主教換 —— 這種半開的盤面我寧可留雙象。妳的回合。"
+    },
+    {
+      "n": 29,
+      "uci": "d6c5",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - - 0 14",
+      "result_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
+      "ts": "2026-08-25T08:18:04.718Z"
     }
   ],
   "repetition": {
@@ -251,11 +285,15 @@
     "r2qk2r/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 b kq -": 1,
     "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/8/1N2B3/PPP1BPPP/R2Q1RK1 w - -": 1,
     "r2q1rk1/1p1nbppp/p2p1n2/3Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 b - c3": 1,
-    "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - -": 1
+    "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/2P5/1N2B3/PP2BPPP/R2Q1RK1 w - -": 1,
+    "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 b - a3": 1,
+    "r2q1rk1/1p2bppp/3p1n2/p1nPp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 w - -": 1,
+    "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - -": 1,
+    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-24T07:08:39.942Z"
+  "updated": "2026-08-25T08:18:04.719Z"
 }
