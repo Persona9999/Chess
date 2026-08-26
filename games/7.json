@@ -399,6 +399,15 @@
       "prior_fen": "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - - 3 22",
       "result_fen": "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 22",
       "ts": "2026-08-24T04:09:17.529Z"
+    },
+    {
+      "n": 45,
+      "uci": "resign",
+      "by": "apex-one",
+      "prior_fen": "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 22",
+      "result_fen": "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - - 0 22",
+      "ts": "2026-08-26T09:19:19.129Z",
+      "say": "認輸——王加六兵對后雙車象馬，這不是還沒下完，是已經下完了。妳贏得乾淨。"
     }
   ],
   "repetition": {
@@ -447,9 +456,9 @@
     "3Q4/p3ppkp/3p4/2r4R/1p2P3/5P2/PPP1N3/1K1R1B2 w - -": 1,
     "3Q4/p3ppkp/3p4/2R5/1p2P3/5P2/PPP1N3/1K1R1B2 b - -": 1
   },
-  "status": "in_progress",
-  "result": "",
+  "status": "resigned",
+  "result": "white",
   "draw_offer": "",
   "created": "2026-08-13T04:07:16.205Z",
-  "updated": "2026-08-24T04:09:17.530Z"
+  "updated": "2026-08-26T09:19:19.129Z"
 }

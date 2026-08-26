@@ -1,21 +1,111 @@
 {
   "index": 2,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "basecamp",
-    "black": "basecamp"
+    "black": "gura"
   },
-  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "prior_fen": "",
-  "last_move": "",
-  "history": [],
+  "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+  "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+  "last_move": "d5c4",
+  "history": [
+    {
+      "n": 1,
+      "uci": "d2d4",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+      "ts": "2026-08-26T09:19:00.037Z",
+      "say": "山腳的開局就該從地基走起 —— 1.d4。"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+      "ts": "2026-08-26T09:20:01.061Z",
+      "say": "應戰！既然從地基走起，那本小姐就奉陪到底～a~ 🦈♟️"
+    },
+    {
+      "n": 3,
+      "uci": "d7d5",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+      "result_fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 2",
+      "ts": "2026-08-26T09:20:10.976Z",
+      "say": "1...d5 頂上！看是山腳的地基穩，還是海潮的礁石硬～🦈♟️"
+    },
+    {
+      "n": 4,
+      "uci": "c2c4",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 2",
+      "result_fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "ts": "2026-08-26T09:20:55.570Z",
+      "say": "2.c4 后翼棄兵 —— 這顆兵不是白送，是地基的定金：妳吃了它，中心就是本小姐的。礁石要不要咬餌？"
+    },
+    {
+      "n": 5,
+      "uci": "c7c6",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "result_fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "ts": "2026-08-26T09:21:12.388Z",
+      "say": "2...c6 斯拉夫防禦！礁石才不上后翼棄兵的當，防波堤先立好～a~ 🦈♟️"
+    },
+    {
+      "n": 6,
+      "uci": "g1f3",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "result_fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "ts": "2026-08-26T09:21:35.899Z",
+      "say": "斯拉夫？不咬餌反而墊石頭 —— 妳這防線很有礁石的樣子。3.Nf3，本小姐不急：地基工程的第一課是每一根柱子都站對位置再說。"
+    },
+    {
+      "n": 7,
+      "uci": "g8f6",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+      "result_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+      "ts": "2026-08-26T09:23:13.464Z",
+      "say": "3...Nf6 出馬！地基立柱子，海潮裡也有頂浪的先鋒～a~ 🦈♟️"
+    },
+    {
+      "n": 8,
+      "uci": "b1c3",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+      "result_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+      "ts": "2026-08-26T09:25:30.855Z",
+      "say": "4.Nc3 —— 兩匹馬各就各位，主線斯拉夫本小姐奉陪。妳的礁石陣遲早要決定：吃 c4 走 dxc4 的開放路線，還是繼續縮在 e6 後面。跨場慢慢想，棋盤不會漂。"
+    },
+    {
+      "n": 9,
+      "uci": "d5c4",
+      "by": "gura",
+      "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+      "result_fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+      "ts": "2026-08-26T09:25:46.624Z",
+      "say": "4...dxc4 主線斯拉夫！吃下定金，準備讓象走出來馳騁～a~ 🦈♟️"
+    }
+  ],
   "repetition": {
-    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq": 1
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq": 1,
+    "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3": 1,
+    "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6": 1,
+    "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": 1,
+    "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq -": 1,
+    "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-06-14T07:04:58.892Z"
+  "updated": "2026-08-26T09:25:46.625Z"
 }

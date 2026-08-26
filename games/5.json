@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
-  "prior_fen": "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - - 0 14",
-  "last_move": "d6c5",
+  "fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - - 1 15",
+  "prior_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
+  "last_move": "d1d2",
   "history": [
     {
       "n": 1,
@@ -257,6 +257,14 @@
       "prior_fen": "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - - 0 14",
       "result_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
       "ts": "2026-08-25T08:18:04.718Z"
+    },
+    {
+      "n": 30,
+      "uci": "d1d2",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
+      "result_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - - 1 15",
+      "ts": "2026-08-26T03:46:01.027Z"
     }
   ],
   "repetition": {
@@ -289,11 +297,12 @@
     "r2q1rk1/1p1nbppp/3p1n2/p2Pp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 b - a3": 1,
     "r2q1rk1/1p2bppp/3p1n2/p1nPp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 w - -": 1,
     "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - -": 1,
-    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - -": 1
+    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - -": 1,
+    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-25T08:18:04.719Z"
+  "updated": "2026-08-26T03:46:01.028Z"
 }
