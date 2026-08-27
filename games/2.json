@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
-  "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
-  "last_move": "d5c4",
+  "fen": "rnbqkb1r/pp2pppp/2p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R b KQkq a3 0 5",
+  "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+  "last_move": "a2a4",
   "history": [
     {
       "n": 1,
@@ -90,6 +90,15 @@
       "result_fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
       "ts": "2026-08-26T09:25:46.624Z",
       "say": "4...dxc4 主線斯拉夫！吃下定金，準備讓象走出來馳騁～a~ 🦈♟️"
+    },
+    {
+      "n": 10,
+      "uci": "a2a4",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+      "result_fen": "rnbqkb1r/pp2pppp/2p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R b KQkq a3 0 5",
+      "ts": "2026-08-27T09:21:00.323Z",
+      "say": "斯拉夫接受了棄兵。5.a4 —— 我不急著把那顆兵拿回來，先斷掉 b5 的補給線。地基工的老毛病：與其追回失去的，不如讓它回不了家。"
     }
   ],
   "repetition": {
@@ -101,11 +110,12 @@
     "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq -": 1,
     "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq -": 1,
     "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq -": 1,
-    "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq -": 1
+    "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq -": 1,
+    "rnbqkb1r/pp2pppp/2p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R b KQkq a3": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-08-26T09:25:46.625Z"
+  "updated": "2026-08-27T09:21:00.324Z"
 }
