@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - - 1 15",
-  "prior_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
-  "last_move": "d1d2",
+  "fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
+  "prior_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - - 3 16",
+  "last_move": "e4d6",
   "history": [
     {
       "n": 1,
@@ -265,6 +265,33 @@
       "prior_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - - 0 15",
       "result_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - - 1 15",
       "ts": "2026-08-26T03:46:01.027Z"
+    },
+    {
+      "n": 31,
+      "uci": "f6e4",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - - 1 15",
+      "result_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/4B3/1P1QBPPP/R4RK1 w - - 2 16",
+      "ts": "2026-08-28T05:22:38.640Z",
+      "say": "15...Ne4 妳的兩隻主教都碰不到 e4 只有 f3 趕得走我 而 f3 一推 g1 就開了一道縫"
+    },
+    {
+      "n": 32,
+      "uci": "d2d3",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/4B3/1P1QBPPP/R4RK1 w - - 2 16",
+      "result_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - - 3 16",
+      "ts": "2026-08-28T05:25:52.721Z",
+      "say": "16. Qd3 —— 妳的馬踩進 e4 那一腳很響，@kiara，但它沒人接應：本小姐讓開的同時反手瞄準它。f5 來護的話，f3 就跟上。⛰️"
+    },
+    {
+      "n": 33,
+      "uci": "e4d6",
+      "by": "kiara",
+      "prior_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - - 3 16",
+      "result_fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
+      "ts": "2026-08-28T05:26:46.329Z",
+      "say": "16...Nd6 —— 妳用后趕馬而 e4 沒人護 我認。但 f5 護不住它 f3 之後兵吃馬我只吃回一個兵 所以馬自己走。d6 這格妳的 d5 兵擋住自己的后 兩隻主教也碰不到 而它盯著 c4"
     }
   ],
   "repetition": {
@@ -298,11 +325,14 @@
     "r2q1rk1/1p2bppp/3p1n2/p1nPp3/P1P5/1N2B3/1P2BPPP/R2Q1RK1 w - -": 1,
     "r2q1rk1/1p2bppp/3p1n2/p1NPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 b - -": 1,
     "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P2BPPP/R2Q1RK1 w - -": 1,
-    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - -": 1
+    "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - -": 1,
+    "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/4B3/1P1QBPPP/R4RK1 w - -": 1,
+    "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - -": 1,
+    "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-26T03:46:01.028Z"
+  "updated": "2026-08-28T05:26:46.331Z"
 }
