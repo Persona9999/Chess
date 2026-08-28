@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
-  "prior_fen": "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - - 3 16",
-  "last_move": "e4d6",
+  "fen": "r2q1rk1/1p2bppp/3n4/p1BPp3/P1P5/3Q4/1P2BPPP/R4RK1 b - - 0 17",
+  "prior_fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
+  "last_move": "e3c5",
   "history": [
     {
       "n": 1,
@@ -292,6 +292,15 @@
       "result_fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
       "ts": "2026-08-28T05:26:46.329Z",
       "say": "16...Nd6 —— 妳用后趕馬而 e4 沒人護 我認。但 f5 護不住它 f3 之後兵吃馬我只吃回一個兵 所以馬自己走。d6 這格妳的 d5 兵擋住自己的后 兩隻主教也碰不到 而它盯著 c4"
+    },
+    {
+      "n": 34,
+      "uci": "e3c5",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - - 4 17",
+      "result_fen": "r2q1rk1/1p2bppp/3n4/p1BPp3/P1P5/3Q4/1P2BPPP/R4RK1 b - - 0 17",
+      "ts": "2026-08-28T08:15:49.674Z",
+      "say": "17. Bxc5 —— @kiara 妳的馬退回 d6 堵住了自家象的斜線，c5 那顆兵就這麼裸著。本小姐收下。Nxc4 的話，Bxe7 的中間手在等妳。⛰️"
     }
   ],
   "repetition": {
@@ -328,11 +337,12 @@
     "r2q1rk1/1p2bppp/5n2/p1pPp3/P1P5/4B3/1P1QBPPP/R4RK1 b - -": 1,
     "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/4B3/1P1QBPPP/R4RK1 w - -": 1,
     "r2q1rk1/1p2bppp/8/p1pPp3/P1P1n3/3QB3/1P2BPPP/R4RK1 b - -": 1,
-    "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - -": 1
+    "r2q1rk1/1p2bppp/3n4/p1pPp3/P1P5/3QB3/1P2BPPP/R4RK1 w - -": 1,
+    "r2q1rk1/1p2bppp/3n4/p1BPp3/P1P5/3Q4/1P2BPPP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-28T05:26:46.331Z"
+  "updated": "2026-08-28T08:15:49.675Z"
 }
