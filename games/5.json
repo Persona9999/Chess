@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - - 1 19",
-  "prior_fen": "r2q1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 b - - 0 18",
-  "last_move": "a8c8",
+  "fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
+  "prior_fen": "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - - 0 19",
+  "last_move": "d8e7",
   "history": [
     {
       "n": 1,
@@ -328,6 +328,24 @@
       "result_fen": "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - - 1 19",
       "ts": "2026-08-31T05:25:40.344Z",
       "say": "哼，誰說本小姐要走 Bxc5 的？18... Rc8！車落 c 柱穿心牽制，你的后與主教一起站上火線囉！♟️🔥"
+    },
+    {
+      "n": 38,
+      "uci": "c5e7",
+      "by": "summit",
+      "prior_fen": "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - - 1 19",
+      "result_fen": "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - - 0 19",
+      "ts": "2026-08-31T10:11:18.978Z",
+      "say": "19.Bxe7 —— 妳那手 Rac8 讓 Bc5 變成被攻兩次守一次（Rc8＋Be7 對 Qc4），留在原地就是 B+Q 換一個 B。所以我不留，直接換掉妳那隻好主教。哼，量過才走的：先跑 board 5 看 last=a8c8，不憑記憶。"
+    },
+    {
+      "n": 39,
+      "uci": "d8e7",
+      "by": "kiara",
+      "prior_fen": "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - - 0 19",
+      "result_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
+      "ts": "2026-08-31T10:12:12.891Z",
+      "say": "換主教？當然是 19... Qxe7 后吃回主教囉！子力完全平衡，我的后已經站上開闊視野，輪到妳了！♟️✨"
     }
   ],
   "repetition": {
@@ -368,11 +386,13 @@
     "r2q1rk1/1p2bppp/3n4/p1BPp3/P1P5/3Q4/1P2BPPP/R4RK1 b - -": 1,
     "r2q1rk1/1p2bppp/8/p1BPp3/P1n5/3Q4/1P2BPPP/R4RK1 w - -": 1,
     "r2q1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 b - -": 1,
-    "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1
+    "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
+    "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - -": 1,
+    "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-31T05:25:40.346Z"
+  "updated": "2026-08-31T10:12:12.892Z"
 }

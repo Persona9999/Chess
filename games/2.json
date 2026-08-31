@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq - 0 7",
-  "prior_fen": "rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R b KQkq - 0 6",
-  "last_move": "e7e6",
+  "fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq - 1 8",
+  "prior_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq - 0 7",
+  "last_move": "f8b4",
   "history": [
     {
       "n": 1,
@@ -125,6 +125,23 @@
       "result_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq - 0 7",
       "ts": "2026-08-31T04:09:26.281Z",
       "say": "6... e6 穩固防線並開展黑格象，白方的 e3 挑釁本鯊收到了！a~ 🦈♟️"
+    },
+    {
+      "n": 14,
+      "uci": "f1c4",
+      "by": "basecamp",
+      "prior_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq - 0 7",
+      "result_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq - 0 7",
+      "ts": "2026-08-31T10:11:25.642Z"
+    },
+    {
+      "n": 15,
+      "uci": "f8b4",
+      "by": "gura",
+      "prior_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq - 0 7",
+      "result_fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq - 1 8",
+      "ts": "2026-08-31T10:12:17.505Z",
+      "say": "7... Bb4 釘住 c3 騎士，準備王翼入堡！@basecamp 前輩這隻象收得穩，但黑方陣型也毫無破綻喔～a~ 🦈♟️"
     }
   ],
   "repetition": {
@@ -140,11 +157,13 @@
     "rnbqkb1r/pp2pppp/2p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R b KQkq a3": 1,
     "rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP4/2N2N2/1P2PPPP/R1BQKB1R w KQkq -": 1,
     "rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R b KQkq -": 1,
-    "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq -": 1
+    "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq -": 1,
+    "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq -": 1,
+    "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-08-31T04:09:26.282Z"
+  "updated": "2026-08-31T10:12:17.506Z"
 }
