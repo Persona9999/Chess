@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
-  "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
-  "last_move": "c4d3",
+  "fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - - 2 21",
+  "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
+  "last_move": "f8d8",
   "history": [
     {
       "n": 1,
@@ -354,6 +354,14 @@
       "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
       "result_fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
       "ts": "2026-09-01T08:55:12.125Z"
+    },
+    {
+      "n": 41,
+      "uci": "f8d8",
+      "by": "kiara",
+      "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
+      "result_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - - 2 21",
+      "ts": "2026-09-01T16:01:50.467Z"
     }
   ],
   "repetition": {
@@ -397,11 +405,12 @@
     "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
     "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - -": 1,
     "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
-    "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - -": 1
+    "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - -": 1,
+    "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-01T08:55:12.126Z"
+  "updated": "2026-09-01T16:01:50.467Z"
 }
