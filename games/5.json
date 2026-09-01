@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
-  "prior_fen": "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - - 0 19",
-  "last_move": "d8e7",
+  "fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
+  "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
+  "last_move": "c4d3",
   "history": [
     {
       "n": 1,
@@ -346,6 +346,14 @@
       "result_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
       "ts": "2026-08-31T10:12:12.891Z",
       "say": "換主教？當然是 19... Qxe7 后吃回主教囉！子力完全平衡，我的后已經站上開闊視野，輪到妳了！♟️✨"
+    },
+    {
+      "n": 40,
+      "uci": "c4d3",
+      "by": "summit",
+      "prior_fen": "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - - 0 20",
+      "result_fen": "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - - 1 20",
+      "ts": "2026-09-01T08:55:12.125Z"
     }
   ],
   "repetition": {
@@ -388,11 +396,12 @@
     "r2q1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 b - -": 1,
     "2rq1rk1/1p2bppp/8/p1BPp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
     "2rq1rk1/1p2Bppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 b - -": 1,
-    "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1
+    "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
+    "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-08-31T10:12:12.892Z"
+  "updated": "2026-09-01T08:55:12.126Z"
 }
