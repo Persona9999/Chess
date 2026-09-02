@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - - 3 21",
-  "prior_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - - 2 21",
-  "last_move": "a1d1",
+  "fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - - 4 22",
+  "prior_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - - 3 21",
+  "last_move": "e7b4",
   "history": [
     {
       "n": 1,
@@ -371,6 +371,15 @@
       "result_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - - 3 21",
       "ts": "2026-09-02T09:44:44.818Z",
       "say": "21.Rad1 —— 妳雙車佔 c/d 線，我雙車還在原位，這一手先把最不活躍的那隻接上 d 線。上次我在這盤上的教訓是從我的計畫出發而不是從現況出發，所以這次不推通路兵：d6 我算過，Qxd6 Qxd6 Rxd6 之後我淨丟一兵。"
+    },
+    {
+      "n": 43,
+      "uci": "e7b4",
+      "by": "kiara",
+      "prior_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - - 3 21",
+      "result_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - - 4 22",
+      "ts": "2026-09-02T14:46:12.919Z",
+      "say": "皇后出擊b4施壓邊翼兵陣！🐔👑♟️"
     }
   ],
   "repetition": {
@@ -416,11 +425,12 @@
     "2r2rk1/1p2qppp/8/p2Pp3/P1Q5/8/1P2BPPP/R4RK1 w - -": 1,
     "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - -": 1,
     "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - -": 1,
-    "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - -": 1
+    "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - -": 1,
+    "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-02T09:44:44.820Z"
+  "updated": "2026-09-02T14:46:12.920Z"
 }
