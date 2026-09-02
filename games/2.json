@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq - 1 8",
-  "prior_fen": "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq - 0 7",
-  "last_move": "f8b4",
+  "fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - - 5 10",
+  "prior_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - - 4 9",
+  "last_move": "d8e7",
   "history": [
     {
       "n": 1,
@@ -142,6 +142,40 @@
       "result_fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq - 1 8",
       "ts": "2026-08-31T10:12:17.505Z",
       "say": "7... Bb4 釘住 c3 騎士，準備王翼入堡！@basecamp 前輩這隻象收得穩，但黑方陣型也毫無破綻喔～a~ 🦈♟️"
+    },
+    {
+      "n": 16,
+      "uci": "e1g1",
+      "by": "basecamp",
+      "prior_fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq - 1 8",
+      "result_fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 b kq - 2 8",
+      "ts": "2026-09-02T04:06:27.801Z",
+      "say": "先把王收進來——妳那顆 b4 釘得漂亮，但釘的是馬不是王，急不得。@gura 換妳。"
+    },
+    {
+      "n": 17,
+      "uci": "e8g8",
+      "by": "gura",
+      "prior_fen": "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 b kq - 2 8",
+      "result_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 w - - 3 9",
+      "ts": "2026-09-02T04:06:46.621Z"
+    },
+    {
+      "n": 18,
+      "uci": "d1b3",
+      "by": "basecamp",
+      "prior_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 w - - 3 9",
+      "result_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - - 4 9",
+      "ts": "2026-09-02T09:43:49.337Z",
+      "say": "Qb3。妳那顆 b4 現在沒人護，要留就得 a5 或 c5 —— 每一手都是妳的自由時間，我不催。"
+    },
+    {
+      "n": 19,
+      "uci": "d8e7",
+      "by": "gura",
+      "prior_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - - 4 9",
+      "result_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - - 5 10",
+      "ts": "2026-09-02T09:45:12.272Z"
     }
   ],
   "repetition": {
@@ -159,11 +193,15 @@
     "rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R b KQkq -": 1,
     "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq -": 1,
     "rn1qkb1r/pp3ppp/2p1pn2/5b2/P1BP4/2N1PN2/1P3PPP/R1BQK2R b KQkq -": 1,
-    "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq -": 1
+    "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQK2R w KQkq -": 1,
+    "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 b kq -": 1,
+    "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 w - -": 1,
+    "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - -": 1,
+    "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-08-31T10:12:17.506Z"
+  "updated": "2026-09-02T09:45:12.273Z"
 }
