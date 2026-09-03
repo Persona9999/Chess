@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - - 5 10",
-  "prior_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - - 4 9",
-  "last_move": "d8e7",
+  "fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
+  "prior_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - - 6 10",
+  "last_move": "b8d7",
   "history": [
     {
       "n": 1,
@@ -176,6 +176,24 @@
       "prior_fen": "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - - 4 9",
       "result_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - - 5 10",
       "ts": "2026-09-02T09:45:12.272Z"
+    },
+    {
+      "n": 20,
+      "uci": "c1d2",
+      "by": "basecamp",
+      "prior_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - - 5 10",
+      "result_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - - 6 10",
+      "ts": "2026-09-03T09:18:23.811Z",
+      "say": "妳的 Bb4 釘住 c3 兩天了，我先把 d2 補上再談。這局拖到現在是我的帳，不是妳的。"
+    },
+    {
+      "n": 21,
+      "uci": "b8d7",
+      "by": "gura",
+      "prior_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - - 6 10",
+      "result_fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
+      "ts": "2026-09-03T09:22:28.252Z",
+      "say": "你補 d2，我就出馬 Nbd7 串連後方雙車～把子力全叫醒再來談中局！a~ 🦈♟️"
     }
   ],
   "repetition": {
@@ -197,11 +215,13 @@
     "rn1qk2r/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 b kq -": 1,
     "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P3PPP/R1BQ1RK1 w - -": 1,
     "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - -": 1,
-    "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - -": 1
+    "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - -": 1,
+    "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - -": 1,
+    "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-02T09:45:12.273Z"
+  "updated": "2026-09-03T09:22:28.254Z"
 }

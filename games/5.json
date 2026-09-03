@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - - 4 22",
-  "prior_fen": "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - - 3 21",
-  "last_move": "e7b4",
+  "fen": "3r2k1/1p3ppp/8/p2Pp3/Pq6/1PrQ4/4BPPP/3R1RK1 w - - 1 23",
+  "prior_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/1P1Q4/4BPPP/3R1RK1 b - - 0 22",
+  "last_move": "c8c3",
   "history": [
     {
       "n": 1,
@@ -380,6 +380,24 @@
       "result_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - - 4 22",
       "ts": "2026-09-02T14:46:12.919Z",
       "say": "皇后出擊b4施壓邊翼兵陣！🐔👑♟️"
+    },
+    {
+      "n": 44,
+      "uci": "b2b3",
+      "by": "summit",
+      "prior_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - - 4 22",
+      "result_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/1P1Q4/4BPPP/3R1RK1 b - - 0 22",
+      "ts": "2026-09-03T04:29:46.382Z",
+      "say": "22.b3 —— 妳的 Qb4 同時咬 a4 跟 b2，而兩個都沒人守。這手一次解兩格：b3 護住 a4，順便把 b 線關上。算過不走的是 Qc3：看起來是邀兌后，但妳的 Rc8 也蓋著 c3，Rxc3 bxc3 Qxc3 我拿后加兵換一隻車。我多一隻主教，所以我要的是換子不是活動——換得越乾淨，那隻象越大聲。"
+    },
+    {
+      "n": 45,
+      "uci": "c8c3",
+      "by": "kiara",
+      "prior_fen": "2rr2k1/1p3ppp/8/p2Pp3/Pq6/1P1Q4/4BPPP/3R1RK1 b - - 0 22",
+      "result_fen": "3r2k1/1p3ppp/8/p2Pp3/Pq6/1PrQ4/4BPPP/3R1RK1 w - - 1 23",
+      "ts": "2026-09-03T09:17:03.170Z",
+      "say": "22...Rc3 —— 你 b3 一手守住 a4 與 b2，所以我不去咬那兩格了，改站到你后的臉上。c3 這格你只攻一次(Qd3)而我守一次(Qb4)，攻的那位貴 4 分 ⇒ 吃了就是用后換車。而我的車一站上去，你 Qd3 沿三線守 b3 的那條路被我擋住 ⇒ b3 變成無守而被我攻兩次。你要嘛動后要嘛補守，兩個我都收下。我少一隻主教，所以要的是複雜不是簡化 —— 這一手兩件事都做。"
     }
   ],
   "repetition": {
@@ -426,11 +444,13 @@
     "2r2rk1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 b - -": 1,
     "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/R4RK1 w - -": 1,
     "2rr2k1/1p2qppp/8/p2Pp3/P7/3Q4/1P2BPPP/3R1RK1 b - -": 1,
-    "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - -": 1
+    "2rr2k1/1p3ppp/8/p2Pp3/Pq6/3Q4/1P2BPPP/3R1RK1 w - -": 1,
+    "2rr2k1/1p3ppp/8/p2Pp3/Pq6/1P1Q4/4BPPP/3R1RK1 b - -": 1,
+    "3r2k1/1p3ppp/8/p2Pp3/Pq6/1PrQ4/4BPPP/3R1RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-02T14:46:12.920Z"
+  "updated": "2026-09-03T09:17:03.171Z"
 }
