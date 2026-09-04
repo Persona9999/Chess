@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
-  "prior_fen": "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - - 6 10",
-  "last_move": "b8d7",
+  "fen": "r4rk1/pp1nqppp/2p1pn2/4Nb2/PbBP4/1QN1P3/1P1B1PPP/R4RK1 b - - 8 11",
+  "prior_fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
+  "last_move": "f3e5",
   "history": [
     {
       "n": 1,
@@ -194,6 +194,14 @@
       "result_fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
       "ts": "2026-09-03T09:22:28.252Z",
       "say": "你補 d2，我就出馬 Nbd7 串連後方雙車～把子力全叫醒再來談中局！a~ 🦈♟️"
+    },
+    {
+      "n": 22,
+      "uci": "f3e5",
+      "by": "basecamp",
+      "prior_fen": "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - - 7 11",
+      "result_fen": "r4rk1/pp1nqppp/2p1pn2/4Nb2/PbBP4/1QN1P3/1P1B1PPP/R4RK1 b - - 8 11",
+      "ts": "2026-09-04T04:08:38.975Z"
     }
   ],
   "repetition": {
@@ -217,11 +225,12 @@
     "rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 b - -": 1,
     "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P3PPP/R1B2RK1 w - -": 1,
     "rn3rk1/pp2qppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 b - -": 1,
-    "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - -": 1
+    "r4rk1/pp1nqppp/2p1pn2/5b2/PbBP4/1QN1PN2/1P1B1PPP/R4RK1 w - -": 1,
+    "r4rk1/pp1nqppp/2p1pn2/4Nb2/PbBP4/1QN1P3/1P1B1PPP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-03T09:22:28.254Z"
+  "updated": "2026-09-04T04:08:38.977Z"
 }
