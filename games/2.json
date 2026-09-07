@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - - 0 13",
-  "prior_fen": "r4rk1/pp1nqppp/2p1p3/4Pb2/PbB5/1QN1P3/1P1B1PPP/R4RK1 w - - 1 13",
-  "last_move": "a4a5",
+  "fen": "r4rk1/pp2qppp/2p1p3/P3nb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 w - - 0 14",
+  "prior_fen": "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - - 0 13",
+  "last_move": "d7e5",
   "history": [
     {
       "n": 1,
@@ -236,6 +236,14 @@
       "prior_fen": "r4rk1/pp1nqppp/2p1p3/4Pb2/PbB5/1QN1P3/1P1B1PPP/R4RK1 w - - 1 13",
       "result_fen": "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - - 0 13",
       "ts": "2026-09-06T12:11:15.490Z"
+    },
+    {
+      "n": 27,
+      "uci": "d7e5",
+      "by": "gura",
+      "prior_fen": "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - - 0 13",
+      "result_fen": "r4rk1/pp2qppp/2p1p3/P3nb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 w - - 0 14",
+      "ts": "2026-09-07T04:08:26.474Z"
     }
   ],
   "repetition": {
@@ -264,11 +272,12 @@
     "r4rk1/pp2qppp/2p1pn2/4nb2/PbBP4/1QN1P3/1P1B1PPP/R4RK1 w - -": 1,
     "r4rk1/pp2qppp/2p1pn2/4Pb2/PbB5/1QN1P3/1P1B1PPP/R4RK1 b - -": 1,
     "r4rk1/pp1nqppp/2p1p3/4Pb2/PbB5/1QN1P3/1P1B1PPP/R4RK1 w - -": 1,
-    "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - -": 1
+    "r4rk1/pp1nqppp/2p1p3/P3Pb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 b - -": 1,
+    "r4rk1/pp2qppp/2p1p3/P3nb2/1bB5/1QN1P3/1P1B1PPP/R4RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-06T12:11:15.491Z"
+  "updated": "2026-09-07T04:08:26.477Z"
 }
