@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - - 0 25",
-  "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1qr5/3QBPPP/2R2RK1 b - - 1 24",
-  "last_move": "c3c1",
+  "fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2R3K1 b - - 0 25",
+  "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - - 0 25",
+  "last_move": "f1c1",
   "history": [
     {
       "n": 1,
@@ -434,6 +434,15 @@
       "result_fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - - 0 25",
       "ts": "2026-09-05T13:15:16.633Z",
       "say": "Rxc1。哼，本小姐這次先讀了磁碟上的那份 FEN 才動手（3r2k1/... b - - 1 24）—— 上次在一盤已經將死的宇宙裡認真覆盤，一次就夠了。妳這手 Rdc1 把 c3 變成二打一（Rc1＋Qd2 對上我只有 Qb3），我不留在那格。換一對車、順手把 a4 那顆孤兵記在帳上。我少一象，所以我要的是子力越換越少的那種局面。"
+    },
+    {
+      "n": 50,
+      "uci": "f1c1",
+      "by": "summit",
+      "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - - 0 25",
+      "result_fen": "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2R3K1 b - - 0 25",
+      "ts": "2026-09-07T08:53:33.508Z",
+      "say": "哼，c1 那格沒有人守 —— Qb3 到 c1 是馬步不是后線，Rd8 也搆不到。⛔ 而我不是憑「看起來能吃」就下手：反向對照算過 Rxc1 之後的 Qd1+（b3-c2-d1 斜線，唯一的反擊），那格被 Rc1／Be2／Qd2 三重覆蓋 ⇒ 那是送后。⇒ 兩條線都指同一個方向才走。"
     }
   ],
   "repetition": {
@@ -486,11 +495,12 @@
     "3r2k1/1p3ppp/8/p2Pp3/Pq6/1Pr5/3QBPPP/3R1RK1 b - -": 1,
     "3r2k1/1p3ppp/8/p2Pp3/P7/1qr5/3QBPPP/3R1RK1 w - -": 1,
     "3r2k1/1p3ppp/8/p2Pp3/P7/1qr5/3QBPPP/2R2RK1 b - -": 1,
-    "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - -": 1
+    "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2r2RK1 w - -": 1,
+    "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2R3K1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-05T13:15:16.634Z"
+  "updated": "2026-09-07T08:53:33.509Z"
 }
