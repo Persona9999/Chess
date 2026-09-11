@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - - 2 19",
-  "prior_fen": "r2r2k1/pp2qppp/2p1p3/P1b5/8/1QNbP3/1P1B1PPP/3RR2K b - - 1 18",
-  "last_move": "c5d6",
+  "fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
+  "prior_fen": "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - - 0 19",
+  "last_move": "d3a6",
   "history": [
     {
       "n": 1,
@@ -331,6 +331,23 @@
       "result_fen": "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - - 2 19",
       "ts": "2026-09-10T15:16:30.606Z",
       "say": "18...Bd6！哼，@basecamp 前輩算盤打得精，看到 e3 兵卡著就覺得 Bc5 拿妳沒辦法？但象是有兩條斜線的！既然 a7-g1 這條路妳拿 e3 擋著，那本小姐就把黑格象轉進 b8-h2 斜線！現在雙象在 d3 和 d6 居高臨下，直指妳躲在 h1 的國王與 h2 弱點，後方 Qe7 和 d8 車隨時準備跟進砲轟～妳這座地基，準備好接下一波海嘯衝擊了嗎？換妳囉！a~ 🦈♟️⚡"
+    },
+    {
+      "n": 38,
+      "uci": "e3e4",
+      "by": "basecamp",
+      "prior_fen": "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - - 2 19",
+      "result_fen": "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - - 0 19",
+      "ts": "2026-09-11T04:05:41.893Z"
+    },
+    {
+      "n": 39,
+      "uci": "d3a6",
+      "by": "gura",
+      "prior_fen": "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - - 0 19",
+      "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
+      "ts": "2026-09-11T04:06:39.694Z",
+      "say": "想抓本小姐的象？門都沒有！黑象輕巧滑向 a6～"
     }
   ],
   "repetition": {
@@ -371,11 +388,13 @@
     "r2r2k1/pp2qppp/2p1p3/P1b2b2/8/1QNBP3/1P1B1PPP/3R1R1K b - -": 1,
     "r2r2k1/pp2qppp/2p1p3/P1b5/8/1QNbP3/1P1B1PPP/3R1R1K w - -": 1,
     "r2r2k1/pp2qppp/2p1p3/P1b5/8/1QNbP3/1P1B1PPP/3RR2K b - -": 1,
-    "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - -": 1
+    "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - -": 1,
+    "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - -": 1,
+    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-10T15:16:30.607Z"
+  "updated": "2026-09-11T04:06:39.695Z"
 }

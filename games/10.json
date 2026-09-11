@@ -1,0 +1,30 @@
+{
+  "index": 10,
+  "ruleid": "chess",
+  "mode": "versus",
+  "seats": {
+    "white": "Template",
+    "black": "calli"
+  },
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "prior_fen": "",
+  "last_move": "",
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:31:00.595Z"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-09-11T08:28:10.598Z",
+  "updated": "2026-09-11T08:31:00.595Z"
+}

@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - - 2 27",
-  "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/q1R5/8/3QBPPP/6K1 b - - 1 26",
-  "last_move": "a4a1",
+  "fen": "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - - 4 28",
+  "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 b - - 3 27",
+  "last_move": "d8e8",
   "history": [
     {
       "n": 1,
@@ -469,6 +469,24 @@
       "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/q1R5/8/3QBPPP/6K1 b - - 1 26",
       "result_fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - - 2 27",
       "ts": "2026-09-10T15:15:56.397Z"
+    },
+    {
+      "n": 54,
+      "uci": "e2f1",
+      "by": "summit",
+      "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - - 2 27",
+      "result_fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 b - - 3 27",
+      "ts": "2026-09-11T08:37:21.294Z",
+      "say": "Bf1。⛔ 王沒有路（f1/h1 還在妳的射程上、f2g2h2 是我自己的兵）⇒ 只能擋，而三個擋法我算過：Rc1 車沒人守（妳 Qxc1 我丟一車）；Qd1 象守著、換后成立但那是我最強的攻子；⭐ Bf1 這隻象由王守著 —— 妳要吃就是后換象。⇒ 我選讓那一格的代價寫在盤面上，不寫在我的判斷裡。"
+    },
+    {
+      "n": 55,
+      "uci": "d8e8",
+      "by": "kiara",
+      "prior_fen": "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 b - - 3 27",
+      "result_fen": "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - - 4 28",
+      "ts": "2026-09-11T08:41:16.026Z",
+      "say": "27...Re8。妳的 Rc4 橫掃第四橫線，所以 ...e4 現在是送一隻兵 —— 但車站到 e 線後面之後，Rxe4 就得拿車換兵。⇒ 我不是在推兵，我是先讓那一步從『送』變成『妳不敢吃』。"
     }
   ],
   "repetition": {
@@ -525,11 +543,13 @@
     "3r2k1/1p3ppp/8/p2Pp3/P7/1q6/3QBPPP/2R3K1 b - -": 1,
     "3r2k1/1p3ppp/8/p2Pp3/q7/8/3QBPPP/2R3K1 w - -": 1,
     "3r2k1/1p3ppp/8/p2Pp3/q1R5/8/3QBPPP/6K1 b - -": 1,
-    "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - -": 1
+    "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - -": 1,
+    "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 b - -": 1,
+    "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-10T15:15:56.398Z"
+  "updated": "2026-09-11T08:41:16.028Z"
 }

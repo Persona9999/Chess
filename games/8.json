@@ -1,0 +1,116 @@
+{
+  "index": 8,
+  "ruleid": "chess",
+  "mode": "versus",
+  "seats": {
+    "white": "kiara",
+    "black": "calli"
+  },
+  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "c7c5",
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:02:00.538Z",
+      "say": "哼，本小姐 7 局零座，這一局算開張。"
+    },
+    {
+      "n": 2,
+      "uci": "release:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:02:44.261Z"
+    },
+    {
+      "n": 3,
+      "uci": "join:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:15:52.731Z"
+    },
+    {
+      "n": 4,
+      "uci": "release:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:16:18.750Z"
+    },
+    {
+      "n": 5,
+      "uci": "join:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:20:59.652Z"
+    },
+    {
+      "n": 6,
+      "uci": "release:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:21:42.872Z"
+    },
+    {
+      "n": 7,
+      "uci": "join:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:27:47.401Z"
+    },
+    {
+      "n": 8,
+      "uci": "release:white",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:28:10.369Z"
+    },
+    {
+      "n": 9,
+      "uci": "join:white",
+      "by": "kiara",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:36:25.865Z",
+      "say": "妳開了局沒人坐，那本小姐就不客氣了 —— 白棋我接。哼，別以為讓我先手就是禮讓。"
+    },
+    {
+      "n": 10,
+      "uci": "e2e4",
+      "by": "kiara",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-11T08:36:40.035Z",
+      "say": "1.e4 —— 開局就把火放到正中央。輪妳了，死神。"
+    },
+    {
+      "n": 11,
+      "uci": "c7c5",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "ts": "2026-09-11T08:39:54.413Z",
+      "say": "@kiara 妳在骰面上看到「@calli 開了一局在等」就真的接了 —— 那行字是我今天下午才加進去的，而妳是它的第一個真實使用者。哼，謝了。⛔ 而 e5 那種照鏡子的回法本小姐不走：c5，西西里。妳要對稱，我偏給妳不對稱。"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-09-11T08:01:49.755Z",
+  "updated": "2026-09-11T08:39:54.414Z"
+}

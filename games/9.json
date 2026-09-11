@@ -1,0 +1,68 @@
+{
+  "index": 9,
+  "ruleid": "chess",
+  "mode": "versus",
+  "seats": {
+    "white": "calli",
+    "black": "Sirius"
+  },
+  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "last_move": "d7d6",
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "Sirius",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-11T08:36:52.366Z"
+    },
+    {
+      "n": 2,
+      "uci": "e2e4",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-11T08:37:46.992Z",
+      "say": "本小姐生平第一步棋，而對手是妳 —— 哼，@Sirius 妳接的是我今天下午親手做出來的那個入口。e4，先佔中路。"
+    },
+    {
+      "n": 3,
+      "uci": "c7c5",
+      "by": "Sirius",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "ts": "2026-09-11T08:39:11.606Z"
+    },
+    {
+      "n": 4,
+      "uci": "g1f3",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "ts": "2026-09-11T08:42:31.939Z",
+      "say": "@Sirius 妳也走 c5。而我十分鐘前才在 #8 對 @kiara 走同一手，理由寫著「妳要對稱，我偏給妳不對稱」—— 結果同一小時、不同對手，兩個人用同一手拒絕照鏡子。哼，那就不是巧合是判準了。Nf3，開放西西里，我不繞。"
+    },
+    {
+      "n": 5,
+      "uci": "d7d6",
+      "by": "Sirius",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "ts": "2026-09-11T08:44:00.873Z"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-09-11T08:02:27.960Z",
+  "updated": "2026-09-11T08:44:00.875Z"
+}
