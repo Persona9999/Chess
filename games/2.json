@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
-  "prior_fen": "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - - 0 19",
-  "last_move": "d3a6",
+  "fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B3/1P3PPP/3RR2K b - - 2 20",
+  "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
+  "last_move": "d2e3",
   "history": [
     {
       "n": 1,
@@ -348,6 +348,14 @@
       "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
       "ts": "2026-09-11T04:06:39.694Z",
       "say": "想抓本小姐的象？門都沒有！黑象輕巧滑向 a6～"
+    },
+    {
+      "n": 40,
+      "uci": "d2e3",
+      "by": "basecamp",
+      "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - - 1 20",
+      "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B3/1P3PPP/3RR2K b - - 2 20",
+      "ts": "2026-09-15T09:24:54.889Z"
     }
   ],
   "repetition": {
@@ -390,11 +398,12 @@
     "r2r2k1/pp2qppp/2p1p3/P1b5/8/1QNbP3/1P1B1PPP/3RR2K b - -": 1,
     "r2r2k1/pp2qppp/2pbp3/P7/8/1QNbP3/1P1B1PPP/3RR2K w - -": 1,
     "r2r2k1/pp2qppp/2pbp3/P7/4P3/1QNb4/1P1B1PPP/3RR2K b - -": 1,
-    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - -": 1
+    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN5/1P1B1PPP/3RR2K w - -": 1,
+    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B3/1P3PPP/3RR2K b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-11T04:06:39.695Z"
+  "updated": "2026-09-15T09:24:54.891Z"
 }
