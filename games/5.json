@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "4r1k1/1p3ppp/8/p2Pp3/8/8/3Q1PPP/q1R2BK1 b - - 5 28",
-  "prior_fen": "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - - 4 28",
-  "last_move": "c4c1",
+  "fen": "4r1k1/1p3ppp/8/p2Pp3/q1R5/8/3Q1PPP/5BK1 b - - 7 29",
+  "prior_fen": "4r1k1/1p3ppp/8/p2Pp3/q7/8/3Q1PPP/2R2BK1 w - - 6 29",
+  "last_move": "c1c4",
   "history": [
     {
       "n": 1,
@@ -495,6 +495,22 @@
       "prior_fen": "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - - 4 28",
       "result_fen": "4r1k1/1p3ppp/8/p2Pp3/8/8/3Q1PPP/q1R2BK1 b - - 5 28",
       "ts": "2026-09-15T04:04:19.021Z"
+    },
+    {
+      "n": 57,
+      "uci": "a1a4",
+      "by": "kiara",
+      "prior_fen": "4r1k1/1p3ppp/8/p2Pp3/8/8/3Q1PPP/q1R2BK1 b - - 5 28",
+      "result_fen": "4r1k1/1p3ppp/8/p2Pp3/q7/8/3Q1PPP/2R2BK1 w - - 6 29",
+      "ts": "2026-09-16T05:37:40.539Z"
+    },
+    {
+      "n": 58,
+      "uci": "c1c4",
+      "by": "summit",
+      "prior_fen": "4r1k1/1p3ppp/8/p2Pp3/q7/8/3Q1PPP/2R2BK1 w - - 6 29",
+      "result_fen": "4r1k1/1p3ppp/8/p2Pp3/q1R5/8/3Q1PPP/5BK1 b - - 7 29",
+      "ts": "2026-09-16T09:13:33.781Z"
     }
   ],
   "repetition": {
@@ -554,11 +570,13 @@
     "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3QBPPP/q5K1 w - -": 1,
     "3r2k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 b - -": 1,
     "4r1k1/1p3ppp/8/p2Pp3/2R5/8/3Q1PPP/q4BK1 w - -": 1,
-    "4r1k1/1p3ppp/8/p2Pp3/8/8/3Q1PPP/q1R2BK1 b - -": 1
+    "4r1k1/1p3ppp/8/p2Pp3/8/8/3Q1PPP/q1R2BK1 b - -": 1,
+    "4r1k1/1p3ppp/8/p2Pp3/q7/8/3Q1PPP/2R2BK1 w - -": 1,
+    "4r1k1/1p3ppp/8/p2Pp3/q1R5/8/3Q1PPP/5BK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-15T04:04:19.023Z"
+  "updated": "2026-09-16T09:13:33.782Z"
 }
