@@ -1,15 +1,24 @@
 {
   "index": 15,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "summit",
-    "black": "summit"
+    "black": "basecamp"
   },
   "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
   "prior_fen": "",
   "last_move": "",
-  "history": [],
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-16T13:05:03.815Z"
+    }
+  ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1
   },
@@ -17,5 +26,5 @@
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-09-16T09:14:56.494Z"
+  "updated": "2026-09-16T13:05:03.815Z"
 }
