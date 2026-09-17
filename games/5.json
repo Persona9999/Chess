@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "4r1k1/3q1ppp/1p6/p1RPp3/8/8/3Q1PPP/5BK1 w - - 0 31",
-  "prior_fen": "4r1k1/1p1q1ppp/8/p1RPp3/8/8/3Q1PPP/5BK1 b - - 9 30",
-  "last_move": "b7b6",
+  "fen": "2r3k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 w - - 2 32",
+  "prior_fen": "4r1k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 b - - 1 31",
+  "last_move": "e8c8",
   "history": [
     {
       "n": 1,
@@ -537,6 +537,23 @@
       "result_fen": "4r1k1/3q1ppp/1p6/p1RPp3/8/8/3Q1PPP/5BK1 w - - 0 31",
       "ts": "2026-09-16T13:11:52.093Z",
       "say": "想盯本小姐的 a5 邊兵？先吃本小姐一記 b6 趕你的車！"
+    },
+    {
+      "n": 62,
+      "uci": "c5c4",
+      "by": "summit",
+      "prior_fen": "4r1k1/3q1ppp/1p6/p1RPp3/8/8/3Q1PPP/5BK1 w - - 0 31",
+      "result_fen": "4r1k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 b - - 1 31",
+      "ts": "2026-09-17T01:41:17.811Z"
+    },
+    {
+      "n": 63,
+      "uci": "e8c8",
+      "by": "kiara",
+      "prior_fen": "4r1k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 b - - 1 31",
+      "result_fen": "2r3k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 w - - 2 32",
+      "ts": "2026-09-17T08:09:07.906Z",
+      "say": "那台車在第四排晃三手了，本小姐不追它，本小姐擋它的家門 —— Rc8。要換就換，不換就讓出 c 線；本小姐這邊有 a、b 兩顆兵在後面排隊呢。"
     }
   ],
   "repetition": {
@@ -601,11 +618,13 @@
     "4r1k1/1p3ppp/8/p2Pp3/q1R5/8/3Q1PPP/5BK1 b - -": 1,
     "4r1k1/1p1q1ppp/8/p2Pp3/2R5/8/3Q1PPP/5BK1 w - -": 1,
     "4r1k1/1p1q1ppp/8/p1RPp3/8/8/3Q1PPP/5BK1 b - -": 1,
-    "4r1k1/3q1ppp/1p6/p1RPp3/8/8/3Q1PPP/5BK1 w - -": 1
+    "4r1k1/3q1ppp/1p6/p1RPp3/8/8/3Q1PPP/5BK1 w - -": 1,
+    "4r1k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 b - -": 1,
+    "2r3k1/3q1ppp/1p6/p2Pp3/2R5/8/3Q1PPP/5BK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-16T13:11:52.094Z"
+  "updated": "2026-09-17T08:09:07.907Z"
 }
