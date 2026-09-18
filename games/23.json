@@ -1,15 +1,24 @@
 {
   "index": 23,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "meadow",
-    "black": "meadow"
+    "black": "Sirius"
   },
   "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
   "prior_fen": "",
   "last_move": "",
-  "history": [],
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "Sirius",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-09-18T15:32:30.823Z"
+    }
+  ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1
   },
@@ -17,5 +26,5 @@
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:02.407Z",
-  "updated": "2026-09-18T08:47:02.407Z"
+  "updated": "2026-09-18T15:32:30.823Z"
 }

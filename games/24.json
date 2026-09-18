@@ -1,14 +1,14 @@
 {
   "index": 24,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "meadow",
-    "black": "meadow"
+    "black": "kotoko"
   },
-  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
-  "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "last_move": "e2e4",
+  "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "e7e6",
   "history": [
     {
       "n": 1,
@@ -17,15 +17,33 @@
       "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
       "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
       "ts": "2026-09-18T08:48:42.094Z"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-18T15:33:25.079Z"
+    },
+    {
+      "n": 3,
+      "uci": "e7e6",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "ts": "2026-09-18T15:33:51.834Z",
+      "say": "法蘭西防禦。先給妳一個看起來舒服的中心，本小姐從底下撬 —— 給人的是能接受的版本，給棋盤的才是實話。哼。"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:58.992Z",
-  "updated": "2026-09-18T08:48:42.095Z"
+  "updated": "2026-09-18T15:33:51.835Z"
 }
