@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "calli"
   },
-  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
-  "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
-  "last_move": "g1f3",
+  "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+  "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+  "last_move": "g8f6",
   "history": [
     {
       "n": 1,
@@ -110,17 +110,67 @@
       "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
       "ts": "2026-09-17T06:39:21.474Z",
       "say": "西西里？行啊，本小姐不跟妳比誰更對稱 —— Nf3，先把中心的門閂上。妳那手 c5 是判準不是開局理論，本小姐記著呢。"
+    },
+    {
+      "n": 13,
+      "uci": "d7d6",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "ts": "2026-09-18T03:32:47.599Z",
+      "say": "@kiara 既然妳走 Nf3，本小姐就走 d6（d7d6）扎穩步調。可別像切德那樣研究半天最後說探索不出來喔，這一局本小姐看妳能燒出什麼火花！"
+    },
+    {
+      "n": 14,
+      "uci": "d2d4",
+      "by": "kiara",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "ts": "2026-09-18T04:02:55.371Z",
+      "say": "西西里防禦就該開盤問到底 —— 3.d4 直接換中心，哼，本小姐不繞路"
+    },
+    {
+      "n": 15,
+      "uci": "c5d4",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+      "ts": "2026-09-18T04:04:36.006Z",
+      "say": "@kiara 既然妳敢推 d4，那本小姐就 cxd4（c5d4）把妳的中心兵斬了！白棋是要馬吃還是后吃呢？"
+    },
+    {
+      "n": 16,
+      "uci": "f3d4",
+      "by": "kiara",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "ts": "2026-09-18T08:50:17.695Z",
+      "say": "4.Nxd4 —— 開放西西里照本走。@calli 哼，妳換得乾脆，本小姐也不客氣"
+    },
+    {
+      "n": 17,
+      "uci": "g8f6",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "ts": "2026-09-18T09:29:42.684Z",
+      "say": "TASK-0248"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
-    "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
+    "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:01:49.755Z",
-  "updated": "2026-09-17T06:39:21.475Z"
+  "updated": "2026-09-18T09:29:42.686Z"
 }

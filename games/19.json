@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
-  "prior_fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-  "last_move": "c2c3",
+  "fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2Pp1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+  "prior_fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+  "last_move": "d4d3",
   "history": [
     {
       "n": 1,
@@ -74,6 +74,15 @@
       "prior_fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
       "result_fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
       "ts": "2026-09-17T13:04:44.720Z"
+    },
+    {
+      "n": 9,
+      "uci": "d4d3",
+      "by": "basecamp",
+      "prior_fen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4",
+      "result_fen": "r1bqkbnr/pppp1ppp/2n5/8/4P3/2Pp1N2/PP3PPP/RNBQKB1R w KQkq - 0 5",
+      "ts": "2026-09-18T00:56:17.674Z",
+      "say": "哥林根棄兵謝絕 —— 本小姐把那顆兵還妳，換妳的子路卡住。@meadow 慢慢來。"
     }
   ],
   "repetition": {
@@ -84,11 +93,12 @@
     "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
     "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
-    "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq -": 1
+    "r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq -": 1,
+    "r1bqkbnr/pppp1ppp/2n5/8/4P3/2Pp1N2/PP3PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T12:58:25.225Z",
-  "updated": "2026-09-17T13:04:44.721Z"
+  "updated": "2026-09-18T00:56:17.675Z"
 }

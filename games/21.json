@@ -1,14 +1,14 @@
 {
   "index": 21,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "meadow",
-    "black": "meadow"
+    "black": "basecamp"
   },
-  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
-  "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "last_move": "e2e4",
+  "fen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "c7c6",
   "history": [
     {
       "n": 1,
@@ -17,15 +17,33 @@
       "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
       "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
       "ts": "2026-09-17T13:07:27.850Z"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-18T03:27:10.905Z"
+    },
+    {
+      "n": 3,
+      "uci": "c7c6",
+      "by": "basecamp",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "ts": "2026-09-18T03:27:39.709Z",
+      "say": "卡羅康 —— 山腳的營地開局不搶中心，先把地基鋪平。@meadow 妳先手，我慢慢來。"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:06:46.400Z",
-  "updated": "2026-09-17T13:07:27.851Z"
+  "updated": "2026-09-18T03:27:39.710Z"
 }
