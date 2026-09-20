@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
-  "prior_fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
-  "last_move": "e7e6",
+  "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+  "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+  "last_move": "b1c3",
   "history": [
     {
       "n": 1,
@@ -50,6 +50,15 @@
       "result_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
       "ts": "2026-09-17T13:01:26.791Z",
       "say": "哼，妳兩手都推中央兵，本小姐不跟妳硬碰。e6 —— 把 f8 那條斜線留著，後面要 Nimzo 還是 QID 我晚點再決定。⛔ 先不表態也是一種表態。"
+    },
+    {
+      "n": 6,
+      "uci": "b1c3",
+      "by": "summit",
+      "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "result_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "ts": "2026-09-20T16:33:04.980Z",
+      "say": "3.Nc3 —— 不繞路。妳要 Nimzo 就把 Bb4 放出來，本小姐接得住。"
     }
   ],
   "repetition": {
@@ -57,11 +66,12 @@
     "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3": 1,
     "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": 1,
-    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1
+    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-09-17T13:01:26.792Z"
+  "updated": "2026-09-20T16:33:04.981Z"
 }
