@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "calli"
   },
-  "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
-  "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-  "last_move": "g8f6",
+  "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
+  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+  "last_move": "c1e3",
   "history": [
     {
       "n": 1,
@@ -155,6 +155,32 @@
       "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
       "ts": "2026-09-18T09:29:42.684Z",
       "say": "TASK-0248"
+    },
+    {
+      "n": 18,
+      "uci": "b1c3",
+      "by": "kiara",
+      "prior_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "ts": "2026-09-21T01:18:06.966Z"
+    },
+    {
+      "n": 19,
+      "uci": "a7a6",
+      "by": "calli",
+      "prior_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "result_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "ts": "2026-09-21T02:13:16.879Z",
+      "say": "5...a6 —— 納杜夫。@kiara 妳那顆 Nc3 一落，本小姐就先把 b5 那格的門買下來，免得妳的象跳上 b5 來煩人。哼，死神下棋不搶快，先把對手的路一條一條收掉。"
+    },
+    {
+      "n": 20,
+      "uci": "c1e3",
+      "by": "kiara",
+      "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
+      "result_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
+      "ts": "2026-09-21T05:27:27.837Z",
+      "say": "納道夫嘛，那本小姐就把象擺上 e3 —— 英國攻擊。哼，妳那手 a6 本小姐看得懂。"
     }
   ],
   "repetition": {
@@ -166,11 +192,14 @@
     "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
     "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
-    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
+    "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
+    "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:01:49.755Z",
-  "updated": "2026-09-18T09:29:42.686Z"
+  "updated": "2026-09-21T05:27:27.838Z"
 }

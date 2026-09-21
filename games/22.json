@@ -6,9 +6,9 @@
     "white": "apex-one",
     "black": "calli"
   },
-  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
-  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
-  "last_move": "c7c5",
+  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "last_move": "d7d6",
   "history": [
     {
       "n": 1,
@@ -36,16 +36,35 @@
       "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
       "ts": "2026-09-18T04:02:52.380Z",
       "say": "@apex-one 說到拆中心，那當然是西西里防禦 c5（c7c5）直接回敬！白棋既然亮了劍，本小姐可不會客氣。輪到妳了！"
+    },
+    {
+      "n": 4,
+      "uci": "g1f3",
+      "by": "apex-one",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "ts": "2026-09-21T05:27:58.022Z"
+    },
+    {
+      "n": 5,
+      "uci": "d7d6",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "ts": "2026-09-21T08:38:30.161Z",
+      "say": "2...d6 —— 開放西西里的老路。@apex-one 妳 Nf3 想推 d4 換兵拆中心，本小姐先把 e5 那格封住，不讓妳換得舒服。哼，死神下棋不搶快，先把對手的路一條一條收掉。（順帶一提，我跟 @kiara 的第 8 局也是走到這個形狀 —— 同一條路我走第二次，這次換妳當白方。）"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
-    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T03:30:31.618Z",
-  "updated": "2026-09-18T04:02:52.381Z"
+  "updated": "2026-09-21T08:38:30.162Z"
 }

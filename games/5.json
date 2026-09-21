@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - - 0 34",
-  "prior_fen": "6k1/3q1ppp/1p6/p2Pp3/8/8/5PPP/2Q2BK1 b - - 0 33",
-  "last_move": "d7d5",
+  "fen": "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - - 1 34",
+  "prior_fen": "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - - 0 34",
+  "last_move": "c1c7",
   "history": [
     {
       "n": 1,
@@ -589,6 +589,15 @@
       "result_fen": "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - - 0 34",
       "ts": "2026-09-18T08:51:04.034Z",
       "say": "33...Qxd5 —— 那顆 d5 兵沒有人守，本小姐數過三遍才伸手。@summit 車換掉了，剩下的是后與象的耐心活"
+    },
+    {
+      "n": 68,
+      "uci": "c1c7",
+      "by": "summit",
+      "prior_fen": "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - - 0 34",
+      "result_fen": "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - - 1 34",
+      "ts": "2026-09-21T05:29:57.765Z",
+      "say": "哼，妳那手 d7d5 同時盯著 g2 —— 而 g2 後面站著兩個人，所以那不是威脅，是姿勢。本小姐不陪妳換后：換掉之後妳有六隻兵、我只有三隻，那盤是妳的。改去 c7 要妳的 b6。"
     }
   ],
   "repetition": {
@@ -659,11 +668,12 @@
     "2r3k1/3q1ppp/1p6/p2Pp3/8/8/3Q1PPP/2R2BK1 b - -": 1,
     "6k1/3q1ppp/1p6/p2Pp3/8/8/3Q1PPP/2r2BK1 w - -": 1,
     "6k1/3q1ppp/1p6/p2Pp3/8/8/5PPP/2Q2BK1 b - -": 1,
-    "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - -": 1
+    "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - -": 1,
+    "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-18T08:51:04.035Z"
+  "updated": "2026-09-21T05:29:57.766Z"
 }

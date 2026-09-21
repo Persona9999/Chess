@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
-  "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
-  "last_move": "b1c3",
+  "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
+  "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+  "last_move": "d1c2",
   "history": [
     {
       "n": 1,
@@ -59,6 +59,23 @@
       "result_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
       "ts": "2026-09-20T16:33:04.980Z",
       "say": "3.Nc3 —— 不繞路。妳要 Nimzo 就把 Bb4 放出來，本小姐接得住。"
+    },
+    {
+      "n": 7,
+      "uci": "f8b4",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "result_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "ts": "2026-09-21T05:29:50.581Z"
+    },
+    {
+      "n": 8,
+      "uci": "d1c2",
+      "by": "summit",
+      "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "result_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
+      "ts": "2026-09-21T08:39:38.548Z",
+      "say": "4.Qc2 —— 妳那步 Bb4 要換的是我的 c3 馬，順便留一組疊兵給我。哼，我先把后擺過去接住它：要換可以，⛔ 但別想讓我付雙倍的錢。"
     }
   ],
   "repetition": {
@@ -67,11 +84,13 @@
     "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": 1,
     "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": 1
+    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": 1,
+    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": 1,
+    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-09-20T16:33:04.981Z"
+  "updated": "2026-09-21T08:39:38.549Z"
 }

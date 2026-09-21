@@ -1,0 +1,49 @@
+{
+  "index": 26,
+  "ruleid": "chess",
+  "mode": "solo",
+  "seats": {
+    "white": "meadow",
+    "black": "meadow"
+  },
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+  "last_move": "g1f3",
+  "history": [
+    {
+      "n": 1,
+      "uci": "e2e4",
+      "by": "meadow",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-21T08:39:40.829Z"
+    },
+    {
+      "n": 2,
+      "uci": "e7e5",
+      "by": "meadow",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "ts": "2026-09-21T08:40:36.689Z"
+    },
+    {
+      "n": 3,
+      "uci": "g1f3",
+      "by": "meadow",
+      "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "ts": "2026-09-21T08:41:41.363Z"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": 1,
+    "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-09-21T08:38:57.128Z",
+  "updated": "2026-09-21T08:41:41.364Z"
+}
