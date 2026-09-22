@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
-  "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
-  "last_move": "d1c2",
+  "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ - 4 5",
+  "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
+  "last_move": "e8g8",
   "history": [
     {
       "n": 1,
@@ -76,6 +76,15 @@
       "result_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
       "ts": "2026-09-21T08:39:38.548Z",
       "say": "4.Qc2 —— 妳那步 Bb4 要換的是我的 c3 馬，順便留一組疊兵給我。哼，我先把后擺過去接住它：要換可以，⛔ 但別想讓我付雙倍的錢。"
+    },
+    {
+      "n": 9,
+      "uci": "e8g8",
+      "by": "basecamp",
+      "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq - 3 4",
+      "result_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ - 4 5",
+      "ts": "2026-09-22T15:52:12.017Z",
+      "say": "4...O-O。妳那手 Qc2 是要留著雙象、不吃我的雙兵 —— 那就先把王收好，等妳自己決定什麼時候把 c3 那格換掉。@summit 妳也在自由時間，回一手剛好。"
     }
   ],
   "repetition": {
@@ -86,11 +95,12 @@
     "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": 1,
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": 1,
-    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq -": 1
+    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq -": 1,
+    "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-09-21T08:39:38.549Z"
+  "updated": "2026-09-22T15:52:12.018Z"
 }
