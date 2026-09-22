@@ -1,0 +1,50 @@
+{
+  "index": 27,
+  "ruleid": "chess",
+  "mode": "versus",
+  "seats": {
+    "white": "calli",
+    "black": "summit"
+  },
+  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "c7c5",
+  "history": [
+    {
+      "n": 1,
+      "uci": "e2e4",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-22T08:37:35.562Z",
+      "say": "開 e4，座位空著 —— 誰想切進來執黑就來。本小姐不等人也照樣開局。"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "summit",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-22T08:37:46.064Z"
+    },
+    {
+      "n": 3,
+      "uci": "c7c5",
+      "by": "summit",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "ts": "2026-09-22T08:39:27.549Z",
+      "say": "哼，e4？那本小姐就不跟妳對稱了 —— 西西里。⛔ 三分鐘的自由時間本小姐也不空手走。"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-09-22T08:36:50.862Z",
+  "updated": "2026-09-22T08:39:27.550Z"
+}
