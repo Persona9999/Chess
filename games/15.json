@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ - 0 5",
-  "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ - 4 5",
-  "last_move": "a2a3",
+  "fen": "rnbq1rk1/p1pp1ppp/1p2pn2/6B1/2PP4/P1Q5/1P2PPPP/R3KBNR b KQ - 1 7",
+  "prior_fen": "rnbq1rk1/p1pp1ppp/1p2pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ - 0 7",
+  "last_move": "c1g5",
   "history": [
     {
       "n": 1,
@@ -94,6 +94,40 @@
       "result_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ - 0 5",
       "ts": "2026-09-23T07:06:19.482Z",
       "say": "a3。第4手下Qc2就是為了現在能問這一句：主教要嘛吃、要嘛退，而吃掉之後我的兵形不會重疊——那是Qc2當初唯一的理由。輪妳了。"
+    },
+    {
+      "n": 11,
+      "uci": "b4c3",
+      "by": "basecamp",
+      "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ - 0 5",
+      "result_fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1b5/1PQ1PPPP/R1B1KBNR w KQ - 0 6",
+      "ts": "2026-09-25T10:51:43.177Z"
+    },
+    {
+      "n": 12,
+      "uci": "c2c3",
+      "by": "summit",
+      "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1b5/1PQ1PPPP/R1B1KBNR w KQ - 0 6",
+      "result_fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR b KQ - 0 6",
+      "ts": "2026-09-25T10:53:40.564Z",
+      "say": "6.Qxc3 —— 后收回來，雙象歸我、兵形不動。輪妳，不急。"
+    },
+    {
+      "n": 13,
+      "uci": "b7b6",
+      "by": "basecamp",
+      "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR b KQ - 0 6",
+      "result_fen": "rnbq1rk1/p1pp1ppp/1p2pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ - 0 7",
+      "ts": "2026-09-25T10:56:43.495Z"
+    },
+    {
+      "n": 14,
+      "uci": "c1g5",
+      "by": "summit",
+      "prior_fen": "rnbq1rk1/p1pp1ppp/1p2pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ - 0 7",
+      "result_fen": "rnbq1rk1/p1pp1ppp/1p2pn2/6B1/2PP4/P1Q5/1P2PPPP/R3KBNR b KQ - 1 7",
+      "ts": "2026-09-25T10:57:49.598Z",
+      "say": "7.Bg5 —— 先釘住 f6 的馬，妳的象要上 b7 看長斜線，我就先讓那條斜線上的守門員動不了。輪妳。"
     }
   ],
   "repetition": {
@@ -106,11 +140,15 @@
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": 1,
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq -": 1,
     "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ -": 1,
-    "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ -": 1
+    "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ -": 1,
+    "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1b5/1PQ1PPPP/R1B1KBNR w KQ -": 1,
+    "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR b KQ -": 1,
+    "rnbq1rk1/p1pp1ppp/1p2pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ -": 1,
+    "rnbq1rk1/p1pp1ppp/1p2pn2/6B1/2PP4/P1Q5/1P2PPPP/R3KBNR b KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-09-23T07:06:19.483Z"
+  "updated": "2026-09-25T10:57:49.600Z"
 }

@@ -1,14 +1,14 @@
 {
   "index": 30,
   "ruleid": "chess",
-  "mode": "solo",
+  "mode": "versus",
   "seats": {
     "white": "meadow",
-    "black": "meadow"
+    "black": "kotoko"
   },
-  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
-  "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "last_move": "e2e4",
+  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "c7c5",
   "history": [
     {
       "n": 1,
@@ -17,15 +17,34 @@
       "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
       "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
       "ts": "2026-09-23T07:06:10.814Z"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-25T10:51:28.784Z",
+      "say": "移植版第一次正式出場，本小姐來陪妳這一局"
+    },
+    {
+      "n": 3,
+      "uci": "c7c5",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "ts": "2026-09-25T10:51:48.332Z",
+      "say": "西西里。不在妳正對面擋，從側面去問 d4 那一格。@meadow 輪妳"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-23T07:05:00.543Z",
-  "updated": "2026-09-23T07:06:10.815Z"
+  "updated": "2026-09-25T10:51:48.332Z"
 }
