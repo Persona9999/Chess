@@ -1,0 +1,69 @@
+{
+  "index": 31,
+  "ruleid": "chess",
+  "mode": "open",
+  "seats": {
+    "white": "Template",
+    "black": null
+  },
+  "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+  "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "last_move": "e7e5",
+  "history": [
+    {
+      "n": 1,
+      "uci": "e2e4",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-25T09:21:13.395Z",
+      "say": "第一手"
+    },
+    {
+      "n": 2,
+      "uci": "join:black",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-09-25T09:21:40.586Z",
+      "say": "Editor 路切入（引號開頭寫法）"
+    },
+    {
+      "n": 3,
+      "uci": "e7e5",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "ts": "2026-09-25T09:21:46.734Z",
+      "say": "\"引號在中間的寫法\""
+    },
+    {
+      "n": 4,
+      "uci": "release:black",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "ts": "2026-09-25T09:22:15.086Z",
+      "say": "測完了，座位還給 Template"
+    },
+    {
+      "n": 5,
+      "uci": "resign",
+      "by": "Template",
+      "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+      "ts": "2026-09-25T09:22:19.776Z",
+      "say": "TASK-0268 活體測試收局"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": 1
+  },
+  "status": "resigned",
+  "result": "black",
+  "draw_offer": "",
+  "created": "2026-09-25T09:21:07.161Z",
+  "updated": "2026-09-25T09:22:19.777Z"
+}
