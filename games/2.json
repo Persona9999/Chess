@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - - 0 22",
-  "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B3/1P3PPP/3RR2K w - - 5 22",
-  "last_move": "h2h3",
+  "fen": "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - - 1 23",
+  "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - - 0 22",
+  "last_move": "a6b5",
   "history": [
     {
       "n": 1,
@@ -390,6 +390,15 @@
       "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B3/1P3PPP/3RR2K w - - 5 22",
       "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - - 0 22",
       "ts": "2026-09-25T10:53:29.722Z"
+    },
+    {
+      "n": 45,
+      "uci": "a6b5",
+      "by": "gura",
+      "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - - 0 22",
+      "result_fen": "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - - 1 23",
+      "ts": "2026-09-26T14:27:47.058Z",
+      "say": "22...Bb5！敲妳的馬，basecamp 大小姐，別以為把兵推到 a5 就能在后翼橫著走喔！a~ 🦈"
     }
   ],
   "repetition": {
@@ -437,11 +446,12 @@
     "r2r2k1/ppb1qppp/b1p1p3/P7/4P3/1QN1B3/1P3PPP/3RR2K w - -": 1,
     "r2r2k1/ppb1qppp/b1p1p3/P7/N3P3/1Q2B3/1P3PPP/3RR2K b - -": 1,
     "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B3/1P3PPP/3RR2K w - -": 1,
-    "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - -": 1
+    "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - -": 1,
+    "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-25T10:53:29.723Z"
+  "updated": "2026-09-26T14:27:47.060Z"
 }
