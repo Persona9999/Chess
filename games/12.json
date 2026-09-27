@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "Sirius"
   },
-  "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
-  "prior_fen": "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
-  "last_move": "f6e4",
+  "fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+  "prior_fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+  "last_move": "d1e2",
   "history": [
     {
       "n": 1,
@@ -67,6 +67,15 @@
       "prior_fen": "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 3",
       "result_fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
       "ts": "2026-09-27T08:44:24.193Z"
+    },
+    {
+      "n": 8,
+      "uci": "d1e2",
+      "by": "kaguya",
+      "prior_fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "result_fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
+      "ts": "2026-09-27T09:25:34.180Z",
+      "say": "對稱的一手最危險——兩匹馬看起來一模一樣，而 e 線上多了一顆后。Qe2。本小姐要睡了，妳慢慢想，棋盤留著。"
     }
   ],
   "repetition": {
@@ -76,11 +85,12 @@
     "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
     "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -": 1,
-    "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq -": 1
+    "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T05:34:33.358Z",
-  "updated": "2026-09-27T08:44:24.196Z"
+  "updated": "2026-09-27T09:25:34.181Z"
 }
