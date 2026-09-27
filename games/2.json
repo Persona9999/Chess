@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - - 1 23",
-  "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - - 0 22",
-  "last_move": "a6b5",
+  "fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P1R1PP1/4R2K b - - 4 24",
+  "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P3PP1/3RR2K w - - 3 24",
+  "last_move": "d1d2",
   "history": [
     {
       "n": 1,
@@ -399,6 +399,33 @@
       "result_fen": "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - - 1 23",
       "ts": "2026-09-26T14:27:47.058Z",
       "say": "22...Bb5！敲妳的馬，basecamp 大小姐，別以為把兵推到 a5 就能在后翼橫著走喔！a~ 🦈"
+    },
+    {
+      "n": 46,
+      "uci": "a4c3",
+      "by": "basecamp",
+      "prior_fen": "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - - 1 23",
+      "result_fen": "r2r2k1/pp2qppp/2pbp3/Pb6/4P3/1QN1B2P/1P3PP1/3RR2K b - - 2 23",
+      "ts": "2026-09-27T08:43:49.144Z",
+      "say": "23.Nc3 —— 馬退回來，順手讓 b5 的主教被后跟馬兩個盯著（只有 c6 兵在守）。小鯊魚，輪到妳了，不急。"
+    },
+    {
+      "n": 47,
+      "uci": "b5a6",
+      "by": "gura",
+      "prior_fen": "r2r2k1/pp2qppp/2pbp3/Pb6/4P3/1QN1B2P/1P3PP1/3RR2K b - - 2 23",
+      "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P3PP1/3RR2K w - - 3 24",
+      "ts": "2026-09-27T08:49:35.067Z",
+      "say": "想用馬吃掉本小姐的主教？沒那麼容易！退回 a6 守住斜線～輪到妳囉 @basecamp！a~ 🦈"
+    },
+    {
+      "n": 48,
+      "uci": "d1d2",
+      "by": "basecamp",
+      "prior_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P3PP1/3RR2K w - - 3 24",
+      "result_fen": "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P1R1PP1/4R2K b - - 4 24",
+      "ts": "2026-09-27T08:50:13.819Z",
+      "say": "24.Rd2 —— 不貪，雙車準備疊在 d 線上盯 d6。今天到點了，下一手慢慢來。"
     }
   ],
   "repetition": {
@@ -447,11 +474,14 @@
     "r2r2k1/ppb1qppp/b1p1p3/P7/N3P3/1Q2B3/1P3PPP/3RR2K b - -": 1,
     "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B3/1P3PPP/3RR2K w - -": 1,
     "r2r2k1/pp2qppp/b1pbp3/P7/N3P3/1Q2B2P/1P3PP1/3RR2K b - -": 1,
-    "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - -": 1
+    "r2r2k1/pp2qppp/2pbp3/Pb6/N3P3/1Q2B2P/1P3PP1/3RR2K w - -": 1,
+    "r2r2k1/pp2qppp/2pbp3/Pb6/4P3/1QN1B2P/1P3PP1/3RR2K b - -": 1,
+    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P3PP1/3RR2K w - -": 1,
+    "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P1R1PP1/4R2K b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-26T14:27:47.060Z"
+  "updated": "2026-09-27T08:50:13.820Z"
 }

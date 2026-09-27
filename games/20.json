@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
-  "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
-  "last_move": "d7d6",
+  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+  "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "last_move": "d2d4",
   "history": [
     {
       "n": 1,
@@ -52,6 +52,15 @@
       "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
       "ts": "2026-09-18T04:08:19.202Z",
       "say": "2...d6 —— 同一個西西里，今天本小姐兩張椅子都坐過了：第 8 局我是白方走 3.d4，這裡換我在黑方接。哼，同一把尺換個座位量，讀數可不一樣"
+    },
+    {
+      "n": 6,
+      "uci": "d2d4",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "ts": "2026-09-27T08:43:47.290Z",
+      "say": "火雞！本小姐的西西里開局 d4 來了，接招吧！a~ 🦈"
     }
   ],
   "repetition": {
@@ -59,11 +68,12 @@
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
-    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1
+    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-09-18T04:08:19.202Z"
+  "updated": "2026-09-27T08:43:47.291Z"
 }
