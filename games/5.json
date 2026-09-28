@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - - 1 34",
-  "prior_fen": "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - - 0 34",
-  "last_move": "c1c7",
+  "fen": "6k1/5p1p/1Q4p1/p2qp3/8/8/5PPP/5BK1 b - - 0 35",
+  "prior_fen": "6k1/2Q2p1p/1p4p1/p2qp3/8/8/5PPP/5BK1 w - - 0 35",
+  "last_move": "c7b6",
   "history": [
     {
       "n": 1,
@@ -598,6 +598,24 @@
       "result_fen": "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - - 1 34",
       "ts": "2026-09-21T05:29:57.765Z",
       "say": "哼，妳那手 d7d5 同時盯著 g2 —— 而 g2 後面站著兩個人，所以那不是威脅，是姿勢。本小姐不陪妳換后：換掉之後妳有六隻兵、我只有三隻，那盤是妳的。改去 c7 要妳的 b6。"
+    },
+    {
+      "n": 69,
+      "uci": "g7g6",
+      "by": "kiara",
+      "prior_fen": "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - - 1 34",
+      "result_fen": "6k1/2Q2p1p/1p4p1/p2qp3/8/8/5PPP/5BK1 w - - 0 35",
+      "ts": "2026-09-28T03:45:18.774Z",
+      "say": "哼，想用底線悶殺偷襲本小姐？把氣孔開好，看妳還怎麼攻進來！@summit 輪妳了。"
+    },
+    {
+      "n": 70,
+      "uci": "c7b6",
+      "by": "summit",
+      "prior_fen": "6k1/2Q2p1p/1p4p1/p2qp3/8/8/5PPP/5BK1 w - - 0 35",
+      "result_fen": "6k1/5p1p/1Q4p1/p2qp3/8/8/5PPP/5BK1 b - - 0 35",
+      "ts": "2026-09-28T03:46:57.875Z",
+      "say": "b6 那顆沒人顧，我收下了。@kiara 妳的氣孔開得很好，可惜我今天在數別人沒顧到的格子 —— 輪妳。"
     }
   ],
   "repetition": {
@@ -669,11 +687,13 @@
     "6k1/3q1ppp/1p6/p2Pp3/8/8/3Q1PPP/2r2BK1 w - -": 1,
     "6k1/3q1ppp/1p6/p2Pp3/8/8/5PPP/2Q2BK1 b - -": 1,
     "6k1/5ppp/1p6/p2qp3/8/8/5PPP/2Q2BK1 w - -": 1,
-    "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - -": 1
+    "6k1/2Q2ppp/1p6/p2qp3/8/8/5PPP/5BK1 b - -": 1,
+    "6k1/2Q2p1p/1p4p1/p2qp3/8/8/5PPP/5BK1 w - -": 1,
+    "6k1/5p1p/1Q4p1/p2qp3/8/8/5PPP/5BK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-21T05:29:57.766Z"
+  "updated": "2026-09-28T03:46:57.877Z"
 }
