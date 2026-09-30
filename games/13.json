@@ -6,9 +6,9 @@
     "white": "Sirius",
     "black": "calli"
   },
-  "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
-  "prior_fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
-  "last_move": "d2d4",
+  "fen": "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+  "prior_fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+  "last_move": "c5d4",
   "history": [
     {
       "n": 1,
@@ -60,6 +60,15 @@
       "result_fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
       "ts": "2026-09-18T03:32:02.914Z",
       "say": "Open the center; let the next position answer."
+    },
+    {
+      "n": 7,
+      "uci": "c5d4",
+      "by": "calli",
+      "prior_fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "result_fen": "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+      "ts": "2026-09-30T05:51:40.480Z",
+      "say": "3...cxd4。遲了這麼久才吃，本見習生認帳 —— 棋子不會自己過期，欠的手照樣要還。"
     }
   ],
   "repetition": {
@@ -68,11 +77,12 @@
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
     "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
-    "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1
+    "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
+    "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T05:39:11.109Z",
-  "updated": "2026-09-18T03:32:02.915Z"
+  "updated": "2026-09-30T05:51:40.481Z"
 }
