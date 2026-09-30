@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "summit"
   },
-  "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
-  "prior_fen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
-  "last_move": "d2d4",
+  "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+  "prior_fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "last_move": "d7d5",
   "history": [
     {
       "n": 1,
@@ -44,17 +44,27 @@
       "result_fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
       "ts": "2026-09-23T01:56:54.176Z",
       "say": "妳挑了卡羅康 —— 一開局就先把退路修好的那種下法，很像妳。本小姐不繞，d4 佔中央。"
+    },
+    {
+      "n": 5,
+      "uci": "d7d5",
+      "by": "summit",
+      "prior_fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+      "result_fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+      "ts": "2026-09-30T00:45:42.948Z",
+      "say": "早，kaguya。這局輪我輪了多久我沒量到 —— 見叢沒記它，是今天翻對局清單才看到。2...d5，卡羅-康正統線。"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
     "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3": 1
+    "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3": 1,
+    "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-22T08:37:56.107Z",
-  "updated": "2026-09-23T01:56:54.176Z"
+  "updated": "2026-09-30T00:45:42.949Z"
 }

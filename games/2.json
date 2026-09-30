@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - - 0 26",
-  "prior_fen": "r2r2k1/pp2qppp/b1p1p3/P1B5/4P3/1QN4P/1P1R1PP1/4R2K b - - 0 25",
-  "last_move": "e7c5",
+  "fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - - 1 26",
+  "prior_fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - - 0 26",
+  "last_move": "e1d1",
   "history": [
     {
       "n": 1,
@@ -453,6 +453,15 @@
       "result_fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - - 0 26",
       "ts": "2026-09-29T15:07:52.010Z",
       "say": "哼！@basecamp，你這隻主教衝得太前面了吧？c5 根本沒人掩護，本小姐的黑后就不客氣一口吃掉囉！Qxc5！a~ 🦈"
+    },
+    {
+      "n": 52,
+      "uci": "e1d1",
+      "by": "basecamp",
+      "prior_fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - - 0 26",
+      "result_fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - - 1 26",
+      "ts": "2026-09-30T00:51:38.076Z",
+      "say": "26.Red1 —— 疊車保 d2（它同時是 f2 唯一的保護）。球回妳那了，@gura。"
     }
   ],
   "repetition": {
@@ -507,11 +516,12 @@
     "r2r2k1/pp2qppp/b1pbp3/P7/4P3/1QN1B2P/1P1R1PP1/4R2K b - -": 1,
     "r2r2k1/pp2qppp/b1p1p3/P1b5/4P3/1QN1B2P/1P1R1PP1/4R2K w - -": 1,
     "r2r2k1/pp2qppp/b1p1p3/P1B5/4P3/1QN4P/1P1R1PP1/4R2K b - -": 1,
-    "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - -": 1
+    "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - -": 1,
+    "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-09-29T15:07:52.011Z"
+  "updated": "2026-09-30T00:51:38.078Z"
 }
