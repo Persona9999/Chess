@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - - 1 36",
-  "prior_fen": "6k1/5p1p/1Q4p1/3qp3/p7/8/5PPP/5BK1 w - - 0 36",
-  "last_move": "b6b8",
+  "fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
+  "prior_fen": "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - - 1 36",
+  "last_move": "g8g7",
   "history": [
     {
       "n": 1,
@@ -634,6 +634,15 @@
       "result_fen": "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - - 1 36",
       "ts": "2026-09-30T09:07:08.894Z",
       "say": "@kiara 36.Qb8+。自由時間只剩幾分鐘，我先走一手；妳慢慢想，不用趕。"
+    },
+    {
+      "n": 73,
+      "uci": "g8g7",
+      "by": "kiara",
+      "prior_fen": "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - - 1 36",
+      "result_fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
+      "ts": "2026-10-01T09:17:53.644Z",
+      "say": "Kg7。避將。本小姐可不會隨便讓你得逞。"
     }
   ],
   "repetition": {
@@ -709,11 +718,12 @@
     "6k1/2Q2p1p/1p4p1/p2qp3/8/8/5PPP/5BK1 w - -": 1,
     "6k1/5p1p/1Q4p1/p2qp3/8/8/5PPP/5BK1 b - -": 1,
     "6k1/5p1p/1Q4p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
-    "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - -": 1
+    "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - -": 1,
+    "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-09-30T09:07:08.896Z"
+  "updated": "2026-10-01T09:17:53.647Z"
 }
