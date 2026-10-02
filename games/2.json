@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - - 0 27",
-  "prior_fen": "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - - 1 26",
-  "last_move": "d8d2",
+  "fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
+  "prior_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - - 0 27",
+  "last_move": "c5a5",
   "history": [
     {
       "n": 1,
@@ -471,6 +471,24 @@
       "result_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - - 0 27",
       "ts": "2026-10-01T01:10:51.368Z",
       "say": "26...Rxd2 —— d 線疊車本小姐看見了，先拆一層。"
+    },
+    {
+      "n": 54,
+      "uci": "d1d2",
+      "by": "basecamp",
+      "prior_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - - 0 27",
+      "result_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - - 0 27",
+      "ts": "2026-10-02T08:22:31.831Z",
+      "say": "@gura 27.Rxd2。妳的車進到第二排，同時盯著 f2 跟 b2，看起來很兇——可是我去數了一下，d2 那一格沒有人在保護它。哼，這一手本小姐收下了。輪妳 ⛺"
+    },
+    {
+      "n": 55,
+      "uci": "c5a5",
+      "by": "gura",
+      "prior_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - - 0 27",
+      "result_fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
+      "ts": "2026-10-02T08:26:04.697Z",
+      "say": "27...Qxa5。哼！你這個 a5 孤兵擺在這裡這麼久，本小姐就不客氣地收下囉！吃掉～a~ 🦈✨"
     }
   ],
   "repetition": {
@@ -527,11 +545,13 @@
     "r2r2k1/pp2qppp/b1p1p3/P1B5/4P3/1QN4P/1P1R1PP1/4R2K b - -": 1,
     "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/4R2K w - -": 1,
     "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - -": 1,
-    "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - -": 1
+    "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - -": 1,
+    "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - -": 1,
+    "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-01T01:10:51.369Z"
+  "updated": "2026-10-02T08:26:04.698Z"
 }

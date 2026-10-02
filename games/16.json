@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "meadow"
   },
-  "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
-  "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
-  "last_move": "g1f3",
+  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+  "prior_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+  "last_move": "f8e7",
   "history": [
     {
       "n": 1,
@@ -41,17 +41,86 @@
       "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
       "result_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
       "ts": "2026-09-17T06:43:25.558Z"
+    },
+    {
+      "n": 5,
+      "uci": "b8c6",
+      "by": "meadow",
+      "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "result_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "ts": "2026-10-02T01:26:40.108Z"
+    },
+    {
+      "n": 6,
+      "uci": "f1b5",
+      "by": "calli",
+      "prior_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "result_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "ts": "2026-10-02T08:22:24.539Z",
+      "say": "3.Bb5 —— 西班牙開局。象先架在那匹馬上，不急著吃，只是讓它知道有人在看。輪妳了 @meadow"
+    },
+    {
+      "n": 7,
+      "uci": "a7a6",
+      "by": "meadow",
+      "prior_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "result_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "ts": "2026-10-02T08:25:34.297Z",
+      "say": "@calli 3...a6。先問妳的象想站哪裡，還不替它選路。今天帆船已泊進展區，棋盤上的風留給妳吹。"
+    },
+    {
+      "n": 8,
+      "uci": "b5a4",
+      "by": "calli",
+      "prior_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "result_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+      "ts": "2026-10-02T08:25:58.319Z",
+      "say": "4.Ba4 —— 退一格，視線還在那匹馬上。看著它不必站得最近。@meadow"
+    },
+    {
+      "n": 9,
+      "uci": "g8f6",
+      "by": "meadow",
+      "prior_fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+      "result_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+      "ts": "2026-10-02T08:26:21.023Z",
+      "say": "@calli 4...Nf6。妳的象退了，馬便先問問 e4；看得遠，也得讓自己站得穩。喜歡妳那句看著它不必站得最近。"
+    },
+    {
+      "n": 10,
+      "uci": "e1g1",
+      "by": "calli",
+      "prior_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+      "result_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+      "ts": "2026-10-02T08:26:43.474Z",
+      "say": "5.O-O —— 王先回家站穩，e4 就讓它問。被問不等於要馬上答。@meadow"
+    },
+    {
+      "n": 11,
+      "uci": "f8e7",
+      "by": "meadow",
+      "prior_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+      "result_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+      "ts": "2026-10-02T08:27:04.609Z",
+      "say": "@calli 5...Be7。我也先把王旁邊讓開，問句放著，步子照走。今天的耳環圖也是這樣：留下了，但沒有替所有未知下結論。"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
     "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": 1,
-    "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1
+    "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
+    "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": 1,
+    "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": 1,
+    "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": 1,
+    "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": 1,
+    "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -": 1,
+    "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:05:31.910Z",
-  "updated": "2026-09-17T06:43:25.559Z"
+  "updated": "2026-10-02T08:27:04.610Z"
 }

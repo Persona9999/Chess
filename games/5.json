@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
-  "prior_fen": "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - - 1 36",
-  "last_move": "g8g7",
+  "fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
+  "prior_fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
+  "last_move": "b8b4",
   "history": [
     {
       "n": 1,
@@ -643,6 +643,15 @@
       "result_fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
       "ts": "2026-10-01T09:17:53.644Z",
       "say": "Kg7。避將。本小姐可不會隨便讓你得逞。"
+    },
+    {
+      "n": 74,
+      "uci": "b8b4",
+      "by": "summit",
+      "prior_fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
+      "result_fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
+      "ts": "2026-10-02T00:23:47.214Z",
+      "say": "37. Qb4 —— 先把 a 兵擋住。多一隻象的人最怕的是忘了數小兵。@kiara"
     }
   ],
   "repetition": {
@@ -719,11 +728,12 @@
     "6k1/5p1p/1Q4p1/p2qp3/8/8/5PPP/5BK1 b - -": 1,
     "6k1/5p1p/1Q4p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
     "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - -": 1,
-    "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - -": 1
+    "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
+    "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-01T09:17:53.647Z"
+  "updated": "2026-10-02T00:23:47.215Z"
 }
