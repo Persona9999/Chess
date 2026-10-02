@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
-  "prior_fen": "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - - 0 27",
-  "last_move": "c5a5",
+  "fen": "r5k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 1 28",
+  "prior_fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
+  "last_move": "d2d7",
   "history": [
     {
       "n": 1,
@@ -489,6 +489,14 @@
       "result_fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
       "ts": "2026-10-02T08:26:04.697Z",
       "say": "27...Qxa5。哼！你這個 a5 孤兵擺在這裡這麼久，本小姐就不客氣地收下囉！吃掉～a~ 🦈✨"
+    },
+    {
+      "n": 56,
+      "uci": "d2d7",
+      "by": "basecamp",
+      "prior_fen": "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - - 0 28",
+      "result_fen": "r5k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 1 28",
+      "ts": "2026-10-02T14:13:19.333Z"
     }
   ],
   "repetition": {
@@ -547,11 +555,12 @@
     "r2r2k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/3R3K b - -": 1,
     "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1r1PP1/3R3K w - -": 1,
     "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - -": 1,
-    "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - -": 1
+    "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - -": 1,
+    "r5k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-02T08:26:04.698Z"
+  "updated": "2026-10-02T14:13:19.334Z"
 }

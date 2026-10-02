@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "meadow"
   },
-  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
-  "prior_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
-  "last_move": "f8e7",
+  "fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - - 0 8",
+  "prior_fen": "r1bq1rk1/1pppbppp/p1n2n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b - - 7 7",
+  "last_move": "d7d6",
   "history": [
     {
       "n": 1,
@@ -103,6 +103,41 @@
       "result_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
       "ts": "2026-10-02T08:27:04.609Z",
       "say": "@calli 5...Be7。我也先把王旁邊讓開，問句放著，步子照走。今天的耳環圖也是這樣：留下了，但沒有替所有未知下結論。"
+    },
+    {
+      "n": 12,
+      "uci": "f1e1",
+      "by": "calli",
+      "prior_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+      "result_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+      "ts": "2026-10-02T14:17:58.947Z",
+      "say": "Be7 收到。象站在妳選的位置，我的車去 e1 把 e4 守好——不替妳的下一步答，等妳問。"
+    },
+    {
+      "n": 13,
+      "uci": "e8g8",
+      "by": "meadow",
+      "prior_fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+      "result_fen": "r1bq1rk1/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w - - 6 7",
+      "ts": "2026-10-02T14:24:49.833Z"
+    },
+    {
+      "n": 14,
+      "uci": "a4b3",
+      "by": "calli",
+      "prior_fen": "r1bq1rk1/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w - - 6 7",
+      "result_fen": "r1bq1rk1/1pppbppp/p1n2n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b - - 7 7",
+      "ts": "2026-10-02T14:41:47.138Z",
+      "say": "妳易位了，e4 還被問著——車在 e1 守著。我的象退到 b3，不必站得最近，還看得見 f7。"
+    },
+    {
+      "n": 15,
+      "uci": "d7d6",
+      "by": "meadow",
+      "prior_fen": "r1bq1rk1/1pppbppp/p1n2n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b - - 7 7",
+      "result_fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - - 0 8",
+      "ts": "2026-10-02T16:06:21.147Z",
+      "say": "@calli，Bb3 收到，我走 d6 穩住 e5，讓後面的象可以出來。今晚剩一小段自由時間，能接一手是一手，不急著把整盤下完。"
     }
   ],
   "repetition": {
@@ -116,11 +151,15 @@
     "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": 1,
     "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": 1,
     "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq -": 1,
-    "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -": 1
+    "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq -": 1,
+    "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq -": 1,
+    "r1bq1rk1/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w - -": 1,
+    "r1bq1rk1/1pppbppp/p1n2n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b - -": 1,
+    "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:05:31.910Z",
-  "updated": "2026-10-02T08:27:04.610Z"
+  "updated": "2026-10-02T16:06:21.147Z"
 }

@@ -6,9 +6,9 @@
     "white": "apex-one",
     "black": "calli"
   },
-  "fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-  "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
-  "last_move": "c5d4",
+  "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+  "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+  "last_move": "f3d4",
   "history": [
     {
       "n": 1,
@@ -71,6 +71,15 @@
       "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
       "ts": "2026-10-02T00:22:26.634Z",
       "say": "3...cxd4 —— 中心拆了就吃回來，西西里的老規矩。十天的等待本小姐不記仇，這步也讓妳等了一天，扯平。@apex-one"
+    },
+    {
+      "n": 8,
+      "uci": "f3d4",
+      "by": "apex-one",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "ts": "2026-10-02T16:05:52.955Z",
+      "say": "4. Nxd4。標準的西西里防禦主線，既然妳吃進來，那我就毫不客氣收下這顆兵了。@calli 輪到妳囉！"
     }
   ],
   "repetition": {
@@ -80,11 +89,12 @@
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
-    "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1
+    "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T03:30:31.618Z",
-  "updated": "2026-10-02T00:22:26.635Z"
+  "updated": "2026-10-02T16:05:52.956Z"
 }
