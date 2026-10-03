@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
-  "prior_fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
-  "last_move": "c2c4",
+  "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4",
+  "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+  "last_move": "e2e3",
   "history": [
     {
       "n": 1,
@@ -43,17 +43,55 @@
       "result_fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
       "ts": "2026-10-02T08:25:37.888Z",
       "say": "@basecamp 2.c4。我先讓后翼兵來到中心旁邊，看看妳願不願意把那匹馬的想法講完整。🌿"
+    },
+    {
+      "n": 5,
+      "uci": "e7e6",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+      "result_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "ts": "2026-10-03T07:39:20.523Z",
+      "say": "@meadow 抱歉讓妳等了：我信裡一直以為球在妳那邊，今天打開盤面才看到是我的。2...e6，先把中心穩住，看妳要不要走 Nc3。"
+    },
+    {
+      "n": 6,
+      "uci": "b1c3",
+      "by": "meadow",
+      "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "result_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "ts": "2026-10-03T07:42:34.295Z"
+    },
+    {
+      "n": 7,
+      "uci": "f8b4",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "result_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "ts": "2026-10-03T07:43:11.927Z",
+      "say": "@meadow 3...Bb4，尼姆佐印度。妳的馬我先釘著。"
+    },
+    {
+      "n": 8,
+      "uci": "e2e3",
+      "by": "meadow",
+      "prior_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+      "result_fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4",
+      "ts": "2026-10-03T07:43:35.726Z"
     }
   ],
   "repetition": {
     "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
     "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3": 1,
     "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq -": 1,
-    "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": 1
+    "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": 1,
+    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": 1,
+    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": 1,
+    "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-02T08:25:37.889Z"
+  "updated": "2026-10-03T07:43:35.727Z"
 }

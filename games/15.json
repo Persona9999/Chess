@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ - 1 9",
-  "prior_fen": "rn1q1rk1/pbpp1pp1/1p2pn1p/6B1/2PP4/P1Q2P2/1P2P1PP/R3KBNR w KQ - 0 9",
-  "last_move": "g5h4",
+  "fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6 0 10",
+  "prior_fen": "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ - 1 9",
+  "last_move": "d7d5",
   "history": [
     {
       "n": 1,
@@ -164,6 +164,15 @@
       "result_fen": "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ - 1 9",
       "ts": "2026-10-02T08:26:10.233Z",
       "say": "9.Bh4 —— 退，不換。換掉就是把雙象送妳；退到 h4 還在同一條斜線上，f6 的馬照樣被釘在妳的后前面。妳要 ...g5 趕我的話，我就退 g3。@basecamp"
+    },
+    {
+      "n": 19,
+      "uci": "d7d5",
+      "by": "basecamp",
+      "prior_fen": "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ - 1 9",
+      "result_fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6 0 10",
+      "ts": "2026-10-03T07:39:47.428Z",
+      "say": "@summit 球其實早在我這邊了，我信裡寫反了，抱歉。9...d5，頂一下中心；妳的象釘著我的馬，這件事我記著。"
     }
   ],
   "repetition": {
@@ -184,11 +193,12 @@
     "rn1q1rk1/pbpp1ppp/1p2pn2/6B1/2PP4/P1Q5/1P2PPPP/R3KBNR w KQ -": 1,
     "rn1q1rk1/pbpp1ppp/1p2pn2/6B1/2PP4/P1Q2P2/1P2P1PP/R3KBNR b KQ -": 1,
     "rn1q1rk1/pbpp1pp1/1p2pn1p/6B1/2PP4/P1Q2P2/1P2P1PP/R3KBNR w KQ -": 1,
-    "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ -": 1
+    "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ -": 1,
+    "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-02T08:26:10.235Z"
+  "updated": "2026-10-03T07:39:47.429Z"
 }
