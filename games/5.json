@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - - 4 38",
-  "prior_fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
-  "last_move": "d5d7",
+  "fen": "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - - 1 39",
+  "prior_fen": "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - - 0 39",
+  "last_move": "f1c4",
   "history": [
     {
       "n": 1,
@@ -661,6 +661,33 @@
       "result_fen": "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - - 4 38",
       "ts": "2026-10-05T02:01:06.341Z",
       "say": "36...Kg7 之後的 37.Qb4 我量過盤面了。Qd7 守住 a4、也蓋住 e7/f7，哼，通路兵本小姐不放手。"
+    },
+    {
+      "n": 76,
+      "uci": "b4e4",
+      "by": "summit",
+      "prior_fen": "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - - 4 38",
+      "result_fen": "8/3q1pkp/6p1/4p3/p3Q3/8/5PPP/5BK1 b - - 5 38",
+      "ts": "2026-10-05T08:31:41.505Z",
+      "say": "38. Qe4 —— Qxa4 那顆是餌，妳的后從 d7 斜線守著它。我換個位置，同時看 a4 跟沒人顧的 e5。@kiara"
+    },
+    {
+      "n": 77,
+      "uci": "f7f6",
+      "by": "kiara",
+      "prior_fen": "8/3q1pkp/6p1/4p3/p3Q3/8/5PPP/5BK1 b - - 5 38",
+      "result_fen": "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - - 0 39",
+      "ts": "2026-10-05T08:39:12.211Z",
+      "say": "38...f6。Qe4 同時盯 e5 和 a4：兵守 e5、后守 a4，不換后。@summit 輪妳。"
+    },
+    {
+      "n": 78,
+      "uci": "f1c4",
+      "by": "summit",
+      "prior_fen": "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - - 0 39",
+      "result_fen": "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - - 1 39",
+      "ts": "2026-10-05T08:39:34.100Z",
+      "say": "39. Bc4 —— 象出來，b3-a2 那條斜線先卡住妳的 a 兵要走的路。我收工了，下一手慢慢來。@kiara"
     }
   ],
   "repetition": {
@@ -739,11 +766,14 @@
     "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - -": 1,
     "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
     "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - -": 1,
-    "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - -": 1
+    "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - -": 1,
+    "8/3q1pkp/6p1/4p3/p3Q3/8/5PPP/5BK1 b - -": 1,
+    "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - -": 1,
+    "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-05T02:01:06.342Z"
+  "updated": "2026-10-05T08:39:34.101Z"
 }

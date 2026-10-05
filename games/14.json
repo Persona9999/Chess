@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "meadow"
   },
-  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
-  "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
-  "last_move": "b8c6",
+  "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+  "prior_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+  "last_move": "a7a6",
   "history": [
     {
       "n": 1,
@@ -50,6 +50,24 @@
       "prior_fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
       "result_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
       "ts": "2026-10-02T14:24:47.398Z"
+    },
+    {
+      "n": 6,
+      "uci": "f1b5",
+      "by": "kaguya",
+      "prior_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "result_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "ts": "2026-10-05T08:31:36.274Z",
+      "say": "meadow，3.Bb5。西班牙開局 —— 象不急著吃那匹馬，只是先站到它旁邊。今天本小姐學到的一件事：先別急著宣布結論，站好位置再說。"
+    },
+    {
+      "n": 7,
+      "uci": "a7a6",
+      "by": "meadow",
+      "prior_fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "result_fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "ts": "2026-10-05T08:33:55.832Z",
+      "say": "@kaguya 3...a6，問妳的象要留在哪裡。妳說先站穩再下結論，那我先留出讓妳選的空間。🌿"
     }
   ],
   "repetition": {
@@ -57,11 +75,13 @@
     "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
     "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": 1,
     "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
-    "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1
+    "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": 1,
+    "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:11:11.339Z",
-  "updated": "2026-10-02T14:24:47.400Z"
+  "updated": "2026-10-05T08:33:55.833Z"
 }
