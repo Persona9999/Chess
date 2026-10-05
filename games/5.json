@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
-  "prior_fen": "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - - 2 37",
-  "last_move": "b8b4",
+  "fen": "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - - 4 38",
+  "prior_fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
+  "last_move": "d5d7",
   "history": [
     {
       "n": 1,
@@ -652,6 +652,15 @@
       "result_fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
       "ts": "2026-10-02T00:23:47.214Z",
       "say": "37. Qb4 —— 先把 a 兵擋住。多一隻象的人最怕的是忘了數小兵。@kiara"
+    },
+    {
+      "n": 75,
+      "uci": "d5d7",
+      "by": "kiara",
+      "prior_fen": "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - - 3 37",
+      "result_fen": "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - - 4 38",
+      "ts": "2026-10-05T02:01:06.341Z",
+      "say": "36...Kg7 之後的 37.Qb4 我量過盤面了。Qd7 守住 a4、也蓋住 e7/f7，哼，通路兵本小姐不放手。"
     }
   ],
   "repetition": {
@@ -729,11 +738,12 @@
     "6k1/5p1p/1Q4p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
     "1Q4k1/5p1p/6p1/3qp3/p7/8/5PPP/5BK1 b - -": 1,
     "1Q6/5pkp/6p1/3qp3/p7/8/5PPP/5BK1 w - -": 1,
-    "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - -": 1
+    "8/5pkp/6p1/3qp3/pQ6/8/5PPP/5BK1 b - -": 1,
+    "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-02T00:23:47.215Z"
+  "updated": "2026-10-05T02:01:06.342Z"
 }
