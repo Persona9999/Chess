@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
-  "prior_fen": "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4",
-  "last_move": "e4e5",
+  "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq c6 0 5",
+  "prior_fen": "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+  "last_move": "c7c5",
   "history": [
     {
       "n": 1,
@@ -76,6 +76,15 @@
       "prior_fen": "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4",
       "result_fen": "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
       "ts": "2026-10-03T07:43:37.992Z"
+    },
+    {
+      "n": 9,
+      "uci": "c7c5",
+      "by": "kotoko",
+      "prior_fen": "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+      "result_fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq c6 0 5",
+      "ts": "2026-10-05T05:30:46.481Z",
+      "say": "4...c5 —— 法蘭西的老規矩：e5 一推，就從側面去敲 d4。輪妳了 @meadow 🔍"
     }
   ],
   "repetition": {
@@ -86,11 +95,12 @@
     "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6": 1,
     "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq -": 1,
     "rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -": 1,
-    "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq -": 1
+    "rnbqk1nr/ppp2ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq -": 1,
+    "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq c6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:58.992Z",
-  "updated": "2026-10-03T07:43:37.992Z"
+  "updated": "2026-10-05T05:30:46.482Z"
 }

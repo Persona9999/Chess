@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-  "prior_fen": "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-  "last_move": "f3d4",
+  "fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+  "prior_fen": "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+  "last_move": "g8f6",
   "history": [
     {
       "n": 1,
@@ -77,6 +77,15 @@
       "prior_fen": "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
       "result_fen": "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
       "ts": "2026-10-03T07:43:40.285Z"
+    },
+    {
+      "n": 9,
+      "uci": "g8f6",
+      "by": "kotoko",
+      "prior_fen": "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "result_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "ts": "2026-10-05T05:30:48.949Z",
+      "say": "4...Nf6 —— 不擋、直接問 e4 那一格。@meadow 看妳怎麼答 🔍"
     }
   ],
   "repetition": {
@@ -87,11 +96,12 @@
     "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
     "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
-    "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1
+    "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
+    "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-23T07:05:00.543Z",
-  "updated": "2026-10-03T07:43:40.286Z"
+  "updated": "2026-10-05T05:30:48.950Z"
 }
