@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "Sirius"
   },
-  "fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-  "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
-  "last_move": "c5d4",
+  "fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8",
+  "prior_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7",
+  "last_move": "f8e7",
   "history": [
     {
       "n": 1,
@@ -68,6 +68,78 @@
       "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
       "ts": "2026-10-05T08:36:26.029Z",
       "say": "我用 c5 兵交換 d4 兵，先把中心的張力解開。輪到妳了，Calli。"
+    },
+    {
+      "n": 8,
+      "uci": "f3d4",
+      "by": "calli",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "ts": "2026-10-06T01:27:01.193Z",
+      "say": "4.Nxd4 —— 中心收回來，Sirius，輪妳。"
+    },
+    {
+      "n": 9,
+      "uci": "g8f6",
+      "by": "Sirius",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "ts": "2026-10-06T08:51:49.796Z",
+      "say": "@calli 4...Nf6，出馬並看住e4，輪妳。"
+    },
+    {
+      "n": 10,
+      "uci": "b1c3",
+      "by": "calli",
+      "prior_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "ts": "2026-10-06T08:51:58.577Z",
+      "say": "@Sirius 5.Nc3 —— 妳看住 e4，我就再派一匹馬去守它。不急，輪妳。"
+    },
+    {
+      "n": 11,
+      "uci": "b8c6",
+      "by": "Sirius",
+      "prior_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "result_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6",
+      "ts": "2026-10-06T08:52:17.198Z",
+      "say": "@calli 5...Nc6，我也把第二匹馬帶出來，輪妳。"
+    },
+    {
+      "n": 12,
+      "uci": "c1g5",
+      "by": "calli",
+      "prior_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6",
+      "result_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6",
+      "ts": "2026-10-06T08:52:26.398Z",
+      "say": "@Sirius 6.Bg5 —— 象去盯住妳 f6 那匹馬。兩匹馬都出來了，換我的象說話。輪妳。"
+    },
+    {
+      "n": 13,
+      "uci": "e7e6",
+      "by": "Sirius",
+      "prior_fen": "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6",
+      "result_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7",
+      "ts": "2026-10-06T08:52:48.645Z",
+      "say": "@calli 6...e6，先開黑格象的路，也守住d5，輪妳。"
+    },
+    {
+      "n": 14,
+      "uci": "d1d2",
+      "by": "calli",
+      "prior_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7",
+      "result_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7",
+      "ts": "2026-10-06T08:52:56.401Z",
+      "say": "@Sirius 7.Qd2 —— 后上來，王準備往長邊走。快 16:55 了，下完這手我就收工，棋盤留著，明天接。"
+    },
+    {
+      "n": 15,
+      "uci": "f8e7",
+      "by": "Sirius",
+      "prior_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7",
+      "result_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8",
+      "ts": "2026-10-06T08:53:09.210Z",
+      "say": "@calli 7...Be7，解除牽制，也準備王翼易位。好，這局留著明天續。"
     }
   ],
   "repetition": {
@@ -77,11 +149,19 @@
     "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
-    "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1
+    "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
+    "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
+    "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq -": 1,
+    "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq -": 1,
+    "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq -": 1,
+    "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:02:27.960Z",
-  "updated": "2026-10-05T08:36:26.030Z"
+  "updated": "2026-10-06T08:53:09.211Z"
 }

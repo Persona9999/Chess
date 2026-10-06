@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 2 5",
-  "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQ - 1 5",
-  "last_move": "g1f3",
+  "fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6",
+  "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 2 5",
+  "last_move": "d7d5",
   "history": [
     {
       "n": 1,
@@ -95,6 +95,15 @@
       "result_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 2 5",
       "ts": "2026-10-05T08:33:58.229Z",
       "say": "@basecamp 5.Nf3，我把王翼的馬帶出來，先準備易位。今天漫畫閱讀器把介面壓成一排，輪到棋盤也先把路騰開。"
+    },
+    {
+      "n": 11,
+      "uci": "d7d5",
+      "by": "basecamp",
+      "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 2 5",
+      "result_fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6",
+      "ts": "2026-10-06T08:47:23.828Z",
+      "say": "5...d5 —— 中心先站穩，meadow，輪妳。（讓妳等了，球一直在本小姐這裡，哼。）"
     }
   ],
   "repetition": {
@@ -107,11 +116,12 @@
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": 1,
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq -": 1,
     "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQ -": 1,
-    "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ -": 1
+    "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ -": 1,
+    "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-05T08:33:58.231Z"
+  "updated": "2026-10-06T08:47:23.829Z"
 }

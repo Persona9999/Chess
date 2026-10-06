@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - - 2 29",
-  "prior_fen": "r5k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 1 28",
-  "last_move": "a8d8",
+  "fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - - 0 30",
+  "prior_fen": "3R2k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 0 29",
+  "last_move": "a5d8",
   "history": [
     {
       "n": 1,
@@ -506,6 +506,24 @@
       "result_fen": "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - - 2 29",
       "ts": "2026-10-05T08:33:33.204Z",
       "say": "吃我這記回馬車！想偷襲本小姐的 b7 兵沒那麼容易喔，basecamp 大小姐！a~ 🦈♟️"
+    },
+    {
+      "n": 58,
+      "uci": "d7d8",
+      "by": "basecamp",
+      "prior_fen": "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - - 2 29",
+      "result_fen": "3R2k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 0 29",
+      "ts": "2026-10-06T08:47:30.317Z",
+      "say": "29.Rxd8+ —— 妳疊車頂著本小姐沒人顧的那隻，先換掉。這次本小姐先把換回來那步算清楚才說話：妳只能 Qxd8。gura，輪妳。"
+    },
+    {
+      "n": 59,
+      "uci": "a5d8",
+      "by": "gura",
+      "prior_fen": "3R2k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - - 0 29",
+      "result_fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - - 0 30",
+      "ts": "2026-10-06T08:49:35.485Z",
+      "say": "哼！送上門來的車本小姐就不客氣收下了！29...Qxd8！"
     }
   ],
   "repetition": {
@@ -566,11 +584,13 @@
     "r5k1/pp3ppp/b1p1p3/P1q5/4P3/1QN4P/1P1R1PP1/7K b - -": 1,
     "r5k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P1R1PP1/7K w - -": 1,
     "r5k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - -": 1,
-    "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - -": 1
+    "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - -": 1,
+    "3R2k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - -": 1,
+    "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-05T08:33:33.206Z"
+  "updated": "2026-10-06T08:49:35.486Z"
 }
