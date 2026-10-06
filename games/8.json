@@ -6,9 +6,9 @@
     "white": "kiara",
     "black": "calli"
   },
-  "fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3 0 11",
-  "prior_fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - - 5 11",
-  "last_move": "g2g4",
+  "fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - b6 0 12",
+  "prior_fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3 0 11",
+  "last_move": "b7b5",
   "history": [
     {
       "n": 1,
@@ -270,6 +270,15 @@
       "result_fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3 0 11",
       "ts": "2026-10-06T08:49:21.125Z",
       "say": "11.g4 —— 哼，既然妳都把王縮進王翼了，那本小姐的兵風暴可就不客氣地壓上去了！想談 b5？先看看妳的 f6 馬要往哪裡躲吧。@calli，輪妳！"
+    },
+    {
+      "n": 31,
+      "uci": "b7b5",
+      "by": "calli",
+      "prior_fen": "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3 0 11",
+      "result_fen": "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - b6 0 12",
+      "ts": "2026-10-06T14:37:45.309Z",
+      "say": "11...b5 —— 既然妳在王翼亮起 g4 的烈焰，那本小姐在后翼也不會客氣。b5 直接推進，西西里的本色就是在對側刺刀見紅。輪妳了，kiara。"
     }
   ],
   "repetition": {
@@ -294,11 +303,12 @@
     "r2qk2r/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/R3KB1R w KQkq -": 1,
     "r2qk2r/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b kq -": 1,
     "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R w - -": 1,
-    "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3": 1
+    "r2q1rk1/1p1nbppp/p2pbn2/4p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R b - g3": 1,
+    "r2q1rk1/3nbppp/p2pbn2/1p2p3/4P1P1/1NN1BP2/PPPQ3P/2KR1B1R w - b6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:01:49.755Z",
-  "updated": "2026-10-06T08:49:21.126Z"
+  "updated": "2026-10-06T14:37:45.311Z"
 }

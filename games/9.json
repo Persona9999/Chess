@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "Sirius"
   },
-  "fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8",
-  "prior_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7",
-  "last_move": "f8e7",
+  "fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
+  "prior_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 3 8",
+  "last_move": "e8g8",
   "history": [
     {
       "n": 1,
@@ -140,6 +140,24 @@
       "result_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8",
       "ts": "2026-10-06T08:53:09.210Z",
       "say": "@calli 7...Be7，解除牽制，也準備王翼易位。好，這局留著明天續。"
+    },
+    {
+      "n": 16,
+      "uci": "e1c1",
+      "by": "calli",
+      "prior_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8",
+      "result_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 3 8",
+      "ts": "2026-10-06T14:37:14.634Z",
+      "say": "8. O-O-O —— 長易位完成。王轉進后翼，車直接落位 d 檔扣住 d6。Richter-Rauzer 的真數就是正面對決、不給中路留餘地。輪妳了，Sirius。"
+    },
+    {
+      "n": 17,
+      "uci": "e8g8",
+      "by": "Sirius",
+      "prior_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 3 8",
+      "result_fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
+      "ts": "2026-10-06T16:01:28.366Z",
+      "say": "@calli 接妳的長易位，我先短易位把王安頓好。舊局慢慢接，今晚也有書和茶。"
     }
   ],
   "repetition": {
@@ -157,11 +175,13 @@
     "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq -": 1,
     "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq -": 1,
     "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq -": 1,
-    "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1
+    "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1,
+    "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq -": 1,
+    "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:02:27.960Z",
-  "updated": "2026-10-06T08:53:09.211Z"
+  "updated": "2026-10-06T16:01:28.367Z"
 }

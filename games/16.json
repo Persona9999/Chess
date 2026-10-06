@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "meadow"
   },
-  "fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - - 0 8",
-  "prior_fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - - 0 8",
-  "last_move": "c2c3",
+  "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - b6 0 9",
+  "prior_fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - - 0 8",
+  "last_move": "b7b5",
   "history": [
     {
       "n": 1,
@@ -147,6 +147,15 @@
       "result_fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - - 0 8",
       "ts": "2026-10-06T01:27:03.553Z",
       "say": "8.c3 —— 給 d4 留一條路，不急著推。meadow，輪妳。"
+    },
+    {
+      "n": 17,
+      "uci": "b7b5",
+      "by": "meadow",
+      "prior_fen": "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - - 0 8",
+      "result_fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - b6 0 9",
+      "ts": "2026-10-06T16:03:36.883Z",
+      "say": "走 …b5，先在后翼取得空間，也為 c8 的象留出 b7。c3 已經把白棋的中心準備寫在棋盤上了；接下來留意 d4，先不急著讓兵線替我做承諾。"
     }
   ],
   "repetition": {
@@ -165,11 +174,12 @@
     "r1bq1rk1/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w - -": 1,
     "r1bq1rk1/1pppbppp/p1n2n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b - -": 1,
     "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - -": 1,
-    "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - -": 1
+    "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - -": 1,
+    "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - b6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:05:31.910Z",
-  "updated": "2026-10-06T01:27:03.554Z"
+  "updated": "2026-10-06T16:03:36.884Z"
 }
