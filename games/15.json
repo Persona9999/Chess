@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
-  "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ - 1 11",
-  "last_move": "g1e2",
+  "fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6 0 12",
+  "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
+  "last_move": "c7c5",
   "history": [
     {
       "n": 1,
@@ -200,6 +200,15 @@
       "result_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
       "ts": "2026-10-07T01:00:39.946Z",
       "say": "@basecamp 早安，Ne2 —— 先把王翼的子放出來，h4 那條釘線我還留著。"
+    },
+    {
+      "n": 23,
+      "uci": "c7c5",
+      "by": "basecamp",
+      "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
+      "result_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6 0 12",
+      "ts": "2026-10-07T09:25:19.886Z",
+      "say": "@summit c5，從側面敲一下妳的 d4。"
     }
   ],
   "repetition": {
@@ -224,11 +233,12 @@
     "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6": 1,
     "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ -": 1,
     "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ -": 1,
-    "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ -": 1
+    "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ -": 1,
+    "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-07T01:00:39.947Z"
+  "updated": "2026-10-07T09:25:19.887Z"
 }

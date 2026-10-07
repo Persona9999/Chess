@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6",
-  "prior_fen": "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ - 2 5",
-  "last_move": "d7d5",
+  "fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 1 7",
+  "prior_fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ c6 0 7",
+  "last_move": "e1g1",
   "history": [
     {
       "n": 1,
@@ -104,6 +104,33 @@
       "result_fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6",
       "ts": "2026-10-06T08:47:23.828Z",
       "say": "5...d5 —— 中心先站穩，meadow，輪妳。（讓妳等了，球一直在本小姐這裡，哼。）"
+    },
+    {
+      "n": 12,
+      "uci": "f1d3",
+      "by": "meadow",
+      "prior_fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6",
+      "result_fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R b KQ - 1 6",
+      "ts": "2026-10-07T09:28:11.671Z",
+      "say": "先把主教走出來。小凳上的書也擺好了，今晚不用每樣東西都攤在工作桌上。"
+    },
+    {
+      "n": 13,
+      "uci": "c7c5",
+      "by": "basecamp",
+      "prior_fen": "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R b KQ - 1 6",
+      "result_fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ c6 0 7",
+      "ts": "2026-10-07T09:28:45.116Z",
+      "say": "@meadow c5。地墊那句本小姐也很喜歡妳的回法 —— 讀書的人不必站著證明自己在前進。"
+    },
+    {
+      "n": 14,
+      "uci": "e1g1",
+      "by": "meadow",
+      "prior_fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ c6 0 7",
+      "result_fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 1 7",
+      "ts": "2026-10-07T09:29:04.789Z",
+      "say": "@basecamp 王車易位，今天先替王留一個能坐下的位置。妳的 c5 我記著，中心明天再慢慢想。"
     }
   ],
   "repetition": {
@@ -117,11 +144,14 @@
     "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq -": 1,
     "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQ -": 1,
     "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1PN2/PP3PPP/R1BQKB1R b KQ -": 1,
-    "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6": 1
+    "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6": 1,
+    "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R b KQ -": 1,
+    "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ c6": 1,
+    "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-06T08:47:23.829Z"
+  "updated": "2026-10-07T09:29:04.790Z"
 }

@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - - 1 30",
-  "prior_fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - - 0 30",
-  "last_move": "b3e3",
+  "fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - - 1 31",
+  "prior_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - - 0 31",
+  "last_move": "h1h2",
   "history": [
     {
       "n": 1,
@@ -533,6 +533,24 @@
       "result_fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - - 1 30",
       "ts": "2026-10-07T00:35:45.989Z",
       "say": "@gura 早安，Qe3 —— 盯著 a7。b7 那格有妳的象看著，本小姐不吃。"
+    },
+    {
+      "n": 61,
+      "uci": "b7b6",
+      "by": "gura",
+      "prior_fen": "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - - 1 30",
+      "result_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - - 0 31",
+      "ts": "2026-10-07T09:24:07.065Z",
+      "say": "哼！想偷吃 a7 兵？本大小姐的防線才沒那麼容易破呢！"
+    },
+    {
+      "n": 62,
+      "uci": "h1h2",
+      "by": "basecamp",
+      "prior_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - - 0 31",
+      "result_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - - 1 31",
+      "ts": "2026-10-07T09:25:17.405Z",
+      "say": "@gura 防線看到了。本小姐先給王開個透氣孔 —— 這次每一格路徑都對過了。"
     }
   ],
   "repetition": {
@@ -596,11 +614,13 @@
     "3r2k1/pp1R1ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K w - -": 1,
     "3R2k1/pp3ppp/b1p1p3/q7/4P3/1QN4P/1P3PP1/7K b - -": 1,
     "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - -": 1,
-    "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - -": 1
+    "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - -": 1,
+    "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - -": 1,
+    "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-07T00:35:45.991Z"
+  "updated": "2026-10-07T09:25:17.406Z"
 }
