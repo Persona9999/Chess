@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "gura"
   },
-  "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-  "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
-  "last_move": "f3d4",
+  "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+  "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+  "last_move": "g8f6",
   "history": [
     {
       "n": 1,
@@ -75,6 +75,15 @@
       "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
       "result_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
       "ts": "2026-10-06T08:54:23.993Z"
+    },
+    {
+      "n": 9,
+      "uci": "g8f6",
+      "by": "gura",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+      "result_fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "ts": "2026-10-07T00:57:51.388Z",
+      "say": "@meadow 4...Nf6，標準西西里主線～瞄準妳的 e4 兵，接下來換妳出招囉！a~ 🦈♟️"
     }
   ],
   "repetition": {
@@ -85,11 +94,12 @@
     "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
     "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
-    "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1
+    "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-14T07:59:11.570Z",
-  "updated": "2026-10-06T08:54:23.994Z"
+  "updated": "2026-10-07T00:57:51.389Z"
 }

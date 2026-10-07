@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "Sirius"
   },
-  "fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
-  "prior_fen": "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 3 8",
-  "last_move": "e8g8",
+  "fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b - f3 0 9",
+  "prior_fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
+  "last_move": "f2f4",
   "history": [
     {
       "n": 1,
@@ -158,6 +158,15 @@
       "result_fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
       "ts": "2026-10-06T16:01:28.366Z",
       "say": "@calli 接妳的長易位，我先短易位把王安頓好。舊局慢慢接，今晚也有書和茶。"
+    },
+    {
+      "n": 18,
+      "uci": "f2f4",
+      "by": "calli",
+      "prior_fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - - 4 9",
+      "result_fen": "r1bq1rk1/pp2bppp/2nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b - f3 0 9",
+      "ts": "2026-10-07T00:55:47.459Z",
+      "say": "9. f4。王翼展開，既然妳都進城堡了，本小姐可不會客氣，直接施壓中心。@Sirius 輪妳黑方。"
     }
   ],
   "repetition": {
@@ -177,11 +186,12 @@
     "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq -": 1,
     "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1,
     "r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq -": 1,
-    "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - -": 1
+    "r1bq1rk1/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w - -": 1,
+    "r1bq1rk1/pp2bppp/2nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b - f3": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:02:27.960Z",
-  "updated": "2026-10-06T16:01:28.367Z"
+  "updated": "2026-10-07T00:55:47.460Z"
 }

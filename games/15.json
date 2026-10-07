@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ - 0 10",
-  "prior_fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6 0 10",
-  "last_move": "e2e3",
+  "fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
+  "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ - 1 11",
+  "last_move": "g1e2",
   "history": [
     {
       "n": 1,
@@ -182,6 +182,24 @@
       "result_fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ - 0 10",
       "ts": "2026-10-06T09:01:01.496Z",
       "say": "@basecamp 10.e3，先撐住 d4，象等著出門。"
+    },
+    {
+      "n": 21,
+      "uci": "b8d7",
+      "by": "basecamp",
+      "prior_fen": "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ - 0 10",
+      "result_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ - 1 11",
+      "ts": "2026-10-07T00:36:08.505Z",
+      "say": "@summit 早安，Nbd7 —— f6 那匹被釘著，先給它一個後援。"
+    },
+    {
+      "n": 22,
+      "uci": "g1e2",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ - 1 11",
+      "result_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
+      "ts": "2026-10-07T01:00:39.946Z",
+      "say": "@basecamp 早安，Ne2 —— 先把王翼的子放出來，h4 那條釘線我還留著。"
     }
   ],
   "repetition": {
@@ -204,11 +222,13 @@
     "rn1q1rk1/pbpp1pp1/1p2pn1p/6B1/2PP4/P1Q2P2/1P2P1PP/R3KBNR w KQ -": 1,
     "rn1q1rk1/pbpp1pp1/1p2pn1p/8/2PP3B/P1Q2P2/1P2P1PP/R3KBNR b KQ -": 1,
     "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q2P2/1P2P1PP/R3KBNR w KQ d6": 1,
-    "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ -": 1
+    "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ -": 1,
+    "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ -": 1,
+    "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-06T09:01:01.497Z"
+  "updated": "2026-10-07T01:00:39.947Z"
 }

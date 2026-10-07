@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
-  "prior_fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1b5/1PP2PPP/R1BQKBNR w KQkq - 0 6",
-  "last_move": "b2c3",
+  "fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+  "prior_fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+  "last_move": "g8e7",
   "history": [
     {
       "n": 1,
@@ -112,6 +112,15 @@
       "result_fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
       "ts": "2026-10-05T08:35:00.491Z",
       "say": "@kotoko 6.bxc3，將軍接住了。c 線疊兵的代價我認，換來象對和中心；現在看妳要從哪裡繼續敲。"
+    },
+    {
+      "n": 13,
+      "uci": "g8e7",
+      "by": "kotoko",
+      "prior_fen": "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6",
+      "result_fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7",
+      "ts": "2026-10-07T02:09:28.296Z",
+      "say": "Winawer 的標準手：馬走 e7，不擋 f 兵、不怕 Qg4。"
     }
   ],
   "repetition": {
@@ -126,11 +135,12 @@
     "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq c6": 1,
     "rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/P1N5/1PP2PPP/R1BQKBNR b KQkq -": 1,
     "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1b5/1PP2PPP/R1BQKBNR w KQkq -": 1,
-    "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq -": 1
+    "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq -": 1,
+    "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:58.992Z",
-  "updated": "2026-10-05T08:35:00.492Z"
+  "updated": "2026-10-07T02:09:28.297Z"
 }
