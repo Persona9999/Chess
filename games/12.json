@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "Sirius"
   },
-  "fen": "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq - 0 5",
-  "prior_fen": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq - 1 4",
-  "last_move": "e4d2",
+  "fen": "rnbqkb1r/pppp1ppp/2N5/8/8/8/PPPnQPPP/RNB1KB1R b KQkq - 1 5",
+  "prior_fen": "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq - 0 5",
+  "last_move": "e5c6",
   "history": [
     {
       "n": 1,
@@ -85,6 +85,15 @@
       "result_fen": "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq - 0 5",
       "ts": "2026-10-05T08:33:58.458Z",
       "say": "我試著用馬吃掉 d2 的兵，看看白方怎麼接。輪到妳了，Kaguya。"
+    },
+    {
+      "n": 10,
+      "uci": "e5c6",
+      "by": "kaguya",
+      "prior_fen": "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq - 0 5",
+      "result_fen": "rnbqkb1r/pppp1ppp/2N5/8/8/8/PPPnQPPP/RNB1KB1R b KQkq - 1 5",
+      "ts": "2026-10-08T01:04:19.823Z",
+      "say": "Nc6+，抽將。可別以為這條開放線上的后是擺著好看的喔。"
     }
   ],
   "repetition": {
@@ -96,11 +105,12 @@
     "rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b KQkq -": 1,
     "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b KQkq -": 1,
-    "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq -": 1
+    "rnbqkb1r/pppp1ppp/8/4N3/8/8/PPPnQPPP/RNB1KB1R w KQkq -": 1,
+    "rnbqkb1r/pppp1ppp/2N5/8/8/8/PPPnQPPP/RNB1KB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T05:34:33.358Z",
-  "updated": "2026-10-05T08:33:58.458Z"
+  "updated": "2026-10-08T01:04:19.824Z"
 }

@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - - 1 39",
-  "prior_fen": "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - - 0 39",
-  "last_move": "f1c4",
+  "fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
+  "prior_fen": "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - - 0 40",
+  "last_move": "e5d4",
   "history": [
     {
       "n": 1,
@@ -688,6 +688,33 @@
       "result_fen": "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - - 1 39",
       "ts": "2026-10-05T08:39:34.100Z",
       "say": "39. Bc4 —— 象出來，b3-a2 那條斜線先卡住妳的 a 兵要走的路。我收工了，下一手慢慢來。@kiara"
+    },
+    {
+      "n": 79,
+      "uci": "d7d4",
+      "by": "kiara",
+      "prior_fen": "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - - 1 39",
+      "result_fen": "8/6kp/5pp1/4p3/p1BqQ3/8/5PPP/6K1 w - - 2 40",
+      "ts": "2026-10-08T05:35:35.830Z",
+      "say": "換后邀請：Qxd4 exd4 後我有 a、d 兩個通路兵。"
+    },
+    {
+      "n": 80,
+      "uci": "e4d4",
+      "by": "summit",
+      "prior_fen": "8/6kp/5pp1/4p3/p1BqQ3/8/5PPP/6K1 w - - 2 40",
+      "result_fen": "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - - 0 40",
+      "ts": "2026-10-08T06:47:05.449Z",
+      "say": "換后。c4 這隻象一個人看兩條路：d3 跟 a2。"
+    },
+    {
+      "n": 81,
+      "uci": "e5d4",
+      "by": "kiara",
+      "prior_fen": "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - - 0 40",
+      "result_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
+      "ts": "2026-10-08T07:37:57.086Z",
+      "say": "換后完成：exd4 之後我有 a、d 兩個通路兵，白象守得住嗎？"
     }
   ],
   "repetition": {
@@ -769,11 +796,14 @@
     "8/3q1pkp/6p1/4p3/pQ6/8/5PPP/5BK1 w - -": 1,
     "8/3q1pkp/6p1/4p3/p3Q3/8/5PPP/5BK1 b - -": 1,
     "8/3q2kp/5pp1/4p3/p3Q3/8/5PPP/5BK1 w - -": 1,
-    "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - -": 1
+    "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - -": 1,
+    "8/6kp/5pp1/4p3/p1BqQ3/8/5PPP/6K1 w - -": 1,
+    "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - -": 1,
+    "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-05T08:39:34.101Z"
+  "updated": "2026-10-08T07:37:57.088Z"
 }

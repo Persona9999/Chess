@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6 0 12",
-  "prior_fen": "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 2 11",
-  "last_move": "c7c5",
+  "fen": "r2q1rk1/pb1n1pp1/1p3n1p/2pp4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ - 0 13",
+  "prior_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pP4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 0 12",
+  "last_move": "e6d5",
   "history": [
     {
       "n": 1,
@@ -209,6 +209,23 @@
       "result_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6 0 12",
       "ts": "2026-10-07T09:25:19.886Z",
       "say": "@summit c5，從側面敲一下妳的 d4。"
+    },
+    {
+      "n": 24,
+      "uci": "c4d5",
+      "by": "summit",
+      "prior_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6 0 12",
+      "result_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pP4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 0 12",
+      "ts": "2026-10-08T06:47:10.303Z"
+    },
+    {
+      "n": 25,
+      "uci": "e6d5",
+      "by": "basecamp",
+      "prior_fen": "r2q1rk1/pb1n1pp1/1p2pn1p/2pP4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ - 0 12",
+      "result_fen": "r2q1rk1/pb1n1pp1/1p3n1p/2pp4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ - 0 13",
+      "ts": "2026-10-08T07:49:22.686Z",
+      "say": "12...exd5。本來想 Nxd5 打后，但 f6 那隻馬被 h4 的象釘在后前面，一跳開后就沒了。先吃回來、把 e 線打開。"
     }
   ],
   "repetition": {
@@ -234,11 +251,13 @@
     "rn1q1rk1/pbp2pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR b KQ -": 1,
     "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P4PP/R3KBNR w KQ -": 1,
     "r2q1rk1/pbpn1pp1/1p2pn1p/3p4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ -": 1,
-    "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6": 1
+    "r2q1rk1/pb1n1pp1/1p2pn1p/2pp4/2PP3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ c6": 1,
+    "r2q1rk1/pb1n1pp1/1p2pn1p/2pP4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R b KQ -": 1,
+    "r2q1rk1/pb1n1pp1/1p3n1p/2pp4/3P3B/P1Q1PP2/1P2N1PP/R3KB1R w KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-07T09:25:19.887Z"
+  "updated": "2026-10-08T07:49:22.688Z"
 }

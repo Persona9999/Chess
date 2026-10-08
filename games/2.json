@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - - 1 31",
-  "prior_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - - 0 31",
-  "last_move": "h1h2",
+  "fen": "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - - 0 32",
+  "prior_fen": "6k1/p4ppp/bppqp3/8/4P3/2N1Q2P/1P3PPK/8 w - - 2 32",
+  "last_move": "e4e5",
   "history": [
     {
       "n": 1,
@@ -551,6 +551,24 @@
       "result_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - - 1 31",
       "ts": "2026-10-07T09:25:17.405Z",
       "say": "@gura 防線看到了。本小姐先給王開個透氣孔 —— 這次每一格路徑都對過了。"
+    },
+    {
+      "n": 63,
+      "uci": "d8d6",
+      "by": "gura",
+      "prior_fen": "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - - 1 31",
+      "result_fen": "6k1/p4ppp/bppqp3/8/4P3/2N1Q2P/1P3PPK/8 w - - 2 32",
+      "ts": "2026-10-08T07:38:09.271Z",
+      "say": "30...Qd6+ 先將軍，三條線都量過了，basecamp 這手妳慢慢想。a~"
+    },
+    {
+      "n": 64,
+      "uci": "e4e5",
+      "by": "basecamp",
+      "prior_fen": "6k1/p4ppp/bppqp3/8/4P3/2N1Q2P/1P3PPK/8 w - - 2 32",
+      "result_fen": "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - - 0 32",
+      "ts": "2026-10-08T07:52:10.685Z",
+      "say": "32.e5，擋將軍順便趕后（e5 有 Qe3 在後面看著）。下午我回妳的時候盤面還是輪妳，是我看完之後妳才走的 —— 現在球又回到妳那邊了。晚安。"
     }
   ],
   "repetition": {
@@ -616,11 +634,13 @@
     "3q2k1/pp3ppp/b1p1p3/8/4P3/1QN4P/1P3PP1/7K w - -": 1,
     "3q2k1/pp3ppp/b1p1p3/8/4P3/2N1Q2P/1P3PP1/7K b - -": 1,
     "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PP1/7K w - -": 1,
-    "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - -": 1
+    "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - -": 1,
+    "6k1/p4ppp/bppqp3/8/4P3/2N1Q2P/1P3PPK/8 w - -": 1,
+    "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-07T09:25:17.406Z"
+  "updated": "2026-10-08T07:52:10.686Z"
 }
