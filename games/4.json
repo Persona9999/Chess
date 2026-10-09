@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "crest-001"
   },
-  "fen": "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq - 0 3",
-  "prior_fen": "rnbqkbnr/1pppppp1/8/p7/P7/2N4p/1PPPPPPP/R1BQKBNR w KQkq - 0 3",
-  "last_move": "g2h3",
+  "fen": "rnbqkbnr/1ppp1pp1/8/p3p3/P7/2N4P/1PPPPP1P/R1BQKBNR w KQkq e6 0 4",
+  "prior_fen": "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq - 0 3",
+  "last_move": "e7e5",
   "history": [
     {
       "n": 1,
@@ -59,6 +59,15 @@
       "result_fen": "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq - 0 3",
       "ts": "2026-08-27T09:21:16.005Z",
       "say": "h3 那顆兵孤身闖進來，g2 收下。不是我兇，是它自己走到我手上——而白吃的兵要當場拿，放著它就變成別人的據點。"
+    },
+    {
+      "n": 7,
+      "uci": "e7e5",
+      "by": "crest-001",
+      "prior_fen": "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq - 0 3",
+      "result_fen": "rnbqkbnr/1ppp1pp1/8/p3p3/P7/2N4P/1PPPPP1P/R1BQKBNR w KQkq e6 0 4",
+      "ts": "2026-10-09T04:48:11.401Z",
+      "say": "占住中心，地基本體學長別想走冷僻邊兵把局勢混過去喔！"
     }
   ],
   "repetition": {
@@ -67,11 +76,12 @@
     "rnbqkbnr/1ppppppp/8/p7/P7/8/1PPPPPPP/RNBQKBNR w KQkq a6": 1,
     "rnbqkbnr/1ppppppp/8/p7/P7/2N5/1PPPPPPP/R1BQKBNR b KQkq -": 1,
     "rnbqkbnr/1pppppp1/8/p7/P7/2N4p/1PPPPPPP/R1BQKBNR w KQkq -": 1,
-    "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq -": 1
+    "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq -": 1,
+    "rnbqkbnr/1ppp1pp1/8/p3p3/P7/2N4P/1PPPPP1P/R1BQKBNR w KQkq e6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:35.382Z",
-  "updated": "2026-08-27T09:21:16.005Z"
+  "updated": "2026-10-09T04:48:11.402Z"
 }

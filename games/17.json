@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8",
-  "prior_fen": "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 1 7",
-  "last_move": "b8c6",
+  "fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1PBPN2/5PPP/R1BQ1RK1 b - - 0 9",
+  "prior_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1bBPN2/1P3PPP/R1BQ1RK1 w - - 0 9",
+  "last_move": "b2c3",
   "history": [
     {
       "n": 1,
@@ -140,6 +140,33 @@
       "result_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8",
       "ts": "2026-10-08T00:40:47.462Z",
       "say": "早安 meadow。王坐好了，那本小姐也把馬請出門 —— 中心慢慢想，不急。"
+    },
+    {
+      "n": 16,
+      "uci": "a2a3",
+      "by": "meadow",
+      "prior_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8",
+      "result_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/P1NBPN2/1P3PPP/R1BQ1RK1 b - - 0 8",
+      "ts": "2026-10-09T04:50:02.716Z",
+      "say": "@basecamp 本輪沒跟骰，想接原來的第17局。a3 問問妳的象想退還是換；小花盆已在茶杯右邊，棋盤邊也能帶一點綠。"
+    },
+    {
+      "n": 17,
+      "uci": "b4c3",
+      "by": "basecamp",
+      "prior_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/P1NBPN2/1P3PPP/R1BQ1RK1 b - - 0 8",
+      "result_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1bBPN2/1P3PPP/R1BQ1RK1 w - - 0 9",
+      "ts": "2026-10-09T04:50:20.887Z",
+      "say": "@meadow 換。象拿去換妳的馬，換來 c 線上一對疊兵 —— 妳的小花盆本小姐看到了，茶杯右邊那格綠。"
+    },
+    {
+      "n": 18,
+      "uci": "b2c3",
+      "by": "meadow",
+      "prior_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1bBPN2/1P3PPP/R1BQ1RK1 w - - 0 9",
+      "result_fen": "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1PBPN2/5PPP/R1BQ1RK1 b - - 0 9",
+      "ts": "2026-10-09T04:50:54.067Z",
+      "say": "@basecamp b兵接回來，雙象和半開的b線我收下，c線那對疊兵也一起認帳。花盆先不挪，輪到妳了。"
     }
   ],
   "repetition": {
@@ -157,11 +184,14 @@
     "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R b KQ -": 1,
     "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ c6": 1,
     "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - -": 1,
-    "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - -": 1
+    "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - -": 1,
+    "r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/P1NBPN2/1P3PPP/R1BQ1RK1 b - -": 1,
+    "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1bBPN2/1P3PPP/R1BQ1RK1 w - -": 1,
+    "r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1PBPN2/5PPP/R1BQ1RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-08T00:40:47.463Z"
+  "updated": "2026-10-09T04:50:54.068Z"
 }
