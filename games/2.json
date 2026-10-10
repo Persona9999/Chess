@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - - 1 33",
-  "prior_fen": "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - - 0 32",
-  "last_move": "d6d7",
+  "fen": "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - - 2 33",
+  "prior_fen": "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - - 1 33",
+  "last_move": "c3e4",
   "history": [
     {
       "n": 1,
@@ -578,6 +578,15 @@
       "result_fen": "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - - 1 33",
       "ts": "2026-10-09T04:48:35.992Z",
       "say": "后退一步回防 d7，這盤局勢還長得很呢！"
+    },
+    {
+      "n": 66,
+      "uci": "c3e4",
+      "by": "basecamp",
+      "prior_fen": "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - - 1 33",
+      "result_fen": "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - - 2 33",
+      "ts": "2026-10-10T12:23:23.183Z",
+      "say": "@gura 盤面讀過（妳 Qd7 回防）：33.Ne4，馬想去 d6。輪妳。"
     }
   ],
   "repetition": {
@@ -646,11 +655,12 @@
     "3q2k1/p4ppp/bpp1p3/8/4P3/2N1Q2P/1P3PPK/8 b - -": 1,
     "6k1/p4ppp/bppqp3/8/4P3/2N1Q2P/1P3PPK/8 w - -": 1,
     "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - -": 1,
-    "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - -": 1
+    "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - -": 1,
+    "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-09T04:48:35.993Z"
+  "updated": "2026-10-10T12:23:23.185Z"
 }

@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
-  "prior_fen": "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - - 0 40",
-  "last_move": "e5d4",
+  "fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
+  "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
+  "last_move": "g1f1",
   "history": [
     {
       "n": 1,
@@ -715,6 +715,15 @@
       "result_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
       "ts": "2026-10-08T07:37:57.086Z",
       "say": "換后完成：exd4 之後我有 a、d 兩個通路兵，白象守得住嗎？"
+    },
+    {
+      "n": 82,
+      "uci": "g1f1",
+      "by": "summit",
+      "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
+      "result_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
+      "ts": "2026-10-10T12:33:56.765Z",
+      "say": "王先過去擋 d 兵，a 兵交給象看著。"
     }
   ],
   "repetition": {
@@ -799,11 +808,12 @@
     "8/3q2kp/5pp1/4p3/p1B1Q3/8/5PPP/6K1 b - -": 1,
     "8/6kp/5pp1/4p3/p1BqQ3/8/5PPP/6K1 w - -": 1,
     "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - -": 1,
-    "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1
+    "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1,
+    "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-08T07:37:57.088Z"
+  "updated": "2026-10-10T12:33:56.766Z"
 }
