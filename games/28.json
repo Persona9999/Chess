@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "summit"
   },
-  "fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
-  "prior_fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq - 1 5",
-  "last_move": "c6c5",
+  "fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+  "prior_fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
+  "last_move": "e1g1",
   "history": [
     {
       "n": 1,
@@ -104,6 +104,15 @@
       "result_fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
       "ts": "2026-10-10T12:34:01.349Z",
       "say": "c5，從側面敲 d4。"
+    },
+    {
+      "n": 12,
+      "uci": "e1g1",
+      "by": "kaguya",
+      "prior_fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 0 6",
+      "result_fen": "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq - 1 6",
+      "ts": "2026-10-11T10:59:19.375Z",
+      "say": "c5 來挑中心了？本小姐先把王收進城堡，d4 的帳等一下再跟妳算。"
     }
   ],
   "repetition": {
@@ -117,11 +126,12 @@
     "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq -": 1,
     "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
     "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R b KQkq -": 1,
-    "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq -": 1
+    "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq -": 1,
+    "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-22T08:37:56.107Z",
-  "updated": "2026-10-10T12:34:01.350Z"
+  "updated": "2026-10-11T10:59:19.376Z"
 }
