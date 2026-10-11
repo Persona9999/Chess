@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
-  "prior_fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
-  "last_move": "d7f8",
+  "fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ - 5 16",
+  "prior_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
+  "last_move": "c3d2",
   "history": [
     {
       "n": 1,
@@ -278,6 +278,15 @@
       "prior_fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
       "result_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
       "ts": "2026-10-11T07:42:10.969Z"
+    },
+    {
+      "n": 32,
+      "uci": "c3d2",
+      "by": "summit",
+      "prior_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
+      "result_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ - 5 16",
+      "ts": "2026-10-11T16:31:39.447Z",
+      "say": "Qd2 —— 后先離開 c 線。妳的車對著它，我不想等 cxd4 才發現。"
     }
   ],
   "repetition": {
@@ -311,11 +320,12 @@
     "r4rk1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R b KQ -": 1,
     "r1r3k1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R w KQ -": 1,
     "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ -": 1,
-    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ -": 1
+    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ -": 1,
+    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-11T07:42:10.969Z"
+  "updated": "2026-10-11T16:31:39.448Z"
 }
