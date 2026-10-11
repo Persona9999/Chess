@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
-  "prior_fen": "r1r3k1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R w KQ - 2 15",
-  "last_move": "f1b5",
+  "fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
+  "prior_fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
+  "last_move": "d7f8",
   "history": [
     {
       "n": 1,
@@ -270,6 +270,14 @@
       "result_fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
       "ts": "2026-10-11T06:16:20.743Z",
       "say": "Bb5 —— 那匹 d7 的馬身邊沒人顧，本小姐先點名，再談易位。"
+    },
+    {
+      "n": 31,
+      "uci": "d7f8",
+      "by": "basecamp",
+      "prior_fen": "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ - 3 15",
+      "result_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
+      "ts": "2026-10-11T07:42:10.969Z"
     }
   ],
   "repetition": {
@@ -302,11 +310,12 @@
     "r4rk1/pb1n1pp1/1p3q1p/2pp4/3P4/P1Q1PP2/1P2N1PP/R3KB1R w KQ -": 1,
     "r4rk1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R b KQ -": 1,
     "r1r3k1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R w KQ -": 1,
-    "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ -": 1
+    "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ -": 1,
+    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-11T06:16:20.744Z"
+  "updated": "2026-10-11T07:42:10.969Z"
 }
