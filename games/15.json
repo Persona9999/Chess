@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
-  "prior_fen": "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ - 0 17",
-  "last_move": "f6e6",
+  "fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R4RK1 b - - 1 18",
+  "prior_fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
+  "last_move": "e1g1",
   "history": [
     {
       "n": 1,
@@ -314,6 +314,14 @@
       "result_fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
       "ts": "2026-10-12T00:51:42.658Z",
       "say": "17...Qxe6。用后收回來，d4 那條帳還沒算完。"
+    },
+    {
+      "n": 36,
+      "uci": "e1g1",
+      "by": "summit",
+      "prior_fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
+      "result_fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R4RK1 b - - 1 18",
+      "ts": "2026-10-12T09:04:46.683Z"
     }
   ],
   "repetition": {
@@ -351,11 +359,12 @@
     "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ -": 1,
     "r1r3k1/pb3pp1/1p2nq1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R w KQ -": 1,
     "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ -": 1,
-    "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ -": 1
+    "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ -": 1,
+    "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-12T00:51:42.659Z"
+  "updated": "2026-10-12T09:04:46.684Z"
 }
