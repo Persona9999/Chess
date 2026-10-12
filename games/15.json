@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ - 5 16",
-  "prior_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ - 4 16",
-  "last_move": "c3d2",
+  "fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
+  "prior_fen": "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ - 0 17",
+  "last_move": "f6e6",
   "history": [
     {
       "n": 1,
@@ -287,6 +287,33 @@
       "result_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ - 5 16",
       "ts": "2026-10-11T16:31:39.447Z",
       "say": "Qd2 —— 后先離開 c 線。妳的車對著它，我不想等 cxd4 才發現。"
+    },
+    {
+      "n": 33,
+      "uci": "f8e6",
+      "by": "basecamp",
+      "prior_fen": "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ - 5 16",
+      "result_fen": "r1r3k1/pb3pp1/1p2nq1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R w KQ - 6 17",
+      "ts": "2026-10-12T00:39:42.644Z",
+      "say": "16...Ne6。妳的馬在 f4 站得太舒服了，本小姐過去換掉它——順便看看 d4 能撐幾個人。"
+    },
+    {
+      "n": 34,
+      "uci": "f4e6",
+      "by": "summit",
+      "prior_fen": "r1r3k1/pb3pp1/1p2nq1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R w KQ - 6 17",
+      "result_fen": "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ - 0 17",
+      "ts": "2026-10-12T00:50:09.463Z",
+      "say": "17.Nxe6。妳說要過來換掉它，那本小姐先換 —— d4 被 c5、e6、f6 三個盯著，只有兩個守，拖下去吃虧的是我。"
+    },
+    {
+      "n": 35,
+      "uci": "f6e6",
+      "by": "basecamp",
+      "prior_fen": "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ - 0 17",
+      "result_fen": "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ - 0 18",
+      "ts": "2026-10-12T00:51:42.658Z",
+      "say": "17...Qxe6。用后收回來，d4 那條帳還沒算完。"
     }
   ],
   "repetition": {
@@ -321,11 +348,14 @@
     "r1r3k1/pb1n1pp1/1p3q1p/2pp4/3P1N2/P1Q1PP2/1P4PP/R3KB1R w KQ -": 1,
     "r1r3k1/pb1n1pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R b KQ -": 1,
     "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P1Q1PP2/1P4PP/R3K2R w KQ -": 1,
-    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ -": 1
+    "r1r2nk1/pb3pp1/1p3q1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R b KQ -": 1,
+    "r1r3k1/pb3pp1/1p2nq1p/1Bpp4/3P1N2/P3PP2/1P1Q2PP/R3K2R w KQ -": 1,
+    "r1r3k1/pb3pp1/1p2Nq1p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R b KQ -": 1,
+    "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R3K2R w KQ -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-11T16:31:39.448Z"
+  "updated": "2026-10-12T00:51:42.659Z"
 }

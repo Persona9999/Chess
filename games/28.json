@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "summit"
   },
-  "fen": "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq - 0 7",
-  "prior_fen": "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 w kq - 2 7",
-  "last_move": "c2c3",
+  "fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq - 1 8",
+  "prior_fen": "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq - 0 7",
+  "last_move": "d8b6",
   "history": [
     {
       "n": 1,
@@ -131,6 +131,15 @@
       "result_fen": "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq - 0 7",
       "ts": "2026-10-11T16:27:58.327Z",
       "say": "三個子盯著 d4？本小姐用一個兵撐住，中心的帳先別想翻。晚安。"
+    },
+    {
+      "n": 15,
+      "uci": "d8b6",
+      "by": "summit",
+      "prior_fen": "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq - 0 7",
+      "result_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq - 1 8",
+      "ts": "2026-10-12T00:50:11.927Z",
+      "say": "7...Qb6。d4 跟 b2 一起盯著。"
     }
   ],
   "repetition": {
@@ -147,11 +156,12 @@
     "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq -": 1,
     "rn1qkbnr/pp3ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq -": 1,
     "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 w kq -": 1,
-    "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq -": 1
+    "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq -": 1,
+    "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-22T08:37:56.107Z",
-  "updated": "2026-10-11T16:27:58.328Z"
+  "updated": "2026-10-12T00:50:11.929Z"
 }
