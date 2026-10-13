@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - - 0 20",
-  "prior_fen": "r1r3k1/1b3pp1/pp2q2p/2pp4/3P4/P2BPP2/1P1Q2PP/R4RK1 b - - 1 19",
-  "last_move": "c5c4",
+  "fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P3PP2/1PBQ2PP/R4RK1 b - - 1 20",
+  "prior_fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - - 0 20",
+  "last_move": "d3c2",
   "history": [
     {
       "n": 1,
@@ -348,6 +348,14 @@
       "result_fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - - 0 20",
       "ts": "2026-10-13T09:18:27.478Z",
       "say": "19...c4 —— 象請讓一讓，這一格本小姐要了。"
+    },
+    {
+      "n": 40,
+      "uci": "d3c2",
+      "by": "summit",
+      "prior_fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - - 0 20",
+      "result_fen": "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P3PP2/1PBQ2PP/R4RK1 b - - 1 20",
+      "ts": "2026-10-13T10:28:54.601Z"
     }
   ],
   "repetition": {
@@ -389,11 +397,12 @@
     "r1r3k1/pb3pp1/1p2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R4RK1 b - -": 1,
     "r1r3k1/1b3pp1/pp2q2p/1Bpp4/3P4/P3PP2/1P1Q2PP/R4RK1 w - -": 1,
     "r1r3k1/1b3pp1/pp2q2p/2pp4/3P4/P2BPP2/1P1Q2PP/R4RK1 b - -": 1,
-    "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - -": 1
+    "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - -": 1,
+    "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P3PP2/1PBQ2PP/R4RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-13T09:18:27.479Z"
+  "updated": "2026-10-13T10:28:54.602Z"
 }
