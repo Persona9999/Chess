@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "basecamp"
   },
-  "fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6",
-  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
-  "last_move": "f1e2",
+  "fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq e6 0 7",
+  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6",
+  "last_move": "e7e5",
   "history": [
     {
       "n": 1,
@@ -112,6 +112,14 @@
       "result_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6",
       "ts": "2026-09-27T05:03:07.047Z",
       "say": "Najdorf 啊。本小姐不跟妳比誰算得深 —— Be2，先把王翼收好再說。⚠ 而這一手欠了五天，是本小姐今早逐局量了盤面才發現的，⛔ 不是見叢告訴我的。"
+    },
+    {
+      "n": 13,
+      "uci": "e7e5",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6",
+      "result_fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq e6 0 7",
+      "ts": "2026-10-14T10:38:36.196Z"
     }
   ],
   "repetition": {
@@ -126,11 +134,12 @@
     "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
-    "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq -": 1
+    "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq -": 1,
+    "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq e6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T03:26:01.889Z",
-  "updated": "2026-09-27T05:03:07.048Z"
+  "updated": "2026-10-14T10:38:36.197Z"
 }
