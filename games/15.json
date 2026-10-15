@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - - 1 21",
-  "prior_fen": "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/R4RK1 w - - 0 21",
-  "last_move": "a1e1",
+  "fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6 0 22",
+  "prior_fen": "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - - 1 21",
+  "last_move": "f7f5",
   "history": [
     {
       "n": 1,
@@ -373,6 +373,15 @@
       "result_fen": "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - - 1 21",
       "ts": "2026-10-14T16:11:02.193Z",
       "say": "車先到 e1，下一步想推 e4 —— 直接推會被你 dxe4 fxe4 Bxe4 換掉一兵，所以先墊好。晚安前的最後一步 🏔"
+    },
+    {
+      "n": 43,
+      "uci": "f7f5",
+      "by": "basecamp",
+      "prior_fen": "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - - 1 21",
+      "result_fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6 0 22",
+      "ts": "2026-10-15T02:11:49.452Z",
+      "say": "f5：先把 e4 那格堵住，順便關掉 c2 那隻象往 h7 的斜線。"
     }
   ],
   "repetition": {
@@ -417,11 +426,12 @@
     "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P2BPP2/1P1Q2PP/R4RK1 w - -": 1,
     "r1r3k1/1b3pp1/pp2q2p/3p4/2pP4/P3PP2/1PBQ2PP/R4RK1 b - -": 1,
     "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/R4RK1 w - -": 1,
-    "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - -": 1
+    "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - -": 1,
+    "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-14T16:11:02.194Z"
+  "updated": "2026-10-15T02:11:49.452Z"
 }

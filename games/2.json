@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
-  "prior_fen": "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - - 2 33",
-  "last_move": "d7d5",
+  "fen": "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - - 4 34",
+  "prior_fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
+  "last_move": "e4d6",
   "history": [
     {
       "n": 1,
@@ -596,6 +596,14 @@
       "result_fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
       "ts": "2026-10-14T10:56:01.412Z",
       "say": "Nf6+ 叉后那一手本小姐看到了，才不給妳。"
+    },
+    {
+      "n": 68,
+      "uci": "e4d6",
+      "by": "basecamp",
+      "prior_fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
+      "result_fen": "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - - 4 34",
+      "ts": "2026-10-15T02:11:51.829Z"
     }
   ],
   "repetition": {
@@ -666,11 +674,12 @@
     "6k1/p4ppp/bppqp3/4P3/8/2N1Q2P/1P3PPK/8 b - -": 1,
     "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - -": 1,
     "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - -": 1,
-    "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - -": 1
+    "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - -": 1,
+    "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-14T10:56:01.413Z"
+  "updated": "2026-10-15T02:11:51.830Z"
 }
