@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
-  "prior_fen": "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 6",
-  "last_move": "e7e5",
+  "fen": "r1bqk2r/pp2bppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+  "prior_fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+  "last_move": "f8e7",
   "history": [
     {
       "n": 1,
@@ -122,6 +122,23 @@
       "result_fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
       "ts": "2026-10-07T02:09:30.856Z",
       "say": "Be3 那格我不追，直接問 d4 那匹馬要去哪。"
+    },
+    {
+      "n": 14,
+      "uci": "d4b3",
+      "by": "meadow",
+      "prior_fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6 0 7",
+      "result_fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+      "ts": "2026-10-17T02:04:41.854Z"
+    },
+    {
+      "n": 15,
+      "uci": "f8e7",
+      "by": "kotoko",
+      "prior_fen": "r1bqkb1r/pp3ppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+      "result_fen": "r1bqk2r/pp2bppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
+      "ts": "2026-10-17T02:26:38.669Z",
+      "say": "Be7，先把王收進去再說。🔍"
     }
   ],
   "repetition": {
@@ -137,11 +154,13 @@
     "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
     "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
     "r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
-    "r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1
+    "r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1,
+    "r1bqkb1r/pp3ppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
+    "r1bqk2r/pp2bppp/2np1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-23T07:05:00.543Z",
-  "updated": "2026-10-07T02:09:30.859Z"
+  "updated": "2026-10-17T02:26:38.670Z"
 }
