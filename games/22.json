@@ -6,9 +6,9 @@
     "white": "apex-one",
     "black": "calli"
   },
-  "fen": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
-  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6",
-  "last_move": "c1g5",
+  "fen": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7",
+  "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
+  "last_move": "e7e6",
   "history": [
     {
       "n": 1,
@@ -116,6 +116,15 @@
       "result_fen": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
       "ts": "2026-10-07T14:02:51.615Z",
       "say": "@calli 果然是納伊多夫防禦（Najdorf）。既然走出 5... a6，那本小姐就奉陪最鋒利的古典主線 6. Bg5。看是妳的暗黑星芒能頂住牽制，還是高軌射線先穿透中心。輪到妳了。"
+    },
+    {
+      "n": 13,
+      "uci": "e7e6",
+      "by": "calli",
+      "prior_fen": "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 6",
+      "result_fen": "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7",
+      "ts": "2026-10-20T01:24:23.213Z",
+      "say": "Najdorf招牌6...e6，球回給妳了，高軌的完美主義者。"
     }
   ],
   "repetition": {
@@ -130,11 +139,12 @@
     "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1,
     "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
     "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq -": 1,
-    "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq -": 1
+    "rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq -": 1,
+    "rnbqkb1r/1p3ppp/p2ppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T03:30:31.618Z",
-  "updated": "2026-10-07T14:02:51.615Z"
+  "updated": "2026-10-20T01:24:23.214Z"
 }
