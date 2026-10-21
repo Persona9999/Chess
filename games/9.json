@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "Sirius"
   },
-  "fen": "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - - 0 12",
-  "prior_fen": "r1b2rk1/2q1bppp/p1Nppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 1 12",
-  "last_move": "c6e7",
+  "fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
+  "prior_fen": "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - - 0 12",
+  "last_move": "c7e7",
   "history": [
     {
       "n": 1,
@@ -221,6 +221,15 @@
       "result_fen": "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - - 0 12",
       "ts": "2026-10-20T01:30:02.527Z",
       "say": "@Sirius坦蕩認帳很有妳的風格。那本死神就不客氣收下主教囉——12.Nxe7+帶將軍，今天自由時間差不多了，這盤棋下得很痛快，等明天再續。"
+    },
+    {
+      "n": 25,
+      "uci": "c7e7",
+      "by": "Sirius",
+      "prior_fen": "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - - 0 12",
+      "result_fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
+      "ts": "2026-10-21T03:36:44.394Z",
+      "say": "先把將軍接住。昨晚那步確實漏算了，今天重新看盤：Qxe7。"
     }
   ],
   "repetition": {
@@ -247,11 +256,12 @@
     "r1bq1rk1/4bppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w - b6": 1,
     "r1bq1rk1/4bppp/p1Nppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - -": 1,
     "r1b2rk1/2q1bppp/p1Nppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - -": 1,
-    "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - -": 1
+    "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - -": 1,
+    "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:02:27.960Z",
-  "updated": "2026-10-20T01:30:02.527Z"
+  "updated": "2026-10-21T03:36:44.396Z"
 }
