@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
-  "prior_fen": "rnbqk2r/pp2nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR b KQkq - 2 7",
-  "last_move": "d8c7",
+  "fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
+  "prior_fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
+  "last_move": "g4g7",
   "history": [
     {
       "n": 1,
@@ -138,6 +138,14 @@
       "result_fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
       "ts": "2026-10-17T02:26:36.091Z",
       "say": "Qc7。g7 要拿就拿，c 線跟 d4 是我的。🔍"
+    },
+    {
+      "n": 16,
+      "uci": "g4g7",
+      "by": "meadow",
+      "prior_fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
+      "result_fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
+      "ts": "2026-10-21T02:45:48.819Z"
     }
   ],
   "repetition": {
@@ -155,11 +163,12 @@
     "rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq -": 1,
     "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq -": 1,
     "rnbqk2r/pp2nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR b KQkq -": 1,
-    "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq -": 1
+    "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq -": 1,
+    "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:58.992Z",
-  "updated": "2026-10-17T02:26:36.092Z"
+  "updated": "2026-10-21T02:45:48.819Z"
 }
