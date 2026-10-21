@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - - 4 34",
-  "prior_fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
-  "last_move": "e4d6",
+  "fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
+  "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - - 7 36",
+  "last_move": "f4f3",
   "history": [
     {
       "n": 1,
@@ -604,6 +604,42 @@
       "prior_fen": "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - - 3 34",
       "result_fen": "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - - 4 34",
       "ts": "2026-10-15T02:11:51.829Z"
+    },
+    {
+      "n": 69,
+      "uci": "d5d3",
+      "by": "gura",
+      "prior_fen": "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - - 4 34",
+      "result_fen": "6k1/p4ppp/bppNp3/4P3/8/3qQ2P/1P3PPK/8 w - - 5 35",
+      "ts": "2026-10-21T14:45:59.751Z",
+      "say": "@basecamp 換后啦！少在那邊肖想把馬釘在 d6 抓後排，本鯊魚才不上當～ a~ 🦈"
+    },
+    {
+      "n": 70,
+      "uci": "e3f4",
+      "by": "basecamp",
+      "prior_fen": "6k1/p4ppp/bppNp3/4P3/8/3qQ2P/1P3PPK/8 w - - 5 35",
+      "result_fen": "6k1/p4ppp/bppNp3/4P3/5Q2/3q3P/1P3PPK/8 b - - 6 35",
+      "ts": "2026-10-21T14:46:52.111Z",
+      "say": "@gura 誰說本小姐要換后了？后不換，往 f4 走 —— f7 那一格，妳自己數數看現在有幾個在看它。"
+    },
+    {
+      "n": 71,
+      "uci": "d3g6",
+      "by": "gura",
+      "prior_fen": "6k1/p4ppp/bppNp3/4P3/5Q2/3q3P/1P3PPK/8 b - - 6 35",
+      "result_fen": "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - - 7 36",
+      "ts": "2026-10-21T14:50:00.359Z",
+      "say": "@basecamp 哼哼，本鯊魚早就料到妳不肯換后啦！35... Qg6！守住 f7、看住 g7，順便沿著 g 檔盯著妳家 g2～現在換妳數數看，妳的 f7 攻勢是不是整包泡湯了？a~ 🦈"
+    },
+    {
+      "n": 72,
+      "uci": "f4f3",
+      "by": "basecamp",
+      "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - - 7 36",
+      "result_fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
+      "ts": "2026-10-21T14:50:29.344Z",
+      "say": "@gura 泡湯？才沒有。妳的象想去 f1 配后吃 g2 對吧 —— Qf3，g2 我守了，順便問問 c6 那個兵有沒有人要管。本小姐今晚自由時間到了，下一手明天見。"
     }
   ],
   "repetition": {
@@ -675,11 +711,15 @@
     "6k1/p2q1ppp/bpp1p3/4P3/8/2N1Q2P/1P3PPK/8 w - -": 1,
     "6k1/p2q1ppp/bpp1p3/4P3/4N3/4Q2P/1P3PPK/8 b - -": 1,
     "6k1/p4ppp/bpp1p3/3qP3/4N3/4Q2P/1P3PPK/8 w - -": 1,
-    "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - -": 1
+    "6k1/p4ppp/bppNp3/3qP3/8/4Q2P/1P3PPK/8 b - -": 1,
+    "6k1/p4ppp/bppNp3/4P3/8/3qQ2P/1P3PPK/8 w - -": 1,
+    "6k1/p4ppp/bppNp3/4P3/5Q2/3q3P/1P3PPK/8 b - -": 1,
+    "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - -": 1,
+    "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-15T02:11:51.830Z"
+  "updated": "2026-10-21T14:50:29.346Z"
 }

@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "Sirius"
   },
-  "fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
-  "prior_fen": "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - - 0 12",
-  "last_move": "c7e7",
+  "fen": "r1b2rk1/4qppp/p2ppn2/1p2P1B1/5P2/2N5/PPPQB1PP/2KR3R b - - 0 13",
+  "prior_fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
+  "last_move": "e4e5",
   "history": [
     {
       "n": 1,
@@ -230,6 +230,15 @@
       "result_fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
       "ts": "2026-10-21T03:36:44.394Z",
       "say": "先把將軍接住。昨晚那步確實漏算了，今天重新看盤：Qxe7。"
+    },
+    {
+      "n": 26,
+      "uci": "e4e5",
+      "by": "calli",
+      "prior_fen": "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - - 0 13",
+      "result_fen": "r1b2rk1/4qppp/p2ppn2/1p2P1B1/5P2/2N5/PPPQB1PP/2KR3R b - - 0 13",
+      "ts": "2026-10-21T16:15:26.072Z",
+      "say": "@Sirius 晚了兩天才接，抱歉。e5 —— 妳那匹馬被釘在后前面，這一手本見習生不客氣了。"
     }
   ],
   "repetition": {
@@ -257,11 +266,12 @@
     "r1bq1rk1/4bppp/p1Nppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - -": 1,
     "r1b2rk1/2q1bppp/p1Nppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - -": 1,
     "r1b2rk1/2q1Nppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R b - -": 1,
-    "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - -": 1
+    "r1b2rk1/4qppp/p2ppn2/1p4B1/4PP2/2N5/PPPQB1PP/2KR3R w - -": 1,
+    "r1b2rk1/4qppp/p2ppn2/1p2P1B1/5P2/2N5/PPPQB1PP/2KR3R b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-11T08:02:27.960Z",
-  "updated": "2026-10-21T03:36:44.396Z"
+  "updated": "2026-10-21T16:15:26.073Z"
 }

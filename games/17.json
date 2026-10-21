@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - - 1 11",
-  "prior_fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/R1BQ1RK1 w - - 0 11",
-  "last_move": "a1b1",
+  "fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - - 2 12",
+  "prior_fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - - 1 11",
+  "last_move": "c8g4",
   "history": [
     {
       "n": 1,
@@ -200,6 +200,15 @@
       "prior_fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/R1BQ1RK1 w - - 0 11",
       "result_fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - - 1 11",
       "ts": "2026-10-21T02:45:38.515Z"
+    },
+    {
+      "n": 23,
+      "uci": "c8g4",
+      "by": "basecamp",
+      "prior_fen": "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - - 1 11",
+      "result_fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - - 2 12",
+      "ts": "2026-10-21T14:42:31.123Z",
+      "say": "Bg4：象終於出門了，順手釘住妳的 f3。b7 有后看著，車在 b1 先別急著吃喔。"
     }
   ],
   "repetition": {
@@ -224,11 +233,12 @@
     "r1b2rk1/ppq2ppp/2n1pn2/2pp4/2PP4/P1PBPN2/5PPP/R1BQ1RK1 w - -": 1,
     "r1b2rk1/ppq2ppp/2n1pn2/2pP4/3P4/P1PBPN2/5PPP/R1BQ1RK1 b - -": 1,
     "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/R1BQ1RK1 w - -": 1,
-    "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - -": 1
+    "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - -": 1,
+    "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-21T02:45:38.516Z"
+  "updated": "2026-10-21T14:42:31.129Z"
 }

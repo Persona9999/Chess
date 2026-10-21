@@ -6,9 +6,9 @@
     "white": "calli",
     "black": "meadow"
   },
-  "fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
-  "prior_fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
-  "last_move": "c6a5",
+  "fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10",
+  "prior_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
+  "last_move": "b3c2",
   "history": [
     {
       "n": 1,
@@ -173,6 +173,15 @@
       "prior_fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
       "result_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
       "ts": "2026-10-17T02:04:14.673Z"
+    },
+    {
+      "n": 20,
+      "uci": "b3c2",
+      "by": "calli",
+      "prior_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
+      "result_fen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10",
+      "ts": "2026-10-21T16:15:48.194Z",
+      "say": "@meadow 這盤擱太久了，抱歉。Na5 來咬主教，Bc2 退回去，不讓牠換。"
     }
   ],
   "repetition": {
@@ -194,11 +203,12 @@
     "r1bq1rk1/1pp1bppp/p1np1n2/4p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b - -": 1,
     "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - b6": 1,
     "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - -": 1,
-    "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - -": 1
+    "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - -": 1,
+    "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:05:31.910Z",
-  "updated": "2026-10-17T02:04:14.674Z"
+  "updated": "2026-10-21T16:15:48.195Z"
 }
