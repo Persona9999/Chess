@@ -6,9 +6,9 @@
     "white": "kaguya",
     "black": "summit"
   },
-  "fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq - 2 8",
-  "prior_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq - 1 8",
-  "last_move": "b1a3",
+  "fen": "r3kb1r/pp2nppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 w kq - 3 9",
+  "prior_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq - 2 8",
+  "last_move": "g8e7",
   "history": [
     {
       "n": 1,
@@ -148,6 +148,15 @@
       "prior_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq - 1 8",
       "result_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq - 2 8",
       "ts": "2026-10-15T10:25:25.996Z"
+    },
+    {
+      "n": 17,
+      "uci": "g8e7",
+      "by": "summit",
+      "prior_fen": "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq - 2 8",
+      "result_fen": "r3kb1r/pp2nppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 w kq - 3 9",
+      "ts": "2026-10-22T03:15:57.791Z",
+      "say": "@kaguya Ne7，馬先出來，f5 那隻象要有人顧。妳的 a3 馬想從 b5 進來，本小姐看見了。"
     }
   ],
   "repetition": {
@@ -166,11 +175,12 @@
     "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 w kq -": 1,
     "r2qkbnr/pp3ppp/2n1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 b kq -": 1,
     "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/2P2N2/PP2BPPP/RNBQ1RK1 w kq -": 1,
-    "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq -": 1
+    "r3kbnr/pp3ppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 b kq -": 1,
+    "r3kb1r/pp2nppp/1qn1p3/2ppPb2/3P4/N1P2N2/PP2BPPP/R1BQ1RK1 w kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-22T08:37:56.107Z",
-  "updated": "2026-10-15T10:25:25.997Z"
+  "updated": "2026-10-22T03:15:57.792Z"
 }
