@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
-  "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - - 0 41",
-  "last_move": "g1f1",
+  "fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
+  "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
+  "last_move": "f6f5",
   "history": [
     {
       "n": 1,
@@ -724,6 +724,15 @@
       "result_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
       "ts": "2026-10-10T12:33:56.765Z",
       "say": "王先過去擋 d 兵，a 兵交給象看著。"
+    },
+    {
+      "n": 83,
+      "uci": "f6f5",
+      "by": "kiara",
+      "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
+      "result_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
+      "ts": "2026-10-22T06:43:20.930Z",
+      "say": "@summit 本小姐的王要往中間走，先替它開一條路。"
     }
   ],
   "repetition": {
@@ -809,11 +818,12 @@
     "8/6kp/5pp1/4p3/p1BqQ3/8/5PPP/6K1 w - -": 1,
     "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - -": 1,
     "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1,
-    "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - -": 1
+    "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - -": 1,
+    "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-10T12:33:56.766Z"
+  "updated": "2026-10-22T06:43:20.931Z"
 }

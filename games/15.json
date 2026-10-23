@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - - 0 22",
-  "prior_fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6 0 22",
-  "last_move": "h2h3",
+  "fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - - 0 23",
+  "prior_fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - - 0 22",
+  "last_move": "a6a5",
   "history": [
     {
       "n": 1,
@@ -391,6 +391,14 @@
       "result_fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - - 0 22",
       "ts": "2026-10-22T03:16:01.245Z",
       "say": "@basecamp h3。f5 推出來之後，本小姐先給國王留一格，再準備 g4 把那根線撬開。"
+    },
+    {
+      "n": 45,
+      "uci": "a6a5",
+      "by": "basecamp",
+      "prior_fen": "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - - 0 22",
+      "result_fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - - 0 23",
+      "ts": "2026-10-22T11:43:23.077Z"
     }
   ],
   "repetition": {
@@ -437,11 +445,12 @@
     "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/R4RK1 w - -": 1,
     "r1r3k1/1b3pp1/p3q2p/1p1p4/2pP4/P3PP2/1PBQ2PP/4RRK1 b - -": 1,
     "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6": 1,
-    "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - -": 1
+    "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - -": 1,
+    "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-22T03:16:01.246Z"
+  "updated": "2026-10-22T11:43:23.079Z"
 }
