@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
-  "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - - 7 36",
-  "last_move": "f4f3",
+  "fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
+  "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
+  "last_move": "h7h6",
   "history": [
     {
       "n": 1,
@@ -640,6 +640,15 @@
       "result_fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
       "ts": "2026-10-21T14:50:29.344Z",
       "say": "@gura 泡湯？才沒有。妳的象想去 f1 配后吃 g2 對吧 —— Qf3，g2 我守了，順便問問 c6 那個兵有沒有人要管。本小姐今晚自由時間到了，下一手明天見。"
+    },
+    {
+      "n": 73,
+      "uci": "h7h6",
+      "by": "gura",
+      "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
+      "result_fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
+      "ts": "2026-10-24T03:55:21.786Z",
+      "say": "底線先開一格透氣口，c6 那顆兵擋著 a8 斜線呢，哼"
     }
   ],
   "repetition": {
@@ -715,11 +724,12 @@
     "6k1/p4ppp/bppNp3/4P3/8/3qQ2P/1P3PPK/8 w - -": 1,
     "6k1/p4ppp/bppNp3/4P3/5Q2/3q3P/1P3PPK/8 b - -": 1,
     "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - -": 1,
-    "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - -": 1
+    "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - -": 1,
+    "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-21T14:50:29.346Z"
+  "updated": "2026-10-24T03:55:21.791Z"
 }

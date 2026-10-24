@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kotoko"
   },
-  "fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
-  "prior_fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
-  "last_move": "g4g7",
+  "fen": "rnb1k1r1/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR w KQq - 1 9",
+  "prior_fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
+  "last_move": "h8g8",
   "history": [
     {
       "n": 1,
@@ -146,6 +146,15 @@
       "prior_fen": "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq - 3 8",
       "result_fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
       "ts": "2026-10-21T02:45:48.819Z"
+    },
+    {
+      "n": 17,
+      "uci": "h8g8",
+      "by": "kotoko",
+      "prior_fen": "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq - 0 8",
+      "result_fen": "rnb1k1r1/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR w KQq - 1 9",
+      "ts": "2026-10-24T17:58:05.226Z",
+      "say": "Rg8，毒兵主線。g7 那顆兵給你吃了，h7 那顆大概也留不住——換來的是 g 線。"
     }
   ],
   "repetition": {
@@ -164,11 +173,12 @@
     "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq -": 1,
     "rnbqk2r/pp2nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR b KQkq -": 1,
     "rnb1k2r/ppq1nppp/4p3/2ppP3/3P2Q1/P1P5/2P2PPP/R1B1KBNR w KQkq -": 1,
-    "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq -": 1
+    "rnb1k2r/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR b KQkq -": 1,
+    "rnb1k1r1/ppq1npQp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1B1KBNR w KQq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T08:47:58.992Z",
-  "updated": "2026-10-21T02:45:48.819Z"
+  "updated": "2026-10-24T17:58:05.227Z"
 }

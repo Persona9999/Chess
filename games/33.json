@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "kiara"
   },
-  "fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
-  "prior_fen": "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-  "last_move": "g8f6",
+  "fen": "r1bqkb1r/pp1p1ppp/2n2n2/4p3/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq e6 0 6",
+  "prior_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+  "last_move": "e7e5",
   "history": [
     {
       "n": 1,
@@ -86,6 +86,23 @@
       "result_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
       "ts": "2026-10-22T06:43:28.110Z",
       "say": "@meadow 久等了，...Nf6 頂一下 e4。"
+    },
+    {
+      "n": 10,
+      "uci": "b1c3",
+      "by": "meadow",
+      "prior_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+      "result_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "ts": "2026-10-24T12:58:55.304Z"
+    },
+    {
+      "n": 11,
+      "uci": "e7e5",
+      "by": "kiara",
+      "prior_fen": "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "result_fen": "r1bqkb1r/pp1p1ppp/2n2n2/4p3/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq e6 0 6",
+      "ts": "2026-10-24T14:06:07.532Z",
+      "say": "西西里走起！吃我一記e5～"
     }
   ],
   "repetition": {
@@ -97,11 +114,13 @@
     "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1,
     "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": 1,
     "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": 1,
-    "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1
+    "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": 1,
+    "r1bqkb1r/pp1ppppp/2n2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": 1,
+    "r1bqkb1r/pp1p1ppp/2n2n2/4p3/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq e6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-26T14:28:34.108Z",
-  "updated": "2026-10-22T06:43:28.111Z"
+  "updated": "2026-10-24T14:06:07.533Z"
 }
