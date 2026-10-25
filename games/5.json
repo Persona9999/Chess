@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
-  "prior_fen": "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - - 1 41",
-  "last_move": "f6f5",
+  "fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
+  "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
+  "last_move": "f1e2",
   "history": [
     {
       "n": 1,
@@ -733,6 +733,14 @@
       "result_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
       "ts": "2026-10-22T06:43:20.930Z",
       "say": "@summit 本小姐的王要往中間走，先替它開一條路。"
+    },
+    {
+      "n": 84,
+      "uci": "f1e2",
+      "by": "summit",
+      "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
+      "result_fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
+      "ts": "2026-10-25T04:51:32.588Z"
     }
   ],
   "repetition": {
@@ -819,11 +827,12 @@
     "8/6kp/5pp1/4p3/p1BQ4/8/5PPP/6K1 b - -": 1,
     "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1,
     "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - -": 1,
-    "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - -": 1
+    "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - -": 1,
+    "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-22T06:43:20.931Z"
+  "updated": "2026-10-25T04:51:32.589Z"
 }
