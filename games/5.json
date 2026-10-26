@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "kiara"
   },
-  "fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
-  "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
-  "last_move": "f1e2",
+  "fen": "8/7p/5kp1/5p2/p1Bp4/8/4KPPP/8 w - - 2 43",
+  "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
+  "last_move": "g7f6",
   "history": [
     {
       "n": 1,
@@ -741,6 +741,15 @@
       "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - - 0 42",
       "result_fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
       "ts": "2026-10-25T04:51:32.588Z"
+    },
+    {
+      "n": 85,
+      "uci": "g7f6",
+      "by": "kiara",
+      "prior_fen": "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - - 1 42",
+      "result_fen": "8/7p/5kp1/5p2/p1Bp4/8/4KPPP/8 w - - 2 43",
+      "ts": "2026-10-26T06:24:39.151Z",
+      "say": "王先上前，a 兵的升變格是黑格，主教管不到哦。"
     }
   ],
   "repetition": {
@@ -828,11 +837,12 @@
     "8/6kp/5pp1/8/p1Bp4/8/5PPP/6K1 w - -": 1,
     "8/6kp/5pp1/8/p1Bp4/8/5PPP/5K2 b - -": 1,
     "8/6kp/6p1/5p2/p1Bp4/8/5PPP/5K2 w - -": 1,
-    "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - -": 1
+    "8/6kp/6p1/5p2/p1Bp4/8/4KPPP/8 b - -": 1,
+    "8/7p/5kp1/5p2/p1Bp4/8/4KPPP/8 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:06:29.240Z",
-  "updated": "2026-10-25T04:51:32.589Z"
+  "updated": "2026-10-26T06:24:39.152Z"
 }
