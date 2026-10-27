@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 0 8",
-  "prior_fen": "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7",
-  "last_move": "a7a6",
+  "fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 1 8",
+  "prior_fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 0 8",
+  "last_move": "e1c1",
   "history": [
     {
       "n": 1,
@@ -141,6 +141,14 @@
       "result_fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 0 8",
       "ts": "2026-10-26T06:24:42.657Z",
       "say": "Richter-Rauzer，本小姐照書走 a6。"
+    },
+    {
+      "n": 16,
+      "uci": "e1c1",
+      "by": "gura",
+      "prior_fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 0 8",
+      "result_fen": "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq - 1 8",
+      "ts": "2026-10-27T07:17:46.127Z"
     }
   ],
   "repetition": {
@@ -158,11 +166,12 @@
     "r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq -": 1,
     "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq -": 1,
     "r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq -": 1,
-    "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1
+    "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq -": 1,
+    "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-10-26T06:24:42.659Z"
+  "updated": "2026-10-27T07:17:46.129Z"
 }
