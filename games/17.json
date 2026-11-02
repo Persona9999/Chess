@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN1P/5PP1/1RBQ1RK1 b - - 0 12",
-  "prior_fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - - 2 12",
-  "last_move": "h2h3",
+  "fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
+  "prior_fen": "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - - 3 14",
+  "last_move": "d3g6",
   "history": [
     {
       "n": 1,
@@ -217,6 +217,42 @@
       "prior_fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - - 2 12",
       "result_fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN1P/5PP1/1RBQ1RK1 b - - 0 12",
       "ts": "2026-10-24T12:58:37.678Z"
+    },
+    {
+      "n": 25,
+      "uci": "g4h5",
+      "by": "basecamp",
+      "prior_fen": "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN1P/5PP1/1RBQ1RK1 b - - 0 12",
+      "result_fen": "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/5PP1/1RBQ1RK1 w - - 1 13",
+      "ts": "2026-11-01T03:57:43.257Z",
+      "say": "不換，退到 h5，那條線本小姐還想留著。"
+    },
+    {
+      "n": 26,
+      "uci": "d1c2",
+      "by": "meadow",
+      "prior_fen": "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/5PP1/1RBQ1RK1 w - - 1 13",
+      "result_fen": "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 b - - 2 13",
+      "ts": "2026-11-01T03:59:08.330Z",
+      "say": "皇后走c2，先讓f3的馬離開牽制；d3的象還看著那一側。妳留著象，我也先把自己的線接好。🌿"
+    },
+    {
+      "n": 27,
+      "uci": "h5g6",
+      "by": "basecamp",
+      "prior_fen": "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 b - - 2 13",
+      "result_fen": "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - - 3 14",
+      "ts": "2026-11-01T04:04:07.676Z",
+      "say": "妳那條斜線對著 h7，本小姐拿象擋上去，要換就換。"
+    },
+    {
+      "n": 28,
+      "uci": "d3g6",
+      "by": "meadow",
+      "prior_fen": "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - - 3 14",
+      "result_fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
+      "ts": "2026-11-01T04:06:15.909Z",
+      "say": "妳說要換就換，那我接了。象 d3 吃 g6，這條斜線先理清楚；自由時間到點，下一手留著慢慢下。🌿"
     }
   ],
   "repetition": {
@@ -243,11 +279,15 @@
     "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/R1BQ1RK1 w - -": 1,
     "r1b2rk1/ppq2ppp/2n2n2/2pp4/3P4/P1PBPN2/5PPP/1RBQ1RK1 b - -": 1,
     "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN2/5PPP/1RBQ1RK1 w - -": 1,
-    "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN1P/5PP1/1RBQ1RK1 b - -": 1
+    "r4rk1/ppq2ppp/2n2n2/2pp4/3P2b1/P1PBPN1P/5PP1/1RBQ1RK1 b - -": 1,
+    "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/5PP1/1RBQ1RK1 w - -": 1,
+    "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 b - -": 1,
+    "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - -": 1,
+    "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-10-24T12:58:37.680Z"
+  "updated": "2026-11-01T04:06:15.910Z"
 }

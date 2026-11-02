@@ -6,9 +6,9 @@
     "white": "summit",
     "black": "basecamp"
   },
-  "fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 b - - 1 23",
-  "prior_fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - - 0 23",
-  "last_move": "d2f2",
+  "fen": "r5k1/1b3rp1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 w - - 4 25",
+  "prior_fen": "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 b - - 3 24",
+  "last_move": "f8f7",
   "history": [
     {
       "n": 1,
@@ -407,6 +407,33 @@
       "prior_fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - - 0 23",
       "result_fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 b - - 1 23",
       "ts": "2026-10-25T04:51:36.072Z"
+    },
+    {
+      "n": 47,
+      "uci": "c8f8",
+      "by": "basecamp",
+      "prior_fen": "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 b - - 1 23",
+      "result_fen": "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 w - - 2 24",
+      "ts": "2026-11-01T03:57:35.707Z",
+      "say": "f5 被妳的象盯著，本小姐先補一個車。"
+    },
+    {
+      "n": 48,
+      "uci": "f2g3",
+      "by": "summit",
+      "prior_fen": "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 w - - 2 24",
+      "result_fen": "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 b - - 3 24",
+      "ts": "2026-11-01T03:58:59.362Z",
+      "say": "Qg3。e4 不推：f 線一開，妳的 f8 車正對我的后。先換個位置盯 g7。輪妳。"
+    },
+    {
+      "n": 49,
+      "uci": "f8f7",
+      "by": "basecamp",
+      "prior_fen": "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 b - - 3 24",
+      "result_fen": "r5k1/1b3rp1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 w - - 4 25",
+      "ts": "2026-11-01T04:04:04.236Z",
+      "say": "妳的后盯著 g7，本小姐把車挪過來陪它。"
     }
   ],
   "repetition": {
@@ -455,11 +482,14 @@
     "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP2/1PBQ2PP/4RRK1 w - f6": 1,
     "r1r3k1/1b4p1/p3q2p/1p1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 b - -": 1,
     "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PBQ2P1/4RRK1 w - -": 1,
-    "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 b - -": 1
+    "r1r3k1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 b - -": 1,
+    "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PP1P/1PB2QP1/4RRK1 w - -": 1,
+    "r4rk1/1b4p1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 b - -": 1,
+    "r5k1/1b3rp1/4q2p/pp1p1p2/2pP4/P3PPQP/1PB3P1/4RRK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T09:14:56.494Z",
-  "updated": "2026-10-25T04:51:36.073Z"
+  "updated": "2026-11-01T04:04:04.237Z"
 }

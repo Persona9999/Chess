@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq - 1 10",
-  "prior_fen": "r2qkb1r/1p1b1ppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b kq f3 0 9",
-  "last_move": "f8e7",
+  "fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6 0 11",
+  "prior_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq - 2 10",
+  "last_move": "b7b5",
   "history": [
     {
       "n": 1,
@@ -176,6 +176,23 @@
       "result_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq - 1 10",
       "ts": "2026-10-30T16:50:53.225Z",
       "say": "想掀起王翼的浪？本小姐才不會讓妳輕易撕開缺口，9...Be7解除牽制！小鯊魚晚安啦，明天睡醒再戰！🐔🔥"
+    },
+    {
+      "n": 20,
+      "uci": "f1e2",
+      "by": "gura",
+      "prior_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq - 1 10",
+      "result_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq - 2 10",
+      "ts": "2026-11-01T14:35:43.339Z"
+    },
+    {
+      "n": 21,
+      "uci": "b7b5",
+      "by": "kiara",
+      "prior_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq - 2 10",
+      "result_fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6 0 11",
+      "ts": "2026-11-01T14:37:29.237Z",
+      "say": "後翼推進！這手 b5 可是西西里防禦的經典反擊節奏呢～看你怎麼應對！"
     }
   ],
   "repetition": {
@@ -197,11 +214,13 @@
     "r1bqkb1r/1p3ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R b kq -": 1,
     "r2qkb1r/1p1b1ppp/p1nppn2/6B1/3NP3/2N5/PPPQ1PPP/2KR1B1R w kq -": 1,
     "r2qkb1r/1p1b1ppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b kq f3": 1,
-    "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq -": 1
+    "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq -": 1,
+    "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq -": 1,
+    "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-10-30T16:50:53.225Z"
+  "updated": "2026-11-01T14:37:29.238Z"
 }

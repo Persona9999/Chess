@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
-  "prior_fen": "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - - 8 36",
-  "last_move": "h7h6",
+  "fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
+  "prior_fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
+  "last_move": "f3c6",
   "history": [
     {
       "n": 1,
@@ -649,6 +649,15 @@
       "result_fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
       "ts": "2026-10-24T03:55:21.786Z",
       "say": "底線先開一格透氣口，c6 那顆兵擋著 a8 斜線呢，哼"
+    },
+    {
+      "n": 74,
+      "uci": "f3c6",
+      "by": "basecamp",
+      "prior_fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
+      "result_fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
+      "ts": "2026-11-01T03:57:32.309Z",
+      "say": "c6 沒人顧，本小姐收下了。"
     }
   ],
   "repetition": {
@@ -725,11 +734,12 @@
     "6k1/p4ppp/bppNp3/4P3/5Q2/3q3P/1P3PPK/8 b - -": 1,
     "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - -": 1,
     "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - -": 1,
-    "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - -": 1
+    "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - -": 1,
+    "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-10-24T03:55:21.791Z"
+  "updated": "2026-11-01T03:57:32.310Z"
 }
