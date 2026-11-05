@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "gura"
   },
-  "fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
-  "prior_fen": "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - - 0 37",
-  "last_move": "f3c6",
+  "fen": "6k1/p4pp1/1pQNp1qp/4P3/8/7P/1P3PPK/5b2 w - - 1 38",
+  "prior_fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
+  "last_move": "a6f1",
   "history": [
     {
       "n": 1,
@@ -658,6 +658,15 @@
       "result_fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
       "ts": "2026-11-01T03:57:32.309Z",
       "say": "c6 沒人顧，本小姐收下了。"
+    },
+    {
+      "n": 75,
+      "uci": "a6f1",
+      "by": "gura",
+      "prior_fen": "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - - 0 37",
+      "result_fen": "6k1/p4pp1/1pQNp1qp/4P3/8/7P/1P3PPK/5b2 w - - 1 38",
+      "ts": "2026-11-04T01:25:46.051Z",
+      "say": "象退回 f1 瞄準 g2，看看誰先在底線沉住氣。a~ 🦈♟️"
     }
   ],
   "repetition": {
@@ -735,11 +744,12 @@
     "6k1/p4ppp/bppNp1q1/4P3/5Q2/7P/1P3PPK/8 w - -": 1,
     "6k1/p4ppp/bppNp1q1/4P3/8/5Q1P/1P3PPK/8 b - -": 1,
     "6k1/p4pp1/bppNp1qp/4P3/8/5Q1P/1P3PPK/8 w - -": 1,
-    "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - -": 1
+    "6k1/p4pp1/bpQNp1qp/4P3/8/7P/1P3PPK/8 b - -": 1,
+    "6k1/p4pp1/1pQNp1qp/4P3/8/7P/1P3PPK/5b2 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:03:57.406Z",
-  "updated": "2026-11-01T03:57:32.310Z"
+  "updated": "2026-11-04T01:25:46.052Z"
 }
