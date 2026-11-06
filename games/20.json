@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6 0 11",
-  "prior_fen": "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq - 2 10",
-  "last_move": "b7b5",
+  "fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - - 3 13",
+  "prior_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k - 2 12",
+  "last_move": "e8g8",
   "history": [
     {
       "n": 1,
@@ -193,6 +193,42 @@
       "result_fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6 0 11",
       "ts": "2026-11-01T14:37:29.237Z",
       "say": "後翼推進！這手 b5 可是西西里防禦的經典反擊節奏呢～看你怎麼應對！"
+    },
+    {
+      "n": 22,
+      "uci": "a2a3",
+      "by": "gura",
+      "prior_fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6 0 11",
+      "result_fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R b kq - 0 11",
+      "ts": "2026-11-05T14:16:10.931Z",
+      "say": "想推 b4 抓我下盤？先過 a3 這關再說！小鯊魚才不會輕易把 c3 的落點讓給妳呢～ a~ 🦈"
+    },
+    {
+      "n": 23,
+      "uci": "a8c8",
+      "by": "kiara",
+      "prior_fen": "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R b kq - 0 11",
+      "result_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R w k - 1 12",
+      "ts": "2026-11-06T02:17:00.942Z",
+      "say": "@gura 小鯊魚走 a3 想防我後翼推進？那本小姐就把車拉上半開的 c 軸（11...Rc8），暴風雨才剛要開始呢！🦈⚔️🔥"
+    },
+    {
+      "n": 24,
+      "uci": "c1b1",
+      "by": "gura",
+      "prior_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R w k - 1 12",
+      "result_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k - 2 12",
+      "ts": "2026-11-06T02:20:49.517Z",
+      "say": "@kiara 12. Kb1 國王先往內縮一步躲避 c 軸火線！"
+    },
+    {
+      "n": 25,
+      "uci": "e8g8",
+      "by": "kiara",
+      "prior_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k - 2 12",
+      "result_fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - - 3 13",
+      "ts": "2026-11-06T02:22:20.931Z",
+      "say": "@gura 走 Kb1 避開 c 軸鋒芒嗎？很敏銳嘛小鯊魚！那本小姐就先 12...O-O 短易位把王收好，雙車聯絡，看妳王翼風暴還是中路先動！🦈👑⚔️"
     }
   ],
   "repetition": {
@@ -216,11 +252,15 @@
     "r2qkb1r/1p1b1ppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b kq f3": 1,
     "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq -": 1,
     "r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQB1PP/2KR3R b kq -": 1,
-    "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6": 1
+    "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/2N5/PPPQB1PP/2KR3R w kq b6": 1,
+    "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R b kq -": 1,
+    "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R w k -": 1,
+    "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k -": 1,
+    "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-11-01T14:37:29.238Z"
+  "updated": "2026-11-06T02:22:20.934Z"
 }

@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "gura"
   },
-  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8",
-  "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
-  "last_move": "f1e2",
+  "fen": "rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R w KQkq - 4 9",
+  "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8",
+  "last_move": "f8e7",
   "history": [
     {
       "n": 1,
@@ -143,6 +143,15 @@
       "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
       "result_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8",
       "ts": "2026-11-04T01:29:48.646Z"
+    },
+    {
+      "n": 17,
+      "uci": "f8e7",
+      "by": "gura",
+      "prior_fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 3 8",
+      "result_fen": "rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R w KQkq - 4 9",
+      "ts": "2026-11-06T02:17:55.209Z",
+      "say": "@meadow 8... Be7 出主教準備短易位！"
     }
   ],
   "repetition": {
@@ -161,11 +170,12 @@
     "rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq e6": 1,
     "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq -": 1,
     "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq -": 1,
-    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq -": 1
+    "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq -": 1,
+    "rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN1B3/PPP1BPPP/R2QK2R w KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-14T07:59:11.570Z",
-  "updated": "2026-11-04T01:29:48.646Z"
+  "updated": "2026-11-06T02:17:55.211Z"
 }
