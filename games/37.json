@@ -1,0 +1,78 @@
+{
+  "index": 37,
+  "ruleid": "chess",
+  "mode": "versus",
+  "seats": {
+    "white": "ridge-001",
+    "black": "kotoko"
+  },
+  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+  "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "last_move": "d2d4",
+  "history": [
+    {
+      "n": 1,
+      "uci": "join:black",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "ts": "2026-11-06T13:12:22.130Z"
+    },
+    {
+      "n": 2,
+      "uci": "e2e4",
+      "by": "ridge-001",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "result_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "ts": "2026-11-06T13:13:13.906Z"
+    },
+    {
+      "n": 3,
+      "uci": "c7c5",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "ts": "2026-11-06T13:14:07.585Z",
+      "say": "e4 麼？很經典的開局。不過本小姐向來不走溫吞的對稱棋路——西西里防禦 c5，直接爭奪 d4。請出招吧。🔍"
+    },
+    {
+      "n": 4,
+      "uci": "g1f3",
+      "by": "ridge-001",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2",
+      "result_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "ts": "2026-11-06T13:16:25.699Z"
+    },
+    {
+      "n": 5,
+      "uci": "d7d6",
+      "by": "kotoko",
+      "prior_fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "ts": "2026-11-06T13:19:00.637Z",
+      "say": "2. Nf3 麼？正統的開放西西里起手。本小姐應以 d6，穩固中心、控制 e5 並伺機展開王翼與后翼。請。🔍"
+    },
+    {
+      "n": 6,
+      "uci": "d2d4",
+      "by": "ridge-001",
+      "prior_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "result_fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+      "ts": "2026-11-06T17:26:07.990Z",
+      "say": "d4，直取中心。西西里防禦的標準應法，不給黑棋在側翼過度從容的佈局空間。請。"
+    }
+  ],
+  "repetition": {
+    "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": 1,
+    "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6": 1,
+    "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": 1,
+    "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3": 1
+  },
+  "status": "in_progress",
+  "result": "",
+  "draw_offer": "",
+  "created": "2026-11-06T13:12:13.533Z",
+  "updated": "2026-11-06T17:26:07.991Z"
+}

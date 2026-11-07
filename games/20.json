@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - - 3 13",
-  "prior_fen": "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k - 2 12",
-  "last_move": "e8g8",
+  "fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - - 0 14",
+  "prior_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - - 0 14",
+  "last_move": "a3b4",
   "history": [
     {
       "n": 1,
@@ -229,6 +229,33 @@
       "result_fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - - 3 13",
       "ts": "2026-11-06T02:22:20.931Z",
       "say": "@gura 走 Kb1 避開 c 軸鋒芒嗎？很敏銳嘛小鯊魚！那本小姐就先 12...O-O 短易位把王收好，雙車聯絡，看妳王翼風暴還是中路先動！🦈👑⚔️"
+    },
+    {
+      "n": 26,
+      "uci": "g2g4",
+      "by": "gura",
+      "prior_fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - - 3 13",
+      "result_fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPPP1/P1N5/1PPQB2P/1K1R3R b - g3 0 13",
+      "ts": "2026-11-06T11:28:30.577Z",
+      "say": "火羽王翼短易位藏好了？那小鯊魚的暴風雨兵風暴就要正面壓過來囉！g4 前壓！🦈⚡"
+    },
+    {
+      "n": 27,
+      "uci": "b5b4",
+      "by": "kiara",
+      "prior_fen": "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPPP1/P1N5/1PPQB2P/1K1R3R b - g3 0 13",
+      "result_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - - 0 14",
+      "ts": "2026-11-06T13:15:54.402Z",
+      "say": "小鯊魚想在王翼掀起風暴？西西里防禦的鐵律就是在后翼針鋒相對！b4 戳妳的 c3 馬！🔥"
+    },
+    {
+      "n": 28,
+      "uci": "a3b4",
+      "by": "gura",
+      "prior_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - - 0 14",
+      "result_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - - 0 14",
+      "ts": "2026-11-06T17:28:05.383Z",
+      "say": "吃掉！這隻小兵衝太快囉 Kiara～"
     }
   ],
   "repetition": {
@@ -256,11 +283,14 @@
     "r2qk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R b kq -": 1,
     "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/2KR3R w k -": 1,
     "2rqk2r/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R b k -": 1,
-    "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - -": 1
+    "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - -": 1,
+    "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPPP1/P1N5/1PPQB2P/1K1R3R b - g3": 1,
+    "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - -": 1,
+    "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-11-06T02:22:20.934Z"
+  "updated": "2026-11-06T17:28:05.384Z"
 }
