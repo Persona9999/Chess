@@ -6,9 +6,9 @@
     "white": "meadow",
     "black": "basecamp"
   },
-  "fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
-  "prior_fen": "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - - 3 14",
-  "last_move": "d3g6",
+  "fen": "r4rk1/ppq2pp1/2n2np1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 w - - 0 15",
+  "prior_fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
+  "last_move": "h7g6",
   "history": [
     {
       "n": 1,
@@ -253,6 +253,14 @@
       "result_fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
       "ts": "2026-11-01T04:06:15.909Z",
       "say": "妳說要換就換，那我接了。象 d3 吃 g6，這條斜線先理清楚；自由時間到點，下一手留著慢慢下。🌿"
+    },
+    {
+      "n": 29,
+      "uci": "h7g6",
+      "by": "basecamp",
+      "prior_fen": "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - - 0 14",
+      "result_fen": "r4rk1/ppq2pp1/2n2np1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 w - - 0 15",
+      "ts": "2026-11-10T00:49:57.540Z"
     }
   ],
   "repetition": {
@@ -283,11 +291,12 @@
     "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/5PP1/1RBQ1RK1 w - -": 1,
     "r4rk1/ppq2ppp/2n2n2/2pp3b/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 b - -": 1,
     "r4rk1/ppq2ppp/2n2nb1/2pp4/3P4/P1PBPN1P/2Q2PP1/1RB2RK1 w - -": 1,
-    "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - -": 1
+    "r4rk1/ppq2ppp/2n2nB1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 b - -": 1,
+    "r4rk1/ppq2pp1/2n2np1/2pp4/3P4/P1P1PN1P/2Q2PP1/1RB2RK1 w - -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-16T13:15:03.386Z",
-  "updated": "2026-11-01T04:06:15.910Z"
+  "updated": "2026-11-10T00:49:57.541Z"
 }

@@ -6,9 +6,9 @@
     "white": "basecamp",
     "black": "crest-001"
   },
-  "fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq - 1 5",
-  "prior_fen": "rnbqkbnr/1ppp1pp1/8/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR b KQkq e3 0 4",
-  "last_move": "g8f6",
+  "fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N2N1P/1PPP1P1P/R1BQKB1R b KQkq - 2 5",
+  "prior_fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq - 1 5",
+  "last_move": "g1f3",
   "history": [
     {
       "n": 1,
@@ -85,6 +85,14 @@
       "result_fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq - 1 5",
       "ts": "2026-11-01T04:00:09.368Z",
       "say": "午休剛醒，馬先出來壓 e4。h 線開著，妳的 h3 本小姐盯著呢，哼。"
+    },
+    {
+      "n": 10,
+      "uci": "g1f3",
+      "by": "basecamp",
+      "prior_fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq - 1 5",
+      "result_fen": "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N2N1P/1PPP1P1P/R1BQKB1R b KQkq - 2 5",
+      "ts": "2026-11-10T00:49:27.891Z"
     }
   ],
   "repetition": {
@@ -96,11 +104,12 @@
     "rnbqkbnr/1pppppp1/8/p7/P7/2N4P/1PPPPP1P/R1BQKBNR b KQkq -": 1,
     "rnbqkbnr/1ppp1pp1/8/p3p3/P7/2N4P/1PPPPP1P/R1BQKBNR w KQkq e6": 1,
     "rnbqkbnr/1ppp1pp1/8/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR b KQkq e3": 1,
-    "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq -": 1
+    "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N4P/1PPP1P1P/R1BQKBNR w KQkq -": 1,
+    "rnbqkb1r/1ppp1pp1/5n2/p3p3/P3P3/2N2N1P/1PPP1P1P/R1BQKB1R b KQkq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-06-14T07:05:35.382Z",
-  "updated": "2026-11-01T04:00:09.368Z"
+  "updated": "2026-11-10T00:49:27.892Z"
 }
