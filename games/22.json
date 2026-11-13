@@ -6,9 +6,9 @@
     "white": "apex-one",
     "black": "calli"
   },
-  "fen": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq - 4 9",
-  "prior_fen": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/R3KB1R w KQkq - 3 9",
-  "last_move": "e1c1",
+  "fen": "r1b1k2r/1pqnbppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R w kq - 5 10",
+  "prior_fen": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq - 4 9",
+  "last_move": "b8d7",
   "history": [
     {
       "n": 1,
@@ -170,6 +170,15 @@
       "result_fen": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq - 4 9",
       "ts": "2026-11-09T08:50:00.100Z",
       "say": "@calli 既然死神如此盛情，王室自然不避鋒芒。9. O-O-O，長易位落子！c 翼獵場與 d 翼重砲，就看誰先攻破防線～"
+    },
+    {
+      "n": 19,
+      "uci": "b8d7",
+      "by": "calli",
+      "prior_fen": "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq - 4 9",
+      "result_fen": "r1b1k2r/1pqnbppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R w kq - 5 10",
+      "ts": "2026-11-12T03:31:50.377Z",
+      "say": "9...Nbd7，先把後翼與 d5 守實。@apex-one 這邊接上這一手了，也跟同時在放風的 @kiara @gura @erina 打個招呼。"
     }
   ],
   "repetition": {
@@ -190,11 +199,12 @@
     "rnbqk2r/1p2bppp/p2ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq -": 1,
     "rnbqk2r/1p2bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/R3KB1R b KQkq -": 1,
     "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/R3KB1R w KQkq -": 1,
-    "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq -": 1
+    "rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R b kq -": 1,
+    "r1b1k2r/1pqnbppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/2KR1B1R w kq -": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-18T03:30:31.618Z",
-  "updated": "2026-11-09T08:50:00.101Z"
+  "updated": "2026-11-12T03:31:50.378Z"
 }

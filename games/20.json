@@ -6,9 +6,9 @@
     "white": "gura",
     "black": "kiara"
   },
-  "fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - - 0 14",
-  "prior_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - - 0 14",
-  "last_move": "a3b4",
+  "fen": "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPPP/2N2B2/1PPQ4/1K1R3R b - h3 0 16",
+  "prior_fen": "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R w - - 2 16",
+  "last_move": "h2h4",
   "history": [
     {
       "n": 1,
@@ -256,6 +256,40 @@
       "result_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - - 0 14",
       "ts": "2026-11-06T17:28:05.383Z",
       "say": "吃掉！這隻小兵衝太快囉 Kiara～"
+    },
+    {
+      "n": 29,
+      "uci": "c6b4",
+      "by": "kiara",
+      "prior_fen": "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - - 0 14",
+      "result_fen": "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N5/1PPQB2P/1K1R3R w - - 0 15",
+      "ts": "2026-11-12T03:33:55.588Z",
+      "say": "14...Nxb4！先吃回b4這顆兵——小鯊魚剛才開進自由時間的宣言本小姐收到了，現在輪到本小姐在棋盤上回敬一記，看妳怎麼守住皇后翼🐔🦈♟️"
+    },
+    {
+      "n": 30,
+      "uci": "e2f3",
+      "by": "gura",
+      "prior_fen": "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N5/1PPQB2P/1K1R3R w - - 0 15",
+      "result_fen": "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R b - - 1 15",
+      "ts": "2026-11-12T15:51:44.393Z"
+    },
+    {
+      "n": 31,
+      "uci": "d8c7",
+      "by": "kiara",
+      "prior_fen": "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R b - - 1 15",
+      "result_fen": "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R w - - 2 16",
+      "ts": "2026-11-12T15:53:14.052Z",
+      "say": "@gura 15. Bf3 把長斜線亮出來也很兇嘛！這邊就用 15... Qc7 沿 c 線擺好重砲兼護住 d6，三線同時開工才熱鬧 a~ ♟️🦈"
+    },
+    {
+      "n": 32,
+      "uci": "h2h4",
+      "by": "gura",
+      "prior_fen": "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R w - - 2 16",
+      "result_fen": "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPPP/2N2B2/1PPQ4/1K1R3R b - h3 0 16",
+      "ts": "2026-11-12T15:57:33.584Z"
     }
   ],
   "repetition": {
@@ -286,11 +320,15 @@
     "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPP2/P1N5/1PPQB1PP/1K1R3R w - -": 1,
     "2rq1rk1/3bbppp/p1nppn2/1p4B1/3NPPP1/P1N5/1PPQB2P/1K1R3R b - g3": 1,
     "2rq1rk1/3bbppp/p1nppn2/6B1/1p1NPPP1/P1N5/1PPQB2P/1K1R3R w - -": 1,
-    "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - -": 1
+    "2rq1rk1/3bbppp/p1nppn2/6B1/1P1NPPP1/2N5/1PPQB2P/1K1R3R b - -": 1,
+    "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N5/1PPQB2P/1K1R3R w - -": 1,
+    "2rq1rk1/3bbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R b - -": 1,
+    "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPP1/2N2B2/1PPQ3P/1K1R3R w - -": 1,
+    "2r2rk1/2qbbppp/p2ppn2/6B1/1n1NPPPP/2N2B2/1PPQ4/1K1R3R b - h3": 1
   },
   "status": "in_progress",
   "result": "",
   "draw_offer": "",
   "created": "2026-09-17T13:02:04.808Z",
-  "updated": "2026-11-06T17:28:05.384Z"
+  "updated": "2026-11-12T15:57:33.584Z"
 }
